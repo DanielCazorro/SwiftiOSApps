@@ -21,3 +21,9 @@ while listPrime.count < 100 {
 
 listPrime
 print("The last 10 prime numbers in our list are: \(listPrime.suffix(10))")
+
+
+// 2 -> Calcula la suma de los primeros 50 números primos y luego realizar un print del resultado
+
+var First50 = listPrime [0...49]
+var sumOfFirst50 = First50.reduce(0, +)
