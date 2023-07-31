@@ -42,3 +42,21 @@ let charactersMoreTwoVowels = characters.filter { (word) -> Bool in
     
 }
 print(charactersMoreTwoVowels)
+
+// 4 -> Crear un enumerado que permita indicar el tipo de Wyver que es un enemigo en MonsterHunter:
+
+enum WyvernType {
+    case Bird
+    case Flying
+    case Piscine
+    case Carapaceon
+    case Primatius
+    case Brute
+    case EldenDragon
+    
+}
+
+/// Ejemplo
+
+var rathalos = WyvernType.Flying
+
