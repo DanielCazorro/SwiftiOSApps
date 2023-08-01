@@ -60,3 +60,29 @@ enum WyvernType {
 
 var rathalos = WyvernType.Flying
 
+// 5 -> Crear una clase, con los atributos que se necesiten, para que represente a los cazadores de Monster Hunter, y un enumerado con los tipos de armadura
+
+enum ArmorChoice{
+    case Rathalos
+    case Rathian
+    case Yian_Kut_Kut
+}
+
+class MonsterHunterMembers{
+    var name: String
+    var weapon: String
+    var rc: Int
+    
+    init(name: String,
+         weapon: String,
+         rc: Int,
+         armor: ArmorChoice) {
+        self.name = name
+        self.weapon = weapon
+        self.rc = rc
+    }
+}
+
+/// Ejemplo
+let danielHunter: MonsterHunterMembers = .init(name: "Daniel", weapon: "Katana", rc: 525, armor: .Rathalos)
+
