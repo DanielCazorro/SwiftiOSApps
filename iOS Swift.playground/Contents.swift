@@ -86,3 +86,24 @@ class MonsterHunterMembers{
 /// Ejemplo
 let danielHunter: MonsterHunterMembers = .init(name: "Daniel", weapon: "Katana", rc: 525, armor: .Rathalos)
 
+// MARK: - SOME EXERCISES -
+
+/*
+ How Edabit Works
+  In the Code tab above you'll see a starter function that looks like this:
+
+ func hello() -> String {
+
+ }
+ All you have to do is type return "hello world" between the curly braces { }
+
+ Notes
+ The returned string must be in all lowercase letters.
+
+ */
+func hello() -> String {
+    return "hello world"
+}
+
+/// Prueba
+hello()
