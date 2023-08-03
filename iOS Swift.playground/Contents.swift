@@ -132,3 +132,28 @@ func addition(_ a: Int, _ b: Int) -> Int {
 
 /// Prueba
 addition(5, 10)
+
+/*
+ Convert Age to Days
+ 
+ Create a function that takes the age in years and returns the age in days.
+
+ Examples
+
+ calcAge(65) ➞ 23725
+
+ calcAge(0) ➞ 0
+
+ calcAge(20) ➞ 7300
+ Notes
+
+ Use 365 days as the length of a year for this challenge.
+
+ */
+func calcAge(_ age: Int) -> Int {
+    return age*365
+}
+
+/// Prueba
+
+calcAge(20)
