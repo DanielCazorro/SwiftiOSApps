@@ -257,3 +257,30 @@ func findPerimeter(_ length: Int, _ width: Int) -> Int {
 /// Ejemplo
 
 findPerimeter(20, 10)
+
+/*
+ Is the Number Less than or Equal to Zero?
+ 
+ Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+
+ Examples
+
+ lessThanOrEqualToZero(5) ➞ false
+
+ lessThanOrEqualToZero(0) ➞ true
+
+ lessThanOrEqualToZero(-2) ➞ true
+ Notes
+
+ Don't forget to return the result.
+ */
+func lessThanOrEqualToZero(_ num: Double) -> Bool {
+    if num <= 0 {
+        return true
+    } else {
+        return false
+    }
+}
+
+/// Ejemplo
+lessThanOrEqualToZero(-2)
