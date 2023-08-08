@@ -284,3 +284,79 @@ func lessThanOrEqualToZero(_ num: Double) -> Bool {
 
 /// Ejemplo
 lessThanOrEqualToZero(-2)
+
+
+/*
+ Return the Remainder from Two Numbers
+ 
+ There is a single operator in Swift, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+
+ Examples
+
+ remainder(1, 3) ➞ 1
+
+ remainder(3, 4) ➞ 3
+
+ remainder(-9, 45) ➞ -9
+
+ remainder(5, 5) ➞ 0
+ Notes
+
+ The tests only use positive and negative integers.
+ Don't forget to return the result.
+ 
+ */
+
+func remainder(_ x: Int, _ y: Int) -> Int {
+    return x % y
+}
+
+/// Ejemplo
+ remainder(1, 3)
+
+/*
+ Divides Evenly
+ 
+ Given two integers, a and b, return true if a can be divided evenly by b. Return false otherwise.
+
+ Examples
+
+ dividesEvenly(98, 7) ➞ true
+ // 98/7 = 14
+
+ dividesEvenly(85, 4) ➞ false
+ // 85/4 = 21.25
+ Notes
+
+ a will always be greater than or equal to b.
+ */
+func dividesEvenly(_ a: Int, _ b:Int) -> Bool {
+    var result = false
+    if a % b == 0 { result = true}
+    
+    return result
+}
+
+/// Ejemplo
+dividesEvenly(98, 7)
+
+/*
+ Power Calculator
+ 
+ Create a function that takes voltage and current and returns the calculated power.
+
+ Examples
+
+ circuitPower(230, 10) ➞ 2300
+
+ circuitPower(110, 3) ➞ 330
+
+ circuitPower(480, 20) ➞ 9600
+
+ */
+func circuitPower(_ voltage: Int, _ current: Int) -> Int {
+    return voltage * current
+}
+
+/// Ejemplo
+circuitPower(230, 10)
