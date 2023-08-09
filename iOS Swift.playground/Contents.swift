@@ -360,3 +360,55 @@ func circuitPower(_ voltage: Int, _ current: Int) -> Int {
 
 /// Ejemplo
 circuitPower(230, 10)
+
+/*
+ Buggy Code (Part 1)
+ 
+ Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+
+ Examples
+
+ cubes(3) ➞ 27
+
+ cubes(5) ➞ 125
+
+ cubes(10) ➞ 1000
+ Notes
+
+ READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!
+ */
+
+func cubes(_ s: Int) -> Int {
+    return s * s * s
+}
+
+/// Ejemplo
+cubes(10)
+
+/*
+ Check if an Integer is Divisible By Five
+
+ Create a function that returns true if an integer is evenly divisible by 5, and false otherwise.
+
+ Examples
+
+ divisibleByFive(5) ➞ true
+
+ divisibleByFive(-55) ➞ true
+
+ divisibleByFive(37) ➞ false
+ Notes
+
+ Don't forget to return the result.
+ */
+func divisibleByFive(_ num: Int) -> Bool {
+    let divisor: Int = 5
+    if num % divisor == 0 {
+        return true
+    } else {
+        return false
+    }
+}
+
+/// Ejemplo
+divisibleByFive(55)
