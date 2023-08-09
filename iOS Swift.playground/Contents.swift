@@ -412,3 +412,50 @@ func divisibleByFive(_ num: Int) -> Bool {
 
 /// Ejemplo
 divisibleByFive(55)
+
+/*
+ Correct the Mistakes
+ 
+ Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+
+ Examples
+
+ squared(5) ➞ 25
+
+ squared(9) ➞ 81
+
+ squared(100) ➞ 10000
+ Notes
+
+ READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!
+ */
+func squared(_ b: Int) -> Int {
+    return b * b
+}
+
+/// Ejemplo
+squared(100)
+
+/*
+ Are the Numbers Equal?
+ 
+ Create a function that takes two integers and checks if they are equal.
+
+ Examples
+
+ isEqual(5, 6) ➞ false
+
+ isEqual(1, 1) ➞ true
+
+ isEqual(36, 35) ➞ false
+
+ */
+func isEqual(_ num1: Int, _ num2: Int) -> Bool {
+    if num1 == num2 {
+        return true
+    } else {
+        return false
+    }
+}
+/// Ejemplo
+isEqual(36, 36)
