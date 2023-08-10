@@ -477,3 +477,19 @@ func tripleSum (a: Int, b: Int) -> Int {
 tripleSum(a: 1, b: 2)
 tripleSum(a: 3, b: 2)
 tripleSum(a: 2, b: 2)
+
+/*
+ Write a Swift program to compute and return the absolute difference of n and 51, if n is over 51 return double the absolute difference
+ */
+
+func absoluteDifference (n: Int) -> Int {
+    if n > 51 {
+        return (n - 51) * 2
+    } else {
+        return 51 - n
+    }
+}
+
+absoluteDifference(n: 45)
+absoluteDifference(n: 61)
+absoluteDifference(n: 21)
