@@ -493,3 +493,20 @@ func absoluteDifference (n: Int) -> Int {
 absoluteDifference(n: 45)
 absoluteDifference(n: 61)
 absoluteDifference(n: 21)
+
+/*
+ 3. Write a Swift program that accept two integer values and return true if one of them is 20 or if their sum is 20.
+ */
+
+func trueIf20 (a: Int, b: Int) -> Bool {
+    if a == 20 || b == 20 || (a+b) == 20 {
+        return true
+    } else {
+        return false
+    }
+}
+
+trueIf20(a: 5, b: 15)
+trueIf20(a: 20, b: 17)
+trueIf20(a: 29, b: 10)
+
