@@ -536,3 +536,18 @@ checkIfNegative(a: 12, b: -5)
 checkIfNegative(a: -12, b: 5)
 checkIfNegative(a: -12, b: -5)
 checkIfNegative(a: 12, b: 5)
+
+/*
+ 5. Write a Swift program to add "Is" to the front of a given string. However, if the string already begins with "Is", return the given string.
+ */
+
+func addIs (phrase: String) -> String {
+    if phrase.hasPrefix("Is") == true {
+        return phrase
+    } else {
+        return "Is \(phrase)"
+    }
+}
+
+addIs(phrase: "Is Swift")
+addIs(phrase: "Swift")
