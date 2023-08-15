@@ -510,3 +510,29 @@ trueIf20(a: 5, b: 15)
 trueIf20(a: 20, b: 17)
 trueIf20(a: 29, b: 10)
 
+/*
+ 4. Write a Swift program to accept two integer values and return true if one is negative and one is positive. Return true only if both are negative.
+ */
+
+func checkIfNegative (a: Int, b: Int) -> Bool {
+    if a > 0 && b < 0 {
+        return true
+    }
+    else if a < 0 && b > 0
+    {
+        return true
+    }
+    else if a < 0 && b < 0
+    {
+        return true
+    }
+    else
+    {
+        return false
+    }
+}
+
+checkIfNegative(a: 12, b: -5)
+checkIfNegative(a: -12, b: 5)
+checkIfNegative(a: -12, b: -5)
+checkIfNegative(a: 12, b: 5)
