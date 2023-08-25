@@ -569,3 +569,27 @@ func removeChar(str1: String, n: Int) -> String {
 removeChar(str1: "Python", n: 1)
 removeChar(str1: "Sunny", n: 3)
 removeChar(str1: "Gokuh", n: 4)
+
+/*
+ 7. Write a Swift program to change the first and last character of a given string.
+ */
+
+func firstLast (str: String) -> String {
+    let count = str.count
+    
+    if count <= 1 {
+        return str
+    } 
+    var result = str
+    var firstChar = result.remove(at: result.startIndex)
+    var findLast = result.index(before: result.endIndex)
+    let lastChar = result.remove(at: findLast)
+    
+    result.append(firstChar)
+    result.insert(lastChar, at: result.startIndex)
+    
+    return result
+}
+
+print(firstLast(str: "Swift"))
+print(firstLast(str: "Apple"))
