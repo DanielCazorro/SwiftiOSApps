@@ -593,3 +593,18 @@ func firstLast (str: String) -> String {
 
 print(firstLast(str: "Swift"))
 print(firstLast(str: "Apple"))
+
+/*
+ 8. Write a Swift program to add the last character (given string) at the front and back of a given string. The length of the given string must be 1 or more.
+ */
+
+func frontBack(str: String) -> String {
+    var resultWord = str
+    let lastChar = resultWord.removeLast()
+    let lastStr = String(lastChar)
+    return lastStr + str + lastStr
+}
+
+print(frontBack(str: "swift"))
+print(frontBack(str: "html"))
+print(frontBack(str: "h"))
