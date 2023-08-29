@@ -591,8 +591,8 @@ func firstLast (str: String) -> String {
     return result
 }
 
-print(firstLast(str: "Swift"))
-print(firstLast(str: "Apple"))
+firstLast(str: "Swift")
+firstLast(str: "Apple")
 
 /*
  8. Write a Swift program to add the last character (given string) at the front and back of a given string. The length of the given string must be 1 or more.
@@ -605,6 +605,23 @@ func frontBack(str: String) -> String {
     return lastStr + str + lastStr
 }
 
-print(frontBack(str: "swift"))
-print(frontBack(str: "html"))
-print(frontBack(str: "h"))
+frontBack(str: "swift")
+frontBack(str: "html")
+frontBack(str: "h")
+
+/*
+ 9. Write a Swift program to check if a given non-negative number is a multiple of 3 or a multiple of 5.
+ */
+
+func test3And5 (num: Int) -> Bool {
+    if num % 3 == 0 || num % 5 == 0 {
+        return true
+    } else {
+        return false
+    }
+}
+
+test3And5(num: 33)
+test3And5(num: 100)
+test3And5(num: 15)
+test3And5(num: 17)
