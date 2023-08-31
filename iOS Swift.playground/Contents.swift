@@ -625,3 +625,19 @@ test3And5(num: 33)
 test3And5(num: 100)
 test3And5(num: 15)
 test3And5(num: 17)
+
+/*
+ 10. Write a Swift program to take the first two characters from a given string and create a new string with the two characters added at both the front and back.
+ */
+
+func add2FrontBack (str: String) -> String {
+    let newInput = str
+    let first2Values = newInput.prefix(2)
+    let firstTwo = String(first2Values)
+    return firstTwo + str + firstTwo
+}
+
+add2FrontBack(str: "swift")
+add2FrontBack(str: "abc")
+add2FrontBack(str: "ab")
+add2FrontBack(str: "a")
