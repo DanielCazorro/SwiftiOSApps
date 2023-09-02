@@ -641,3 +641,24 @@ add2FrontBack(str: "swift")
 add2FrontBack(str: "abc")
 add2FrontBack(str: "ab")
 add2FrontBack(str: "a")
+
+/*
+ 11. Write a Swift program to test a given string whether it starts with "Is". Return true or false.
+ */
+
+func startWithIs(str: String) -> Bool {
+    let str2 = str
+    let hello = "Is"
+    let first2Values = str2.prefix(2)
+    let firstTwo = String(first2Values)
+    
+    if hello == firstTwo {
+        return true
+    } else {
+        return false
+    }
+}
+
+startWithIs(str: "Is Swift")
+startWithIs(str: "is python")
+startWithIs(str: "java is")
