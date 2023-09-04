@@ -662,3 +662,21 @@ func startWithIs(str: String) -> Bool {
 startWithIs(str: "Is Swift")
 startWithIs(str: "is python")
 startWithIs(str: "java is")
+
+/*
+ 12. Write a Swift program that return true if either of two given integers is in the range 10..30 inclusive.
+ */
+
+func in10Or30(a: Int, b: Int) -> Bool {
+    if a >= 10 && a <= 30 {
+        return true
+    } else if b >= 10 && b <= 30 {
+        return true
+    } else {
+        return false
+    }
+}
+
+in10Or30(a: 15, b: 40)
+in10Or30(a: 55, b: 9)
+in10Or30(a: 11, b: 25)
