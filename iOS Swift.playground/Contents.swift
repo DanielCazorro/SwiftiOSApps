@@ -680,3 +680,26 @@ func in10Or30(a: Int, b: Int) -> Bool {
 in10Or30(a: 15, b: 40)
 in10Or30(a: 55, b: 9)
 in10Or30(a: 11, b: 25)
+
+/*
+ 13. Write a Swift program to check if a given string begins with "fix", except the 'f' can be any character or number.
+ */
+
+func startWithFix (_ input: String) -> Bool {
+    var newInput = input
+    let startIndex = newInput.startIndex
+    let firstChar = newInput.remove(at: startIndex)
+    
+    if newInput.hasPrefix("ix") == true {
+        newInput.removeFirst(3)
+        newInput.insert(firstChar, at: startIndex)
+        return true
+    } else {
+        return false
+    }
+}
+startWithFix("fix gold")
+startWithFix("six gold")
+startWithFix("1ix gold")
+startWithFix("gold")
+startWithFix("fax gold")
