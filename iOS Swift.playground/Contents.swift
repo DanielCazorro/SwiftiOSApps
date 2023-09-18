@@ -703,3 +703,26 @@ startWithFix("six gold")
 startWithFix("1ix gold")
 startWithFix("gold")
 startWithFix("fax gold")
+
+/*
+ 14. Write a Swift program to find the largest number among three given integers.
+ */
+
+func max_three(_ x: Int, _ y: Int, _ z: Int) -> Int {
+    if x > y, x > z
+    { return x }
+    else if y > z, y > x
+    { return y }
+    else if z > y, z > x
+    { return z }
+    else if x == y, y > z
+    { return x }
+    else if y == z, z > x
+    { return y }
+    else
+    { return x }
+}
+
+max_three(1, 2, 3)
+max_three(3, 2, 1)
+max_three(-3, -2, 0)
