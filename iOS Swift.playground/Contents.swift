@@ -1,6 +1,7 @@
+import Foundation
+
 // MARK: - Swift Exercises -
 
-import Foundation
 
 //1 -> Calcula y genera una lista con los 100 primeros números primos y luego un print de los últimos 10
 
