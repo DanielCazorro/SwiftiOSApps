@@ -727,3 +727,25 @@ func max_three(_ x: Int, _ y: Int, _ z: Int) -> Int {
 max_three(1, 2, 3)
 max_three(3, 2, 1)
 max_three(-3, -2, 0)
+
+/*
+ 15. Write a Swift program that accept two integer values and to test which value is nearest to the value 10, or return 0 if both integers have same distance from 10.
+ */
+
+func close_10(_ a: Int, _ b: Int) -> Int {
+    if abs(10 - b) > abs(10 - a)
+    {
+        return a
+    }
+    else if abs(10 - b) < abs(10 - a)
+    {
+        return b
+    }
+    else
+    {
+        return 0
+    }
+}
+close_10(8, 13)
+close_10(12, 7)
+close_10(14, 6)
