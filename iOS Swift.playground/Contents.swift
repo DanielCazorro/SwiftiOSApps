@@ -749,3 +749,25 @@ func close_10(_ a: Int, _ b: Int) -> Int {
 close_10(8, 13)
 close_10(12, 7)
 close_10(14, 6)
+
+/*
+ 16. Write a Swift program that accept two integer values and test if they are both in the range 20..30 inclusive, or they are both in the range 30..40 inclusive.
+ */
+
+func in3050(_ x: Int, _ y: Int) -> Bool {
+    if x >= 20 && x <= 30 && y >= 30 && y <= 40
+    {
+        return true
+    }
+    else if x >= 30 && x <= 40 && y >= 30 && y <= 40
+    {
+        return true
+    }
+    else
+    {
+        return false
+    }
+}
+in3050(20, 30)
+in3050(30, 40)
+in3050(42, 51)
