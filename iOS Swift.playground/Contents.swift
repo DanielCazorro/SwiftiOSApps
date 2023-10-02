@@ -771,3 +771,27 @@ func in3050(_ x: Int, _ y: Int) -> Bool {
 in3050(20, 30)
 in3050(30, 40)
 in3050(42, 51)
+
+/*
+ 17. Write a Swift program that accept two positive integer values and test whether the larger value is in the range 20..30 inclusive, or return 0 if neither is in that range.
+ */
+
+func Max20_30 (_ x: Int, _ y: Int) -> Int {
+    if (x >= 20 && x <= 30 && y >= 20 && y <= 30) && x == y {
+        return x
+    } else if x >= 20 && x <= 30 && x > y {
+        return x
+    } else if y >= 20 && y <= 30 && y > x {
+        return y
+    } else if x >= 20 && x <= 30 && y > 30 {
+        return x
+    } else if y >= 20 && y <= 30 && x > 30 {
+        return y
+    } else {
+        return 0
+    }
+}
+
+Max20_30(22, 29)
+Max20_30(28, 17)
+Max20_30(8, 47)
