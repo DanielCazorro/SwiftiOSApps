@@ -34,7 +34,7 @@ final class HomeViewModel {
     
     private func loadData() {
         viewData = sampleCharacterData
-        //TODO: Notificar a la vista que pinte los datos
+        viewDelegate?.updateViews()
     }
     
 }
@@ -46,7 +46,7 @@ final class HomeViewModel {
 extension HomeViewModel: HomeViewModelProtocol {
     func onItemSelected(at index: Int) {
         guard let data = data(at: index) else {return}
-        //TODO: Notificar a la vista que navegue al detalle
+        viewDelegate?.navigateToDeatil(with: data)
         
     }
     

@@ -12,6 +12,7 @@ import UIKit
 
 protocol HomeViewProtocol: AnyObject {
     func navigateToDeatil(with data: CharacterModel?)
+    func updateViews()
 }
 
 
@@ -68,5 +69,14 @@ class HomeTableViewController: UITableViewController {
 
 // MARK: - Extensión -
 extension HomeTableViewController: HomeViewProtocol {
+    func updateViews() {
+        tableView.reloadData()
+    }
+    
+    func navigateToDeatil(with data: CharacterModel?) {
+        let nextVC = DetailViewController()
+        navigationController?.pushViewController(nextVC, animated: true)
+    }
+    
     
 }
