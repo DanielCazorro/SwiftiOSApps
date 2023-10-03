@@ -71,21 +71,93 @@
 			isa = PBXGroup;
 			children = (
 				5D5167952ACB496B002EFCC4 /* Info.plist */,
+				5D9C86A52ACC8BFB0086F79C /* App */,
+				5D9C86A62ACC8C130086F79C /* Resources */,
+				5D9C86AC2ACC8CF40086F79C /* Domain */,
+				5D9C86A72ACC8C230086F79C /* UI */,
+			);
+			path = MVCPatrones;
+			sourceTree = "<group>";
+		};
+		5D9C86A52ACC8BFB0086F79C /* App */ = {
+			isa = PBXGroup;
+			children = (
 				5D5167872ACB496A002EFCC4 /* AppDelegate.swift */,
 				5D5167892ACB496A002EFCC4 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5D9C86A62ACC8C130086F79C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				5D5167902ACB496B002EFCC4 /* Assets.xcassets */,
-				5D5167922ACB496B002EFCC4 /* LaunchScreen.storyboard */,
-				5D51679B2ACB53F3002EFCC4 /* SplashViewController.swift */,
-				5D51679C2ACB53F3002EFCC4 /* SplashViewController.xib */,
-				5D51679F2ACB5A3B002EFCC4 /* HomeTableViewController.swift */,
-				5D5167A02ACB5A3B002EFCC4 /* HomeTableViewController.xib */,
-				5D5167A32ACB5EAD002EFCC4 /* HomeTableViewCell.swift */,
-				5D5167A42ACB5EAD002EFCC4 /* HomeTableViewCell.xib */,
-				5D5167A72ACB655B002EFCC4 /* CharacterModel.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D9C86A72ACC8C230086F79C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C86AA2ACC8C520086F79C /* Splash */,
+				5D9C86A92ACC8C4D0086F79C /* Home */,
+				5D9C86A82ACC8C460086F79C /* Detail */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5D9C86A82ACC8C460086F79C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
 				5D9C86A12ACC85550086F79C /* DetailViewController.swift */,
 				5D9C86A22ACC85550086F79C /* DetailViewController.xib */,
 			);
-			path = MVCPatrones;
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5D9C86A92ACC8C4D0086F79C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C86AB2ACC8CDC0086F79C /* Cell */,
+				5D51679F2ACB5A3B002EFCC4 /* HomeTableViewController.swift */,
+				5D5167A02ACB5A3B002EFCC4 /* HomeTableViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5D9C86AA2ACC8C520086F79C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				5D5167922ACB496B002EFCC4 /* LaunchScreen.storyboard */,
+				5D51679B2ACB53F3002EFCC4 /* SplashViewController.swift */,
+				5D51679C2ACB53F3002EFCC4 /* SplashViewController.xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		5D9C86AB2ACC8CDC0086F79C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5D5167A32ACB5EAD002EFCC4 /* HomeTableViewCell.swift */,
+				5D5167A42ACB5EAD002EFCC4 /* HomeTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5D9C86AC2ACC8CF40086F79C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C86AD2ACC8D080086F79C /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5D9C86AD2ACC8D080086F79C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D5167A72ACB655B002EFCC4 /* CharacterModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
