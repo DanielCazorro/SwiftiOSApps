@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: - PROTOCOLO -
 
-protocol SplashViewProtocol {
+protocol SplashViewProtocol: AnyObject {
     
     func showLoading(_ show: Bool)
     func navigateToHome()
@@ -31,7 +31,6 @@ class SplashViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel = SplashViewModel()
         viewModel?.onViewsLoaded()
 
     }

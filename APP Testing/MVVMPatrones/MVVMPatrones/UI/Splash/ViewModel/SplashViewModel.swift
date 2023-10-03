@@ -19,7 +19,7 @@ protocol SplashViewModelProtocol {
 
 final class SplashViewModel {
     
-    var viewDelegate: SplashViewProtocol?
+    private weak var viewDelegate: SplashViewProtocol?
     
     init(viewDelegate: SplashViewProtocol?) {
         self.viewDelegate = viewDelegate
@@ -35,19 +35,6 @@ final class SplashViewModel {
     
 }
 
-class pepito {
-    private func loadData() {
-        print("Hola Pepito")
-    }
-}
-
-extension pepito: SplashViewModelProtocol {
-    func onViewsLoaded() {
-        loadData()
-    }
-    
-    
-}
 
 // MARK: - EXTENSIÓN -
 
