@@ -11,9 +11,10 @@ import Foundation
 // MARK: - Protocolo -
 
 protocol HomeViewModelProtocol {
-    
+    var dataCount: Int {get}
     func onViewsLoaded()
-    
+    func data(at index: Int) -> CharacterModel?
+    func onItemSelected(at index: Int)
 }
 
 
@@ -24,9 +25,16 @@ protocol HomeViewModelProtocol {
 final class HomeViewModel {
     
     private weak var viewDelegate: HomeViewProtocol?
+    private var viewData = CharactersModel()
+    
     
     init(viewDelegate: HomeViewProtocol? = nil) {
         self.viewDelegate = viewDelegate
+    }
+    
+    private func loadData() {
+        viewData = sampleCharacterData
+        //TODO: Notificar a la vista que pinte los datos
     }
     
 }
@@ -36,12 +44,25 @@ final class HomeViewModel {
 // MARK: - Extensión -
 
 extension HomeViewModel: HomeViewModelProtocol {
-    
-    func onViewsLoaded() {
-        <#code#>
+    func onItemSelected(at index: Int) {
+        guard let data = data(at: index) else {return}
+        //TODO: Notificar a la vista que navegue al detalle
+        
     }
     
     
+    func data(at index: Int) -> CharacterModel? {
+        guard index < dataCount else {return nil}
+        return viewData[index]
+    }
+    
+    var dataCount: Int {
+        viewData.count
+    }
+    
+    func onViewsLoaded() {
+        loadData()
+    }
     
     
 }

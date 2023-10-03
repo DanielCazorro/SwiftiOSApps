@@ -11,7 +11,7 @@ import UIKit
 // MARK: - Protocolo -
 
 protocol HomeViewProtocol: AnyObject {
-    
+    func navigateToDeatil(with data: CharacterModel?)
 }
 
 
@@ -42,21 +42,26 @@ class HomeTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return sampleCharacterData.count
+        return viewModel?.dataCount ?? 0
     }
 
-    
+    // Update views
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "HomeCell", for: indexPath) as? HomeCellTableViewCell 
         else {
             return UITableViewCell()
         }
-
-        if(indexPath.row < sampleCharacterData.count) {
-            cell.updateViews(data: sampleCharacterData[indexPath.row])
+        
+        if let data = viewModel?.data(at: indexPath.row) {
+            cell.updateViews(data: data)
         }
 
         return cell
+    }
+    
+    // Select item
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        viewModel?.onItemSelected(at: indexPath.row)
     }
     
 }
