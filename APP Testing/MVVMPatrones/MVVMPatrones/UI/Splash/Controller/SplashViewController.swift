@@ -60,6 +60,7 @@ extension SplashViewController: SplashViewProtocol {
     func navigateToHome() {
         
         let nextVC = HomeTableViewController()
+        nextVC.viewModel = HomeViewModel()
         navigationController?.setViewControllers([nextVC], animated: true)
         
     }
