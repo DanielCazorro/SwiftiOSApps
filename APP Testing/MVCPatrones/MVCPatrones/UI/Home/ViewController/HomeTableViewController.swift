@@ -42,7 +42,10 @@ class HomeTableViewController: UITableViewController {
         }
         
         if(indexPath.row < sampleCharacterData.count) {
-            cell.updateViews(data: sampleCharacterData[indexPath.row])
+            let data = sampleCharacterData[indexPath.row]
+            let homeData = HomeCellModel(image: data.image, name: data.name)
+            
+            cell.updateViews(data: homeData)
         }
         
         return cell
