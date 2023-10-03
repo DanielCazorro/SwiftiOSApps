@@ -13,7 +13,11 @@ class HomeTableViewController: UITableViewController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        registerCell()
+        
+    }
+    
+    private func registerCell() {
         tableView.register(UINib(nibName: "HomeTableViewCell", bundle: nil), forCellReuseIdentifier: "HomeCell")
     }
 
@@ -35,6 +39,11 @@ class HomeTableViewController: UITableViewController {
         else {
             return UITableViewCell()
         }
+        
+        if(indexPath.row < sampleCharacterData.count) {
+            cell.updateViews(data: sampleCharacterData[indexPath.row])
+        }
+        
         return cell
     }
 }

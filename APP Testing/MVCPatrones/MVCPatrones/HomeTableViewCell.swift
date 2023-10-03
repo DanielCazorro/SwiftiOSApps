@@ -35,7 +35,19 @@ class HomeTableViewCell: UITableViewCell {
         nameHomeCell.text = nil
     }
     
-    func updateViews() {
-        
+    // TODO: Implementar métodos para configurar imagen y título
+    func updateViews(data) {
+        update(name: data.name)
+        update(image: data.image)
     }
+    
+    // Métodos Privados
+    private func update(name: String?) {
+        nameHomeCell.text = name ?? ""
+    }
+    
+    private func update(image: String?) {
+        imageHomeCell.image = UIImage(named: image ?? "")
+    }
+    
 }
