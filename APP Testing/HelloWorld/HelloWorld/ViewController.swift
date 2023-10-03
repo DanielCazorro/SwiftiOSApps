@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var helloWorldLabel: UILabel!
     
+    // MARK: - IBActions -
+    
+    @IBAction func didTapButton(_ sender: Any) {
+        print("Hello World")
+        helloWorldLabel.backgroundColor = .blue
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
