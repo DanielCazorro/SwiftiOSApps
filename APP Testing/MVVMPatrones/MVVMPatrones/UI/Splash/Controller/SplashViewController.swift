@@ -7,23 +7,59 @@
 
 import UIKit
 
+
+// MARK: - PROTOCOLO -
+
+protocol SplashViewProtocol {
+    
+    func showLoading(_ show: Bool)
+    func navigateToHome()
+    
+}
+
+// MARK: - CLASE -
+
 class SplashViewController: UIViewController {
 
+    //MARK: - IBOutlets -
+    
+    @IBOutlet weak var activitiIndicator: UIActivityIndicatorView!
+    
+    // MARK: - Ciclo de Vida -
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        activitiIndicator.stopAnimating()
     }
 
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+// MARK: - EXTENSION -
+extension SplashViewController: SplashViewProtocol {
+    
+    // Método cargar activity indicator
+    func showLoading(_ show: Bool) {
+        switch show {
+        case true where !activitiIndicator.isAnimating:
+            activitiIndicator.startAnimating()
+        case false where activitiIndicator.isAnimating:
+            activitiIndicator.stopAnimating()
+        default: break
+        }
     }
-    */
-
+    
+    // Método para navegar a la home
+    func navigateToHome() {
+        
+        let nextVC = HomeTableViewController()
+        navigationController?.setViewControllers([nextVC], animated: true)
+        
+    }
+    
+    
 }

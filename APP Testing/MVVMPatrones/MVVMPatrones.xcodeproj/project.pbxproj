@@ -13,6 +13,9 @@
 		5D9C86D22ACC95EC0086F79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C86D02ACC95EC0086F79C /* LaunchScreen.storyboard */; };
 		5D9C86DB2ACC96A70086F79C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C86D92ACC96A70086F79C /* SplashViewController.swift */; };
 		5D9C86DC2ACC96A70086F79C /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C86DA2ACC96A70086F79C /* SplashViewController.xib */; };
+		5D9C86E52ACC99570086F79C /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C86E42ACC99570086F79C /* SplashViewModel.swift */; };
+		5D9C86E92ACC9E320086F79C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C86E72ACC9E320086F79C /* HomeTableViewController.swift */; };
+		5D9C86EA2ACC9E320086F79C /* HomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C86E82ACC9E320086F79C /* HomeTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5D9C86D32ACC95EC0086F79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D9C86D92ACC96A70086F79C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		5D9C86DA2ACC96A70086F79C /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		5D9C86E42ACC99570086F79C /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		5D9C86E72ACC9E320086F79C /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		5D9C86E82ACC9E320086F79C /* HomeTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		5D9C86DF2ACC97820086F79C /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				5D9C86E62ACC9E0D0086F79C /* Home */,
 				5D9C86E02ACC978E0086F79C /* Splash */,
 			);
 			path = UI;
@@ -102,6 +109,7 @@
 		5D9C86E12ACC979B0086F79C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5D9C86E42ACC99570086F79C /* SplashViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -121,6 +129,15 @@
 				5D9C86DA2ACC96A70086F79C /* SplashViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5D9C86E62ACC9E0D0086F79C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C86E72ACC9E320086F79C /* HomeTableViewController.swift */,
+				5D9C86E82ACC9E320086F79C /* HomeTableViewController.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D9C86EA2ACC9E320086F79C /* HomeTableViewController.xib in Resources */,
 				5D9C86D22ACC95EC0086F79C /* LaunchScreen.storyboard in Resources */,
 				5D9C86DC2ACC96A70086F79C /* SplashViewController.xib in Resources */,
 				5D9C86CF2ACC95EC0086F79C /* Assets.xcassets in Resources */,
@@ -197,6 +215,8 @@
 				5D9C86DB2ACC96A70086F79C /* SplashViewController.swift in Sources */,
 				5D9C86C62ACC95EA0086F79C /* AppDelegate.swift in Sources */,
 				5D9C86C82ACC95EA0086F79C /* SceneDelegate.swift in Sources */,
+				5D9C86E52ACC99570086F79C /* SplashViewModel.swift in Sources */,
+				5D9C86E92ACC9E320086F79C /* HomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
