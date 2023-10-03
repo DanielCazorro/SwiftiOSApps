@@ -109,8 +109,8 @@
 		5D9C86A82ACC8C460086F79C /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				5D9C86A12ACC85550086F79C /* DetailViewController.swift */,
-				5D9C86A22ACC85550086F79C /* DetailViewController.xib */,
+				5D9C86AF2ACC8D350086F79C /* ViewController */,
+				5D9C86AE2ACC8D2F0086F79C /* View */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -118,9 +118,9 @@
 		5D9C86A92ACC8C4D0086F79C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				5D9C86B02ACC8D500086F79C /* ViewController */,
+				5D9C86B12ACC8D580086F79C /* View */,
 				5D9C86AB2ACC8CDC0086F79C /* Cell */,
-				5D51679F2ACB5A3B002EFCC4 /* HomeTableViewController.swift */,
-				5D5167A02ACB5A3B002EFCC4 /* HomeTableViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				5D5167922ACB496B002EFCC4 /* LaunchScreen.storyboard */,
-				5D51679B2ACB53F3002EFCC4 /* SplashViewController.swift */,
-				5D51679C2ACB53F3002EFCC4 /* SplashViewController.xib */,
+				5D9C86B52ACC8D810086F79C /* ViewController */,
+				5D9C86B42ACC8D7A0086F79C /* View */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 		5D9C86AB2ACC8CDC0086F79C /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				5D5167A32ACB5EAD002EFCC4 /* HomeTableViewCell.swift */,
-				5D5167A42ACB5EAD002EFCC4 /* HomeTableViewCell.xib */,
+				5D9C86B32ACC8D6F0086F79C /* ViewController */,
+				5D9C86B22ACC8D690086F79C /* View */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -158,6 +158,70 @@
 				5D5167A72ACB655B002EFCC4 /* CharacterModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5D9C86AE2ACC8D2F0086F79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C86A22ACC85550086F79C /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D9C86AF2ACC8D350086F79C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C86A12ACC85550086F79C /* DetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5D9C86B02ACC8D500086F79C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D51679F2ACB5A3B002EFCC4 /* HomeTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5D9C86B12ACC8D580086F79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D5167A02ACB5A3B002EFCC4 /* HomeTableViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D9C86B22ACC8D690086F79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D5167A42ACB5EAD002EFCC4 /* HomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D9C86B32ACC8D6F0086F79C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D5167A32ACB5EAD002EFCC4 /* HomeTableViewCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5D9C86B42ACC8D7A0086F79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D51679C2ACB53F3002EFCC4 /* SplashViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D9C86B52ACC8D810086F79C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D51679B2ACB53F3002EFCC4 /* SplashViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
