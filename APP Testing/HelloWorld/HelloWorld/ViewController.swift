@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - IBOutlets -
+    
+    @IBOutlet weak var helloWorldLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        helloWorldLabel.text = "Hello Keepcoding! 👏🏻"
+        helloWorldLabel.backgroundColor = .clear
     }
 
 

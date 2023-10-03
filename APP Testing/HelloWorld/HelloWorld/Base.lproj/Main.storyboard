@@ -23,15 +23,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJE-R3-DUj">
+                                <rect key="frame" x="159" y="448.66666666666669" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="MJE-R3-DUj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EeQ-aI-2yL"/>
                             <constraint firstItem="gpZ-Q2-AXw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MF6-hy-utg"/>
                             <constraint firstItem="gpZ-Q2-AXw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mU3-oC-CqC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gpZ-Q2-AXw" secondAttribute="trailing" id="rP0-20-IVQ"/>
+                            <constraint firstItem="MJE-R3-DUj" firstAttribute="top" secondItem="gpZ-Q2-AXw" secondAttribute="bottom" constant="12" id="w60-zj-px0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="gpZ-Q2-AXw" id="T47-3r-Koi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
