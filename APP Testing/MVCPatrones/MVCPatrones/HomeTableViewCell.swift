@@ -36,7 +36,7 @@ class HomeTableViewCell: UITableViewCell {
     }
     
     // TODO: Implementar métodos para configurar imagen y título
-    func updateViews(data) {
+    func updateViews(data: CharacterModel) {
         update(name: data.name)
         update(image: data.image)
     }

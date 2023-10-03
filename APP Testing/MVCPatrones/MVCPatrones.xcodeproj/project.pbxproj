@@ -18,6 +18,8 @@
 		5D5167A52ACB5EAD002EFCC4 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5167A32ACB5EAD002EFCC4 /* HomeTableViewCell.swift */; };
 		5D5167A62ACB5EAD002EFCC4 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5167A42ACB5EAD002EFCC4 /* HomeTableViewCell.xib */; };
 		5D5167A82ACB655B002EFCC4 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5167A72ACB655B002EFCC4 /* CharacterModel.swift */; };
+		5D9C86A32ACC85550086F79C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C86A12ACC85550086F79C /* DetailViewController.swift */; };
+		5D9C86A42ACC85550086F79C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C86A22ACC85550086F79C /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		5D5167A32ACB5EAD002EFCC4 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		5D5167A42ACB5EAD002EFCC4 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		5D5167A72ACB655B002EFCC4 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		5D9C86A12ACC85550086F79C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5D9C86A22ACC85550086F79C /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				5D5167A32ACB5EAD002EFCC4 /* HomeTableViewCell.swift */,
 				5D5167A42ACB5EAD002EFCC4 /* HomeTableViewCell.xib */,
 				5D5167A72ACB655B002EFCC4 /* CharacterModel.swift */,
+				5D9C86A12ACC85550086F79C /* DetailViewController.swift */,
+				5D9C86A22ACC85550086F79C /* DetailViewController.xib */,
 			);
 			path = MVCPatrones;
 			sourceTree = "<group>";
@@ -141,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D5167A22ACB5A3B002EFCC4 /* HomeTableViewController.xib in Resources */,
+				5D9C86A42ACC85550086F79C /* DetailViewController.xib in Resources */,
 				5D5167942ACB496B002EFCC4 /* LaunchScreen.storyboard in Resources */,
 				5D51679E2ACB53F3002EFCC4 /* SplashViewController.xib in Resources */,
 				5D5167A62ACB5EAD002EFCC4 /* HomeTableViewCell.xib in Resources */,
@@ -161,6 +168,7 @@
 				5D5167A82ACB655B002EFCC4 /* CharacterModel.swift in Sources */,
 				5D5167882ACB496A002EFCC4 /* AppDelegate.swift in Sources */,
 				5D51678A2ACB496A002EFCC4 /* SceneDelegate.swift in Sources */,
+				5D9C86A32ACC85550086F79C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

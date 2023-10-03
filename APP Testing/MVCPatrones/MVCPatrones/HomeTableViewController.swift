@@ -27,13 +27,14 @@ class HomeTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-
+    
+    // Cantidad de elementos
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return sampleCharacterData.count
     }
 
-    
+    // Elementos en la lista
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "HomeCell", for: indexPath) as? HomeTableViewCell 
         else {
@@ -46,4 +47,16 @@ class HomeTableViewController: UITableViewController {
         
         return cell
     }
+    
+    // Click en elemento
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let nextVC = DetailViewController()
+        
+        if(indexPath.row < sampleCharacterData.count) {
+            nextVC.characterData = sampleCharacterData[indexPath.row]
+        }
+        
+        navigationController?.pushViewController(nextVC, animated: true)
+    }
+    
 }
