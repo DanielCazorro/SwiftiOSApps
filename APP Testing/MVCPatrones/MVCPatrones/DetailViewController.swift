@@ -21,6 +21,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateView(characterData: characterData)
     }
     
     
