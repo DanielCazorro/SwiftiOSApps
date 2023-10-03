@@ -25,10 +25,14 @@ class SplashViewController: UIViewController {
     
     @IBOutlet weak var activitiIndicator: UIActivityIndicatorView!
     
+    var viewModel: SplashViewModelProtocol?
+    
     // MARK: - Ciclo de Vida -
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        viewModel = SplashViewModel()
+        viewModel?.onViewsLoaded()
 
     }
     

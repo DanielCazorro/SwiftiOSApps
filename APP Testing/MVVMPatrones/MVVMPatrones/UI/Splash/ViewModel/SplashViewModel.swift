@@ -19,12 +19,33 @@ protocol SplashViewModelProtocol {
 
 final class SplashViewModel {
     
+    var viewDelegate: SplashViewProtocol?
+    
+    init(viewDelegate: SplashViewProtocol?) {
+        self.viewDelegate = viewDelegate
+    }
     
     private func loadData() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3)) {
-            // TODO: Notificar a la vista que navegue a la Home
+        viewDelegate?.showLoading(true)
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3)) { [weak self] in
+            self?.viewDelegate?.showLoading(false)
+            self?.viewDelegate?.navigateToHome()
         }
     }
+    
+}
+
+class pepito {
+    private func loadData() {
+        print("Hola Pepito")
+    }
+}
+
+extension pepito: SplashViewModelProtocol {
+    func onViewsLoaded() {
+        loadData()
+    }
+    
     
 }
 
