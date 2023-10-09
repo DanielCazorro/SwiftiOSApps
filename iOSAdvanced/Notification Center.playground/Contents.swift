@@ -7,7 +7,11 @@ let notificationTest = Notification.Name("TEST_NOTIFICATION")
 class CashMachine {
     
     func money() {
-        NotificationCenter.default.post(name: notificationTest, object: nil)
+        NotificationCenter.default.post(name: notificationTest, object: nil, userInfo: [
+            "userID": 1234,
+            "amount":2_000
+        ]
+        )
     }
     
 }
@@ -15,13 +19,13 @@ class CashMachine {
 class Person {
     
     init() {
-        
+        /*
         let observer = NotificationCenter.default.addObserver(forName: notificationTest,
                                                object: nil,
                                                queue: .main) { notification in
             print("Notification in forName:object:queue")
         }
-        
+        */
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(onNotificationTest),
                                                name: notificationTest,
@@ -33,7 +37,14 @@ class Person {
     }
     
     @objc func onNotificationTest(_ notification: Notification) {
-        print("Notification in onNotificationTest()")
+        print("Notification in onNotificationTest(\(notification.name), userId: \(notification.userInfo?["userID"] ?? "")")
+        
     }
     
 }
+
+let person = Person()
+
+let cashMachine = CashMachine()
+
+cashMachine.money()
