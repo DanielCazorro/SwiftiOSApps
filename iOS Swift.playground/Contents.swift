@@ -795,3 +795,26 @@ func Max20_30 (_ x: Int, _ y: Int) -> Int {
 Max20_30(22, 29)
 Max20_30(28, 17)
 Max20_30(8, 47)
+
+/*
+18. Write a Swift program to test whether the last digit of the two given non-negative integer values are same or not.
+*/
+
+func same_last_Digit(_ a: Int, _ b: Int) -> Bool {
+    guard a < 0, b < 0 
+    else 
+     {
+        if a % 10 == b % 10 
+        {
+            return true
+        }
+        else
+        {
+            return false
+        }
+    }
+    return false
+}
+same_last_Digit(3, 13)
+same_last_Digit(24, 4)
+same_last_Digit(12, 24)
