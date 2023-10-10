@@ -8,7 +8,15 @@
 import UIKit
 
 protocol LoginViewControllerDelegate {
+    var viewState: ((LoginViewState) -> Void)? { get set }
     func onLoginPressed(email: String?, password: String?)
+}
+
+enum LoginViewState {
+    case loading(_ isLoading: Bool)
+    case showErrorEmail(_ error: String?)
+    case showErrorPassword(_ error: String?)
+    case navigateToNext
 }
 
 class LoginViewController: UIViewController {
