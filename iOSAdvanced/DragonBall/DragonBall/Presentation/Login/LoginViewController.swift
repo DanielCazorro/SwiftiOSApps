@@ -9,12 +9,16 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    // MARK: IBOutlet
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var emailFieldError: UILabel!
     @IBOutlet weak var passwordFieldError: UILabel!
+    @IBOutlet weak var loadingView: UIView!
     
+    // MARK: IBAction
     @IBAction func onLoginPressed() {
+        // TODO: Obtener el email y password introducidos por el usuario y enviarlos al servicio del API de Login (VIEWMODEL)
         
     }
     

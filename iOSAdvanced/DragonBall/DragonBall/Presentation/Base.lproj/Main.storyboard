@@ -103,6 +103,7 @@
                     <connections>
                         <outlet property="emailField" destination="TXb-p6-KcT" id="e79-Nt-KQY"/>
                         <outlet property="emailFieldError" destination="09x-2t-EV1" id="DHi-xj-Lq0"/>
+                        <outlet property="loadingView" destination="Xlq-2D-nAc" id="ib8-O9-N64"/>
                         <outlet property="passwordField" destination="Kkj-mQ-LTI" id="n09-ig-Gpz"/>
                         <outlet property="passwordFieldError" destination="noJ-MB-h00" id="j4p-qZ-hlR"/>
                     </connections>
