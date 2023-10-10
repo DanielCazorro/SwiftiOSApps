@@ -22,7 +22,7 @@ enum LoginViewState {
 }
 
 class LoginViewController: UIViewController {
-
+    
     // MARK: - IBOutlet -
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
@@ -68,7 +68,7 @@ class LoginViewController: UIViewController {
             )
         )
     }
-
+    
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
@@ -108,11 +108,11 @@ extension LoginViewController: UITextFieldDelegate {
             
         }
         /*
-        if emailField == textField {
-            emailFieldError.isHidden = true
-        } else if passwordField == textField {
-            passwordFieldError.isHidden = true
-        }
+         if emailField == textField {
+         emailFieldError.isHidden = true
+         } else if passwordField == textField {
+         passwordFieldError.isHidden = true
+         }
          */
     }
 }
