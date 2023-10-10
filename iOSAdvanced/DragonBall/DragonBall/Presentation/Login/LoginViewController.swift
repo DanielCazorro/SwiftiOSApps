@@ -31,6 +31,11 @@ class LoginViewController: UIViewController {
     // MARK: - Public Properties -
     var viewModel: LoginViewControllerDelegate?
     
+    private enum FieldType: Int {
+        case email = 0
+        case password
+    }
+    
     // MARK: - Lifecycle -
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,20 +44,20 @@ class LoginViewController: UIViewController {
     
     private func initViews() {
         emailField.delegate = self
-        emailField.tag = 0
+        emailField.tag = FieldType.email.rawValue
         passwordField.delegate = self
-        passwordField.tag = 1
+        passwordField.tag = FieldType.password.rawValue
     }
 
 }
 
 extension LoginViewController: UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
-        switch textField.tag {
-        case 0:
+        switch FieldType(rawValue: textField.tag) {
+        case .email:
             emailFieldError.isHidden = true
             
-        case 1:
+        case .password:
             passwordFieldError.isHidden = true
         default: break
             
