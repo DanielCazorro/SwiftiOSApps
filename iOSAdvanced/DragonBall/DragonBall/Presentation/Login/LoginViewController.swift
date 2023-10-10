@@ -13,14 +13,14 @@ protocol LoginViewControllerDelegate {
 
 class LoginViewController: UIViewController {
 
-    // MARK: IBOutlet
+    // MARK: - IBOutlet -
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var emailFieldError: UILabel!
     @IBOutlet weak var passwordFieldError: UILabel!
     @IBOutlet weak var loadingView: UIView!
     
-    // MARK: IBAction
+    // MARK: - IBAction -
     @IBAction func onLoginPressed() {
         // TODO: Obtener el email y password introducidos por el usuario y enviarlos al servicio del API de Login (VIEWMODEL)
         
@@ -28,8 +28,10 @@ class LoginViewController: UIViewController {
         
     }
     
+    // MARK: - Public Properties -
     var viewModel: LoginViewControllerDelegate?
     
+    // MARK: - Lifecycle -
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

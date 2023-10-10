@@ -8,7 +8,7 @@
 import Foundation
 
 
-class LoginViewModel {
+class LoginViewModel: LoginViewControllerDelegate {
     
     func onLoginPressed(email: String?, password: String?) {
         
