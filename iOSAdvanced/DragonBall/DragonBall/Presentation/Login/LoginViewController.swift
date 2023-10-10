@@ -34,7 +34,9 @@ class LoginViewController: UIViewController {
     @IBAction func onLoginPressed() {
         // TODO: Obtener el email y password introducidos por el usuario y enviarlos al servicio del API de Login (VIEWMODEL)
         
-        viewModel?.onLoginPressed(email: emailField.text, password: passwordField.text)
+        viewModel?.onLoginPressed(
+            email: emailField.text,
+            password: passwordField.text)
         
     }
     
@@ -50,6 +52,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
+        setObservers()
     }
     
     private func initViews() {
@@ -68,6 +71,27 @@ class LoginViewController: UIViewController {
 
     @objc func dismissKeyboard() {
         view.endEditing(true)
+    }
+    
+    private func setObservers() {
+        viewModel?.viewState = { state in
+            switch state {
+            case .loading(let isLoading):
+                self.loadingView.isHidden = !isLoading
+                
+            case .showErrorEmail(let error):
+                self.emailFieldError.text = error
+                self.emailFieldError.isHidden = (error == nil || error?.isEmpty == true)
+                
+            case .showErrorPassword(let error):
+                self.passwordFieldError.text = error
+                self.passwordFieldError.isHidden = (error == nil || error?.isEmpty == true)
+                
+            case .navigateToNext:
+                self.loadingView.isHidden = true
+                // TODO: Navegar a la siguiente vista
+            }
+        }
     }
 }
 
