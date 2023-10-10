@@ -16,4 +16,5 @@ class LoginViewModel: LoginViewControllerDelegate {
     func onLoginPressed(email: String?, password: String?) {
         viewState?(.loading(true))
     }
+    
 }
