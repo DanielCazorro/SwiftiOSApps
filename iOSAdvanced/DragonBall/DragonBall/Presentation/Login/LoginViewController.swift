@@ -39,7 +39,7 @@ class LoginViewController: UIViewController {
     // MARK: - Lifecycle -
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        initViews()
     }
     
     private func initViews() {
@@ -59,6 +59,7 @@ extension LoginViewController: UITextFieldDelegate {
             
         case .password:
             passwordFieldError.isHidden = true
+            
         default: break
             
         }
