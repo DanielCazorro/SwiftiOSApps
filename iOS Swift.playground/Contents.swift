@@ -818,3 +818,29 @@ func same_last_Digit(_ a: Int, _ b: Int) -> Bool {
 same_last_Digit(3, 13)
 same_last_Digit(24, 4)
 same_last_Digit(12, 24)
+
+/*
+19. Write a Swift program to convert the last three characters in upper case. If the string has less than 3 chars, lowercase whatever is there.
+*/
+
+func case_str(_ input: String) -> String {
+    if input.characters.count < 3
+    {
+        return input.lowercased()
+    } 
+    else
+    {
+        var newInput = input.characters
+        var str1: String = ""
+        let lastThree = newInput.suffix(3)
+        newInput.removeLast(3)
+        let lastThreeUpper = String(lastThree).uppercased()
+        str1.append(contentsOf: newInput)
+        str1.append(String(lastThree).uppercased())
+        return str1
+    }
+}
+case_str("Hi")
+case_str("Hello there")
+case_str("Is") 
+case_str("Python")
