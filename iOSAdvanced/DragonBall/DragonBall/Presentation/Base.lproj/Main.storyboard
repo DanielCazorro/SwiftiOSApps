@@ -23,10 +23,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fId-0M-laY">
-                                <rect key="frame" x="163.66666666666666" y="763" width="66" height="35"/>
+                                <rect key="frame" x="163.66666666666666" y="763.66666666666663" width="65.666666666666657" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Login"/>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vWZ-01-Xgq">
+                                <rect key="frame" x="32" y="382" width="329" height="88"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TXb-p6-KcT">
+                                        <rect key="frame" x="0.0" y="0.0" width="329" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kkj-mQ-LTI">
+                                        <rect key="frame" x="0.0" y="54" width="329" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -35,7 +50,10 @@
                             <constraint firstItem="ucw-7b-H1F" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="AYu-EQ-SfW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fId-0M-laY" secondAttribute="bottom" constant="20" id="CT8-B2-DxD"/>
                             <constraint firstItem="ucw-7b-H1F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KQW-gM-Bhi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vWZ-01-Xgq" secondAttribute="trailing" constant="32" id="L50-97-oUF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ucw-7b-H1F" secondAttribute="trailing" constant="16" id="Xcz-gJ-I5a"/>
+                            <constraint firstItem="vWZ-01-Xgq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="a5F-Jt-kWT"/>
+                            <constraint firstItem="vWZ-01-Xgq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="dug-Ny-Yhk"/>
                         </constraints>
                     </view>
                 </viewController>
