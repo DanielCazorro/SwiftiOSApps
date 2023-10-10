@@ -47,8 +47,18 @@ class LoginViewController: UIViewController {
         emailField.tag = FieldType.email.rawValue
         passwordField.delegate = self
         passwordField.tag = FieldType.password.rawValue
+        
+        view.addGestureRecognizer(
+            UITapGestureRecognizer(
+                target: self,
+                action: #selector(dismissKeyboard)
+            )
+        )
     }
 
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }
 
 extension LoginViewController: UITextFieldDelegate {
