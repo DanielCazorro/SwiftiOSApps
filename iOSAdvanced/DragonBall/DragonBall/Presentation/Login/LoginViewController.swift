@@ -36,5 +36,20 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    private func initViews() {
+        emailField.delegate = self
+        passwordField.delegate = self
+    }
 
+}
+
+extension LoginViewController: UITextFieldDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        if emailField == textField {
+            emailFieldError.isHidden = true
+        } else if passwordField == textField {
+            passwordFieldError.isHidden = true
+        }
+    }
 }
