@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol LoginViewControllerDelegate {
+    func onLoginPressed(email: String?, password: String?)
+}
+
 class LoginViewController: UIViewController {
 
     // MARK: IBOutlet
@@ -20,7 +24,11 @@ class LoginViewController: UIViewController {
     @IBAction func onLoginPressed() {
         // TODO: Obtener el email y password introducidos por el usuario y enviarlos al servicio del API de Login (VIEWMODEL)
         
+        viewModel?.onLoginPressed(email: emailField.text, password: passwordField.text)
+        
     }
+    
+    var viewModel: LoginViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
