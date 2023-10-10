@@ -17,6 +17,7 @@
 		5D91732D2AD5C1EC00270564 /* DragonBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D91732C2AD5C1EC00270564 /* DragonBallTests.swift */; };
 		5D9173372AD5C1EC00270564 /* DragonBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173362AD5C1EC00270564 /* DragonBallUITests.swift */; };
 		5D9173392AD5C1EC00270564 /* DragonBallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173382AD5C1EC00270564 /* DragonBallUITestsLaunchTests.swift */; };
+		5D91734D2AD5CD4900270564 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D91734C2AD5CD4900270564 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5D9173322AD5C1EC00270564 /* DragonBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9173362AD5C1EC00270564 /* DragonBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallUITests.swift; sourceTree = "<group>"; };
 		5D9173382AD5C1EC00270564 /* DragonBallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D91734C2AD5CD4900270564 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				5D9173162AD5C1EB00270564 /* LoginViewController.swift */,
+				5D91734C2AD5CD4900270564 /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				5D9173172AD5C1EB00270564 /* LoginViewController.swift in Sources */,
 				5D91731D2AD5C1EB00270564 /* DragonBall.xcdatamodeld in Sources */,
 				5D9173132AD5C1EB00270564 /* AppDelegate.swift in Sources */,
+				5D91734D2AD5CD4900270564 /* LoginViewModel.swift in Sources */,
 				5D9173152AD5C1EB00270564 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
