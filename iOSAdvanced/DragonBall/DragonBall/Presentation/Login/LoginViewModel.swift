@@ -16,21 +16,23 @@ class LoginViewModel: LoginViewControllerDelegate {
     func onLoginPressed(email: String?, password: String?) {
         viewState?(.loading(true))
         
-        guard isValid(email: email) else {
-            viewState?(.loading(false))
-            viewState?(.showErrorEmail("Indique un email válido"))
-            return
+        DispatchQueue.global().async {
+            guard self.isValid(email: email) else {
+                self.viewState?(.loading(false))
+                self.viewState?(.showErrorEmail("Indique un email válido"))
+                return
+            }
+            
+            guard self.isValid(password: password) else {
+                self.viewState?(.loading(false))
+                self.viewState?(.showErrorPassword("Indique un password válido"))
+                return
+            }
+            
+            self.doLoginWith(
+                email: email ?? "",
+                password: password ?? "")
         }
-        
-        guard isValid(password: password) else {
-            viewState?(.loading(false))
-            viewState?(.showErrorPassword("Indique un password válido"))
-            return
-        }
-        
-        doLoginWith(
-            email: email ?? "",
-            password: password ?? "")
     }
     
     private func isValid(email: String?) -> Bool {
