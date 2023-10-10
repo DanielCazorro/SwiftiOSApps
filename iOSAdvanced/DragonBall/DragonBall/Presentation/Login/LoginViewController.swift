@@ -7,11 +7,13 @@
 
 import UIKit
 
+// MARK: - View Protocol -
 protocol LoginViewControllerDelegate {
     var viewState: ((LoginViewState) -> Void)? { get set }
     func onLoginPressed(email: String?, password: String?)
 }
 
+// MARK: - View State -
 enum LoginViewState {
     case loading(_ isLoading: Bool)
     case showErrorEmail(_ error: String?)
