@@ -9,6 +9,8 @@ import Foundation
 
 class LoginViewModel: LoginViewControllerDelegate {
     
+    
+    
     // MARK: - Properties -
     var viewState: ((LoginViewState) -> Void)?
     

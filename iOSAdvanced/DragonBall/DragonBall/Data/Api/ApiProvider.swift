@@ -8,17 +8,19 @@
 import Foundation
 
 protocol ApiProviderProtocol {
-    
+    func login(for user: String, with password: String)
 }
 
-class ApiProvider {
+class ApiProvider: ApiProviderProtocol {
     
+    // MARK: - Constants -
     static private let apiBaseURL = "hhtps://dragonball.keepcoding.education/api"
     
     private enum Endpoint {
         static let login = "/auth/login"
     }
     
+    // MARK: - ApiProviderProtocol -
     func login(for user: String, with password:String) {
         guard let url = URL(string: "\(ApiProvider.apiBaseURL)\(Endpoint.login)") else {
             return
