@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D359A372AD713EF002BA943 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5D359A362AD713EF002BA943 /* KeychainSwift */; };
+		5D359A392AD714AB002BA943 /* SecureDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D359A382AD714AB002BA943 /* SecureDataProvider.swift */; };
 		5D9173132AD5C1EB00270564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173122AD5C1EB00270564 /* AppDelegate.swift */; };
 		5D9173152AD5C1EB00270564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173142AD5C1EB00270564 /* SceneDelegate.swift */; };
 		5D9173172AD5C1EB00270564 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173162AD5C1EB00270564 /* LoginViewController.swift */; };
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D359A382AD714AB002BA943 /* SecureDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDataProvider.swift; sourceTree = "<group>"; };
 		5D91730F2AD5C1EB00270564 /* DragonBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9173122AD5C1EB00270564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D9173142AD5C1EB00270564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D359A372AD713EF002BA943 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				5D91731B2AD5C1EB00270564 /* DragonBall.xcdatamodeld */,
+				5D359A382AD714AB002BA943 /* SecureDataProvider.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -205,6 +210,9 @@
 			dependencies = (
 			);
 			name = DragonBall;
+			packageProductDependencies = (
+				5D359A362AD713EF002BA943 /* KeychainSwift */,
+			);
 			productName = DragonBall;
 			productReference = 5D91730F2AD5C1EB00270564 /* DragonBall.app */;
 			productType = "com.apple.product-type.application";
@@ -277,6 +285,9 @@
 				Base,
 			);
 			mainGroup = 5D9173062AD5C1EB00270564;
+			packageReferences = (
+				5D359A352AD713EF002BA943 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 5D9173102AD5C1EB00270564 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -322,6 +333,7 @@
 			files = (
 				5D9173172AD5C1EB00270564 /* LoginViewController.swift in Sources */,
 				5D91731D2AD5C1EB00270564 /* DragonBall.xcdatamodeld in Sources */,
+				5D359A392AD714AB002BA943 /* SecureDataProvider.swift in Sources */,
 				5D9173132AD5C1EB00270564 /* AppDelegate.swift in Sources */,
 				5D91734D2AD5CD4900270564 /* LoginViewModel.swift in Sources */,
 				5D9173152AD5C1EB00270564 /* SceneDelegate.swift in Sources */,
@@ -671,6 +683,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D359A352AD713EF002BA943 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 20.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D359A362AD713EF002BA943 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D359A352AD713EF002BA943 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5D91731B2AD5C1EB00270564 /* DragonBall.xcdatamodeld */ = {
