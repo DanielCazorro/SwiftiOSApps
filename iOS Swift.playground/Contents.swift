@@ -844,3 +844,27 @@ case_str("Hi")
 case_str("Hello there")
 case_str("Is") 
 case_str("Python")
+
+/*
+20. Write a Swift program to check if the first instance of "a" in a given string is immediately followed by another "a".
+*/
+
+func double_a(_ input: String) -> Bool {
+    let chars = input.characters
+    var ans: Bool = false
+    
+    for i in chars {
+        let found_Index = chars.index(of: i)
+        let next_Index = chars.index(after: found_Index!)
+        
+        if i == "a" && chars[next_Index] == "a" 
+        {
+            ans = true
+        }
+    }
+    return ans
+}
+
+double_a("abbcaad")
+double_a("ababab")
+double_a("aaaaa")
