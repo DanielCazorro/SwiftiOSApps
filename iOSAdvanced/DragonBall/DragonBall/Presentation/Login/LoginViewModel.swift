@@ -8,8 +8,13 @@
 import Foundation
 
 class LoginViewModel: LoginViewControllerDelegate {
+    // MARK: - Dependencies -
+    private let apiProvider: ApiProviderProtocol
     
-    
+    // MARK: - Initializers -
+    init(apiProvider: ApiProviderProtocol) {
+        self.apiProvider = apiProvider
+    }
     
     // MARK: - Properties -
     var viewState: ((LoginViewState) -> Void)?
@@ -46,6 +51,6 @@ class LoginViewModel: LoginViewControllerDelegate {
     }
     
     private func doLoginWith(email: String, password: String) {
-        
+        apiProvider.login(for: email, with: password)
     }
 }
