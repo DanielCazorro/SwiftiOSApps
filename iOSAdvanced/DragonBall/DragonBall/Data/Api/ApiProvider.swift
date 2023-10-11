@@ -7,6 +7,10 @@
 
 import Foundation
 
+extension NotificationCenter {
+    static let apiLoginNotification = Notification.Name("NOTIFICATION_API_LOGIN")
+}
+
 protocol ApiProviderProtocol {
     func login(for user: String, with password: String)
 }

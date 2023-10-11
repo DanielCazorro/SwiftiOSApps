@@ -7,13 +7,29 @@
 
 import Foundation
 
+
+
 class LoginViewModel: LoginViewControllerDelegate {
     // MARK: - Dependencies -
     private let apiProvider: ApiProviderProtocol
+    private let secureDataProvider: SecureDataProviderProtocol
     
     // MARK: - Initializers -
-    init(apiProvider: ApiProviderProtocol) {
+    init(apiProvider: ApiProviderProtocol,
+         secureDataProvider: SecureDataProviderProtocol
+    ) {
         self.apiProvider = apiProvider
+        self.secureDataProvider = secureDataProvider
+        
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(onLoginResponse),
+            name: NotificationCenter.apiLoginNotification,
+            object: nil)
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
     // MARK: - Properties -
@@ -42,6 +58,10 @@ class LoginViewModel: LoginViewControllerDelegate {
         }
     }
     
+    @objc func onLoginResponse(_ notification: Notification) {
+        
+    }
+    
     private func isValid(email: String?) -> Bool {
         email?.isEmpty == false && email?.contains("@") ?? false
     }
@@ -51,6 +71,7 @@ class LoginViewModel: LoginViewControllerDelegate {
     }
     
     private func doLoginWith(email: String, password: String) {
-        apiProvider.login(for: email, with: password)
+        apiProvider.login(for: email, 
+                          with: password)
     }
 }
