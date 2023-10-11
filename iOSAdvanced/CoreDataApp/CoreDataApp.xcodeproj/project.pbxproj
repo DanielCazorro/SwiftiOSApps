@@ -17,6 +17,7 @@
 		5D359A632AD73B41002BA943 /* CoreDataAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D359A622AD73B41002BA943 /* CoreDataAppTests.swift */; };
 		5D359A6D2AD73B41002BA943 /* CoreDataAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D359A6C2AD73B41002BA943 /* CoreDataAppUITests.swift */; };
 		5D359A6F2AD73B41002BA943 /* CoreDataAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D359A6E2AD73B41002BA943 /* CoreDataAppUITestsLaunchTests.swift */; };
+		5D359A7C2AD74330002BA943 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D359A7B2AD74330002BA943 /* Database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5D359A682AD73B41002BA943 /* CoreDataAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D359A6C2AD73B41002BA943 /* CoreDataAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAppUITests.swift; sourceTree = "<group>"; };
 		5D359A6E2AD73B41002BA943 /* CoreDataAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D359A7B2AD74330002BA943 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				5D359A562AD73B41002BA943 /* LaunchScreen.storyboard */,
 				5D359A592AD73B41002BA943 /* Info.plist */,
 				5D359A512AD73B3F002BA943 /* CoreDataApp.xcdatamodeld */,
+				5D359A7B2AD74330002BA943 /* Database.swift */,
 			);
 			path = CoreDataApp;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				5D359A532AD73B3F002BA943 /* CoreDataApp.xcdatamodeld in Sources */,
 				5D359A4D2AD73B3F002BA943 /* ViewController.swift in Sources */,
 				5D359A492AD73B3F002BA943 /* AppDelegate.swift in Sources */,
+				5D359A7C2AD74330002BA943 /* Database.swift in Sources */,
 				5D359A4B2AD73B3F002BA943 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
