@@ -58,8 +58,9 @@ class LoginViewModel: LoginViewControllerDelegate {
     
     @objc func onLoginResponse(_ notification: Notification) {
         // TODO: Parsear resultado que vendrá en notification.userInfo
-        print("LoginViewModel onLoginResponse: \(notification)")
+        defer { viewState?(.loading(false)) }
         
+        // Parsear resultado que vendrá en notification.userInfo
         guard let token = notification.userInfo?[NotificationCenter.tokenKey] as? String,
               !token.isEmpty  else {
             return
