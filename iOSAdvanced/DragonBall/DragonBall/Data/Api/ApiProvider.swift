@@ -18,7 +18,7 @@ protocol ApiProviderProtocol {
 class ApiProvider: ApiProviderProtocol {
     
     // MARK: - Constants -
-    static private let apiBaseURL = "hhtps://dragonball.keepcoding.education/api"
+    static private let apiBaseURL = "https://dragonball.keepcoding.education/api"
     
     private enum Endpoint {
         static let login = "/auth/login"

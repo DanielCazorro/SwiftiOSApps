@@ -7,8 +7,6 @@
 
 import Foundation
 
-
-
 class LoginViewModel: LoginViewControllerDelegate {
     // MARK: - Dependencies -
     private let apiProvider: ApiProviderProtocol
@@ -59,7 +57,7 @@ class LoginViewModel: LoginViewControllerDelegate {
     }
     
     @objc func onLoginResponse(_ notification: Notification) {
-        
+        // TODO: Parsear resultado que vendrá en notification.userInfo
     }
     
     private func isValid(email: String?) -> Bool {

@@ -13,7 +13,7 @@ protocol SecureDataProviderProtocol {
     func getToken() -> String?
 }
 
-final class SecureDataProvider {
+final class SecureDataProvider: SecureDataProviderProtocol {
     private let keychain = KeychainSwift()
     
     private enum Key {
