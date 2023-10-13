@@ -888,3 +888,21 @@ func new_string(_ input: String) -> String {
 new_string("Python")
 new_string("Swift")
 new_string("Ab")
+
+/*
+22. Write a Swift program to count the number of 7's in a given array of integers.
+*/
+
+func count7(_ input: [Int]) -> Int {
+    var ctr = 0
+    
+    for num in input {
+        if num == 7 {
+            ctr += 1
+        }
+    }
+    return ctr
+}
+count7([1, 2, 7])
+count7([1, 7, 7])
+count7([1, 7, 7, 4, 7])
