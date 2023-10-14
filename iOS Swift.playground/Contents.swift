@@ -906,3 +906,21 @@ func count7(_ input: [Int]) -> Int {
 count7([1, 2, 7])
 count7([1, 7, 7])
 count7([1, 7, 7, 4, 7])
+
+/*
+23. Write a Swift program to check if one of the first 4 elements in a given array of integers is a 7. The length of the array may be less than 4.
+*/
+
+func arrayFront9(_ input: [Int]) -> Bool {
+    guard input.count > 3 else {
+        return false
+    }
+    
+    if input.prefix(4).contains(7) {
+        return true
+    }
+    return false
+}
+arrayFront9([1, 2, 7, 3, 4])
+arrayFront9([1, 2, 3, 4, 7])
+arrayFront9([1, 2, 7])
