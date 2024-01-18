@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" id="Y6W-OH-hqX" customClass="SplashViewController" customModule="DragonBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo2" translatesAutoresizingMaskIntoConstraints="NO" id="ZS2-cL-9V2">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="yGx-i5-3cn">
+                                <rect key="frame" x="178" y="763" width="37" height="37"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yGx-i5-3cn" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="7Qe-ZA-ARA"/>
+                            <constraint firstItem="ZS2-cL-9V2" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="9pt-S2-kfy"/>
+                            <constraint firstAttribute="bottom" secondItem="ZS2-cL-9V2" secondAttribute="bottom" id="Dpv-IT-ZBn"/>
+                            <constraint firstItem="ZS2-cL-9V2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="O4F-3n-Zxn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="yGx-i5-3cn" secondAttribute="bottom" constant="18" id="S40-3Y-1Ab"/>
+                            <constraint firstItem="ZS2-cL-9V2" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="tda-9e-Ako"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loading" destination="yGx-i5-3cn" id="0jy-V0-hvz"/>
+                        <segue destination="kac-tu-gZk" kind="show" identifier="SPLASH_TO_LOGIN" id="UPW-Tp-Z9e"/>
+                        <segue destination="fH0-Ov-08F" kind="show" identifier="SPLASH_TO_HEROES" id="j7o-vj-Tco"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="109.16030534351144" y="-34.507042253521128"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="GjF-3P-Pmc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="kac-tu-gZk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="g60-bL-LlK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m4e-Oc-vxU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="660" y="-141"/>
+        </scene>
+        <!--Heroes-->
+        <scene sceneID="pMb-su-94I">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Heroes" id="fH0-Ov-08F" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Af5-pZ-bCG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="voG-sf-uWx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669" y="65"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fondo2" width="1080" height="1920"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

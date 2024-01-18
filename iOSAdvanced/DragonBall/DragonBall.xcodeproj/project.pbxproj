@@ -7,76 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D359A372AD713EF002BA943 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5D359A362AD713EF002BA943 /* KeychainSwift */; };
-		5D359A392AD714AB002BA943 /* SecureDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D359A382AD714AB002BA943 /* SecureDataProvider.swift */; };
-		5D359A3B2AD71778002BA943 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D359A3A2AD71778002BA943 /* ApiProvider.swift */; };
-		5D9173132AD5C1EB00270564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173122AD5C1EB00270564 /* AppDelegate.swift */; };
-		5D9173152AD5C1EB00270564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173142AD5C1EB00270564 /* SceneDelegate.swift */; };
-		5D9173172AD5C1EB00270564 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173162AD5C1EB00270564 /* LoginViewController.swift */; };
-		5D91731A2AD5C1EB00270564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9173182AD5C1EB00270564 /* Main.storyboard */; };
-		5D91731D2AD5C1EB00270564 /* DragonBall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D91731B2AD5C1EB00270564 /* DragonBall.xcdatamodeld */; };
-		5D91731F2AD5C1EC00270564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D91731E2AD5C1EC00270564 /* Assets.xcassets */; };
-		5D9173222AD5C1EC00270564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9173202AD5C1EC00270564 /* LaunchScreen.storyboard */; };
-		5D91732D2AD5C1EC00270564 /* DragonBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D91732C2AD5C1EC00270564 /* DragonBallTests.swift */; };
-		5D9173372AD5C1EC00270564 /* DragonBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173362AD5C1EC00270564 /* DragonBallUITests.swift */; };
-		5D9173392AD5C1EC00270564 /* DragonBallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9173382AD5C1EC00270564 /* DragonBallUITestsLaunchTests.swift */; };
-		5D91734D2AD5CD4900270564 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D91734C2AD5CD4900270564 /* LoginViewModel.swift */; };
+		5D713EAD2AE8FCCC00B9E9B8 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5D713EAC2AE8FCCC00B9E9B8 /* KeychainSwift */; };
+		5D713EAF2AE8FD2700B9E9B8 /* SecureDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D713EAE2AE8FD2700B9E9B8 /* SecureDataProvider.swift */; };
+		5D713EB32AE8FEB500B9E9B8 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D713EB22AE8FEB500B9E9B8 /* ApiProvider.swift */; };
+		5DA995792AE9A421007061BE /* Heroes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA995782AE9A421007061BE /* Heroes.storyboard */; };
+		5DA9957B2AE9A42A007061BE /* HeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9957A2AE9A42A007061BE /* HeroesViewController.swift */; };
+		5DA9957D2AE9A432007061BE /* HeroesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9957C2AE9A432007061BE /* HeroesViewModel.swift */; };
+		5DA995882AE9AA84007061BE /* HeroCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA995872AE9AA84007061BE /* HeroCellView.swift */; };
+		5DA9958E2AE9AC94007061BE /* HeroCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9958D2AE9AC94007061BE /* HeroCellView.xib */; };
+		5DB959532AEBBFB10080A4B5 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB959522AEBBFB10080A4B5 /* Hero.swift */; };
+		5DB9595D2AEBF2660080A4B5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5DB9595C2AEBF2660080A4B5 /* Kingfisher */; };
+		5DB959612AEC152E0080A4B5 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB959602AEC152E0080A4B5 /* Splash.storyboard */; };
+		5DB959632AEC15370080A4B5 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB959622AEC15370080A4B5 /* SplashViewController.swift */; };
+		5DB959652AEC153F0080A4B5 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB959642AEC153F0080A4B5 /* SplashViewModel.swift */; };
+		5DDF9E622AECF2FF008D1F5A /* HeroDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDF9E612AECF2FF008D1F5A /* HeroDetail.storyboard */; };
+		5DDF9E642AECF316008D1F5A /* HeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF9E632AECF316008D1F5A /* HeroDetailViewController.swift */; };
+		5DDF9E6B2AECF383008D1F5A /* HeroDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF9E6A2AECF383008D1F5A /* HeroDetailViewModel.swift */; };
+		5DDF9E6F2AECF7F5008D1F5A /* HeroLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDF9E6E2AECF7F5008D1F5A /* HeroLocation.swift */; };
+		5DF46B862AEA59F400E3F4A4 /* HeroDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF46B852AEA59F400E3F4A4 /* HeroDAO.swift */; };
+		5DF46B8B2AEA5B7700E3F4A4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF46B8A2AEA5B7700E3F4A4 /* CoreDataStack.swift */; };
+		5DF805E72AE8088B001CA7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF805E62AE8088B001CA7C9 /* AppDelegate.swift */; };
+		5DF805E92AE8088B001CA7C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF805E82AE8088B001CA7C9 /* SceneDelegate.swift */; };
+		5DF805EB2AE8088B001CA7C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF805EA2AE8088B001CA7C9 /* LoginViewController.swift */; };
+		5DF805EE2AE8088B001CA7C9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF805EC2AE8088B001CA7C9 /* Login.storyboard */; };
+		5DF805F12AE8088B001CA7C9 /* DragonBall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DF805EF2AE8088B001CA7C9 /* DragonBall.xcdatamodeld */; };
+		5DF805F32AE8088D001CA7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF805F22AE8088D001CA7C9 /* Assets.xcassets */; };
+		5DF805F62AE8088D001CA7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF805F42AE8088D001CA7C9 /* LaunchScreen.storyboard */; };
+		5DF806012AE8088E001CA7C9 /* DragonBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF806002AE8088E001CA7C9 /* DragonBallTests.swift */; };
+		5DF8060B2AE8088E001CA7C9 /* DragonBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8060A2AE8088E001CA7C9 /* DragonBallUITests.swift */; };
+		5DF8060D2AE8088E001CA7C9 /* DragonBallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8060C2AE8088E001CA7C9 /* DragonBallUITestsLaunchTests.swift */; };
+		5DF806282AE8127F001CA7C9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF806272AE8127F001CA7C9 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D9173292AD5C1EC00270564 /* PBXContainerItemProxy */ = {
+		5DF805FD2AE8088E001CA7C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D9173072AD5C1EB00270564 /* Project object */;
+			containerPortal = 5DF805DB2AE8088B001CA7C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D91730E2AD5C1EB00270564;
+			remoteGlobalIDString = 5DF805E22AE8088B001CA7C9;
 			remoteInfo = DragonBall;
 		};
-		5D9173332AD5C1EC00270564 /* PBXContainerItemProxy */ = {
+		5DF806072AE8088E001CA7C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D9173072AD5C1EB00270564 /* Project object */;
+			containerPortal = 5DF805DB2AE8088B001CA7C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D91730E2AD5C1EB00270564;
+			remoteGlobalIDString = 5DF805E22AE8088B001CA7C9;
 			remoteInfo = DragonBall;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D359A382AD714AB002BA943 /* SecureDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDataProvider.swift; sourceTree = "<group>"; };
-		5D359A3A2AD71778002BA943 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
-		5D91730F2AD5C1EB00270564 /* DragonBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D9173122AD5C1EB00270564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D9173142AD5C1EB00270564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D9173162AD5C1EB00270564 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		5D9173192AD5C1EB00270564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5D91731C2AD5C1EB00270564 /* DragonBall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DragonBall.xcdatamodel; sourceTree = "<group>"; };
-		5D91731E2AD5C1EC00270564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5D9173212AD5C1EC00270564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5D9173232AD5C1EC00270564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D9173282AD5C1EC00270564 /* DragonBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D91732C2AD5C1EC00270564 /* DragonBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallTests.swift; sourceTree = "<group>"; };
-		5D9173322AD5C1EC00270564 /* DragonBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D9173362AD5C1EC00270564 /* DragonBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallUITests.swift; sourceTree = "<group>"; };
-		5D9173382AD5C1EC00270564 /* DragonBallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5D91734C2AD5CD4900270564 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5D713EAE2AE8FD2700B9E9B8 /* SecureDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDataProvider.swift; sourceTree = "<group>"; };
+		5D713EB22AE8FEB500B9E9B8 /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		5DA995782AE9A421007061BE /* Heroes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Heroes.storyboard; sourceTree = "<group>"; };
+		5DA9957A2AE9A42A007061BE /* HeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewController.swift; sourceTree = "<group>"; };
+		5DA9957C2AE9A432007061BE /* HeroesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewModel.swift; sourceTree = "<group>"; };
+		5DA995872AE9AA84007061BE /* HeroCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCellView.swift; sourceTree = "<group>"; };
+		5DA9958D2AE9AC94007061BE /* HeroCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroCellView.xib; sourceTree = "<group>"; };
+		5DB959522AEBBFB10080A4B5 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		5DB959602AEC152E0080A4B5 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		5DB959622AEC15370080A4B5 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		5DB959642AEC153F0080A4B5 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		5DDF9E612AECF2FF008D1F5A /* HeroDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HeroDetail.storyboard; sourceTree = "<group>"; };
+		5DDF9E632AECF316008D1F5A /* HeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewController.swift; sourceTree = "<group>"; };
+		5DDF9E6A2AECF383008D1F5A /* HeroDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewModel.swift; sourceTree = "<group>"; };
+		5DDF9E6E2AECF7F5008D1F5A /* HeroLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroLocation.swift; sourceTree = "<group>"; };
+		5DF46B852AEA59F400E3F4A4 /* HeroDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDAO.swift; sourceTree = "<group>"; };
+		5DF46B8A2AEA5B7700E3F4A4 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		5DF805E32AE8088B001CA7C9 /* DragonBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF805E62AE8088B001CA7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DF805E82AE8088B001CA7C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5DF805EA2AE8088B001CA7C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5DF805ED2AE8088B001CA7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		5DF805F02AE8088B001CA7C9 /* DragonBall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DragonBall.xcdatamodel; sourceTree = "<group>"; };
+		5DF805F22AE8088D001CA7C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DF805F52AE8088D001CA7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DF805F72AE8088D001CA7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF805FC2AE8088E001CA7C9 /* DragonBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF806002AE8088E001CA7C9 /* DragonBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallTests.swift; sourceTree = "<group>"; };
+		5DF806062AE8088E001CA7C9 /* DragonBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF8060A2AE8088E001CA7C9 /* DragonBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallUITests.swift; sourceTree = "<group>"; };
+		5DF8060C2AE8088E001CA7C9 /* DragonBallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DF806272AE8127F001CA7C9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D91730C2AD5C1EB00270564 /* Frameworks */ = {
+		5DF805E02AE8088B001CA7C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D359A372AD713EF002BA943 /* KeychainSwift in Frameworks */,
+				5DB9595D2AEBF2660080A4B5 /* Kingfisher in Frameworks */,
+				5D713EAD2AE8FCCC00B9E9B8 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D9173252AD5C1EC00270564 /* Frameworks */ = {
+		5DF805F92AE8088E001CA7C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D91732F2AD5C1EC00270564 /* Frameworks */ = {
+		5DF806032AE8088E001CA7C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,113 +118,184 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D9173062AD5C1EB00270564 = {
+		5DA995772AE9A40A007061BE /* Heroes */ = {
 			isa = PBXGroup;
 			children = (
-				5D9173112AD5C1EB00270564 /* DragonBall */,
-				5D91732B2AD5C1EC00270564 /* DragonBallTests */,
-				5D9173352AD5C1EC00270564 /* DragonBallUITests */,
-				5D9173102AD5C1EB00270564 /* Products */,
+				5DA995852AE9A63D007061BE /* Cell */,
+				5DA995782AE9A421007061BE /* Heroes.storyboard */,
+				5DA9957A2AE9A42A007061BE /* HeroesViewController.swift */,
+				5DA9957C2AE9A432007061BE /* HeroesViewModel.swift */,
+			);
+			path = Heroes;
+			sourceTree = "<group>";
+		};
+		5DA995852AE9A63D007061BE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5DA995872AE9AA84007061BE /* HeroCellView.swift */,
+				5DA9958D2AE9AC94007061BE /* HeroCellView.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5DB959502AEBBF910080A4B5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5DB959512AEBBFA10080A4B5 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5DB959512AEBBFA10080A4B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DB959522AEBBFB10080A4B5 /* Hero.swift */,
+				5DDF9E6E2AECF7F5008D1F5A /* HeroLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DB9595E2AEC150D0080A4B5 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				5DB959602AEC152E0080A4B5 /* Splash.storyboard */,
+				5DB959622AEC15370080A4B5 /* SplashViewController.swift */,
+				5DB959642AEC153F0080A4B5 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		5DDF9E602AECF2EF008D1F5A /* HeroDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5DDF9E612AECF2FF008D1F5A /* HeroDetail.storyboard */,
+				5DDF9E632AECF316008D1F5A /* HeroDetailViewController.swift */,
+				5DDF9E6A2AECF383008D1F5A /* HeroDetailViewModel.swift */,
+			);
+			path = HeroDetail;
+			sourceTree = "<group>";
+		};
+		5DF46B842AEA59EA00E3F4A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DF46B852AEA59F400E3F4A4 /* HeroDAO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DF805DA2AE8088B001CA7C9 = {
+			isa = PBXGroup;
+			children = (
+				5DF805E52AE8088B001CA7C9 /* DragonBall */,
+				5DF805FF2AE8088E001CA7C9 /* DragonBallTests */,
+				5DF806092AE8088E001CA7C9 /* DragonBallUITests */,
+				5DF805E42AE8088B001CA7C9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5D9173102AD5C1EB00270564 /* Products */ = {
+		5DF805E42AE8088B001CA7C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D91730F2AD5C1EB00270564 /* DragonBall.app */,
-				5D9173282AD5C1EC00270564 /* DragonBallTests.xctest */,
-				5D9173322AD5C1EC00270564 /* DragonBallUITests.xctest */,
+				5DF805E32AE8088B001CA7C9 /* DragonBall.app */,
+				5DF805FC2AE8088E001CA7C9 /* DragonBallTests.xctest */,
+				5DF806062AE8088E001CA7C9 /* DragonBallUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D9173112AD5C1EB00270564 /* DragonBall */ = {
+		5DF805E52AE8088B001CA7C9 /* DragonBall */ = {
 			isa = PBXGroup;
 			children = (
-				5D9173122AD5C1EB00270564 /* AppDelegate.swift */,
-				5D9173142AD5C1EB00270564 /* SceneDelegate.swift */,
-				5D9173232AD5C1EC00270564 /* Info.plist */,
-				5D9173462AD5C26000270564 /* Resources */,
-				5D9173472AD5C26800270564 /* Data */,
-				5D9173452AD5C24100270564 /* Presentation */,
+				5DF805E62AE8088B001CA7C9 /* AppDelegate.swift */,
+				5DF805E82AE8088B001CA7C9 /* SceneDelegate.swift */,
+				5DF805F72AE8088D001CA7C9 /* Info.plist */,
+				5DF8061B2AE808CA001CA7C9 /* Resources */,
+				5DF8061C2AE808CF001CA7C9 /* Data */,
+				5DB959502AEBBF910080A4B5 /* Domain */,
+				5DF806192AE808BA001CA7C9 /* Presentation */,
 			);
 			path = DragonBall;
 			sourceTree = "<group>";
 		};
-		5D91732B2AD5C1EC00270564 /* DragonBallTests */ = {
+		5DF805FF2AE8088E001CA7C9 /* DragonBallTests */ = {
 			isa = PBXGroup;
 			children = (
-				5D91732C2AD5C1EC00270564 /* DragonBallTests.swift */,
+				5DF806002AE8088E001CA7C9 /* DragonBallTests.swift */,
 			);
 			path = DragonBallTests;
 			sourceTree = "<group>";
 		};
-		5D9173352AD5C1EC00270564 /* DragonBallUITests */ = {
+		5DF806092AE8088E001CA7C9 /* DragonBallUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5D9173362AD5C1EC00270564 /* DragonBallUITests.swift */,
-				5D9173382AD5C1EC00270564 /* DragonBallUITestsLaunchTests.swift */,
+				5DF8060A2AE8088E001CA7C9 /* DragonBallUITests.swift */,
+				5DF8060C2AE8088E001CA7C9 /* DragonBallUITestsLaunchTests.swift */,
 			);
 			path = DragonBallUITests;
 			sourceTree = "<group>";
 		};
-		5D9173452AD5C24100270564 /* Presentation */ = {
+		5DF806192AE808BA001CA7C9 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				5D9173182AD5C1EB00270564 /* Main.storyboard */,
-				5D91734A2AD5C34500270564 /* Launch */,
-				5D91734B2AD5C35400270564 /* Login */,
+				5DF806232AE80953001CA7C9 /* Launch */,
+				5DB9595E2AEC150D0080A4B5 /* Splash */,
+				5DF806252AE80992001CA7C9 /* Login */,
+				5DA995772AE9A40A007061BE /* Heroes */,
+				5DDF9E602AECF2EF008D1F5A /* HeroDetail */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
 		};
-		5D9173462AD5C26000270564 /* Resources */ = {
+		5DF8061B2AE808CA001CA7C9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5D91731E2AD5C1EC00270564 /* Assets.xcassets */,
+				5DF805F22AE8088D001CA7C9 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		5D9173472AD5C26800270564 /* Data */ = {
+		5DF8061C2AE808CF001CA7C9 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				5D9173492AD5C2F600270564 /* Api */,
-				5D9173482AD5C2F100270564 /* Local */,
+				5DF806202AE8092F001CA7C9 /* Api */,
+				5DF8061F2AE8092B001CA7C9 /* Local */,
 			);
 			path = Data;
 			sourceTree = "<group>";
 		};
-		5D9173482AD5C2F100270564 /* Local */ = {
+		5DF8061F2AE8092B001CA7C9 /* Local */ = {
 			isa = PBXGroup;
 			children = (
-				5D91731B2AD5C1EB00270564 /* DragonBall.xcdatamodeld */,
-				5D359A382AD714AB002BA943 /* SecureDataProvider.swift */,
+				5DF46B842AEA59EA00E3F4A4 /* Models */,
+				5DF805EF2AE8088B001CA7C9 /* DragonBall.xcdatamodeld */,
+				5D713EAE2AE8FD2700B9E9B8 /* SecureDataProvider.swift */,
+				5DF46B8A2AEA5B7700E3F4A4 /* CoreDataStack.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
 		};
-		5D9173492AD5C2F600270564 /* Api */ = {
+		5DF806202AE8092F001CA7C9 /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				5D359A3A2AD71778002BA943 /* ApiProvider.swift */,
+				5D713EB22AE8FEB500B9E9B8 /* ApiProvider.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
 		};
-		5D91734A2AD5C34500270564 /* Launch */ = {
+		5DF806232AE80953001CA7C9 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				5D9173202AD5C1EC00270564 /* LaunchScreen.storyboard */,
+				5DF805F42AE8088D001CA7C9 /* LaunchScreen.storyboard */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
 		};
-		5D91734B2AD5C35400270564 /* Login */ = {
+		5DF806252AE80992001CA7C9 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				5D9173162AD5C1EB00270564 /* LoginViewController.swift */,
-				5D91734C2AD5CD4900270564 /* LoginViewModel.swift */,
+				5DF805EC2AE8088B001CA7C9 /* Login.storyboard */,
+				5DF805EA2AE8088B001CA7C9 /* LoginViewController.swift */,
+				5DF806272AE8127F001CA7C9 /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -200,13 +303,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D91730E2AD5C1EB00270564 /* DragonBall */ = {
+		5DF805E22AE8088B001CA7C9 /* DragonBall */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D91733C2AD5C1EC00270564 /* Build configuration list for PBXNativeTarget "DragonBall" */;
+			buildConfigurationList = 5DF806102AE8088E001CA7C9 /* Build configuration list for PBXNativeTarget "DragonBall" */;
 			buildPhases = (
-				5D91730B2AD5C1EB00270564 /* Sources */,
-				5D91730C2AD5C1EB00270564 /* Frameworks */,
-				5D91730D2AD5C1EB00270564 /* Resources */,
+				5DF805DF2AE8088B001CA7C9 /* Sources */,
+				5DF805E02AE8088B001CA7C9 /* Frameworks */,
+				5DF805E12AE8088B001CA7C9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -214,72 +317,73 @@
 			);
 			name = DragonBall;
 			packageProductDependencies = (
-				5D359A362AD713EF002BA943 /* KeychainSwift */,
+				5D713EAC2AE8FCCC00B9E9B8 /* KeychainSwift */,
+				5DB9595C2AEBF2660080A4B5 /* Kingfisher */,
 			);
 			productName = DragonBall;
-			productReference = 5D91730F2AD5C1EB00270564 /* DragonBall.app */;
+			productReference = 5DF805E32AE8088B001CA7C9 /* DragonBall.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D9173272AD5C1EC00270564 /* DragonBallTests */ = {
+		5DF805FB2AE8088E001CA7C9 /* DragonBallTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D91733F2AD5C1EC00270564 /* Build configuration list for PBXNativeTarget "DragonBallTests" */;
+			buildConfigurationList = 5DF806132AE8088E001CA7C9 /* Build configuration list for PBXNativeTarget "DragonBallTests" */;
 			buildPhases = (
-				5D9173242AD5C1EC00270564 /* Sources */,
-				5D9173252AD5C1EC00270564 /* Frameworks */,
-				5D9173262AD5C1EC00270564 /* Resources */,
+				5DF805F82AE8088E001CA7C9 /* Sources */,
+				5DF805F92AE8088E001CA7C9 /* Frameworks */,
+				5DF805FA2AE8088E001CA7C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5D91732A2AD5C1EC00270564 /* PBXTargetDependency */,
+				5DF805FE2AE8088E001CA7C9 /* PBXTargetDependency */,
 			);
 			name = DragonBallTests;
 			productName = DragonBallTests;
-			productReference = 5D9173282AD5C1EC00270564 /* DragonBallTests.xctest */;
+			productReference = 5DF805FC2AE8088E001CA7C9 /* DragonBallTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5D9173312AD5C1EC00270564 /* DragonBallUITests */ = {
+		5DF806052AE8088E001CA7C9 /* DragonBallUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D9173422AD5C1EC00270564 /* Build configuration list for PBXNativeTarget "DragonBallUITests" */;
+			buildConfigurationList = 5DF806162AE8088E001CA7C9 /* Build configuration list for PBXNativeTarget "DragonBallUITests" */;
 			buildPhases = (
-				5D91732E2AD5C1EC00270564 /* Sources */,
-				5D91732F2AD5C1EC00270564 /* Frameworks */,
-				5D9173302AD5C1EC00270564 /* Resources */,
+				5DF806022AE8088E001CA7C9 /* Sources */,
+				5DF806032AE8088E001CA7C9 /* Frameworks */,
+				5DF806042AE8088E001CA7C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5D9173342AD5C1EC00270564 /* PBXTargetDependency */,
+				5DF806082AE8088E001CA7C9 /* PBXTargetDependency */,
 			);
 			name = DragonBallUITests;
 			productName = DragonBallUITests;
-			productReference = 5D9173322AD5C1EC00270564 /* DragonBallUITests.xctest */;
+			productReference = 5DF806062AE8088E001CA7C9 /* DragonBallUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5D9173072AD5C1EB00270564 /* Project object */ = {
+		5DF805DB2AE8088B001CA7C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					5D91730E2AD5C1EB00270564 = {
-						CreatedOnToolsVersion = 15.0;
+					5DF805E22AE8088B001CA7C9 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
-					5D9173272AD5C1EC00270564 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 5D91730E2AD5C1EB00270564;
+					5DF805FB2AE8088E001CA7C9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5DF805E22AE8088B001CA7C9;
 					};
-					5D9173312AD5C1EC00270564 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 5D91730E2AD5C1EB00270564;
+					5DF806052AE8088E001CA7C9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5DF805E22AE8088B001CA7C9;
 					};
 				};
 			};
-			buildConfigurationList = 5D91730A2AD5C1EB00270564 /* Build configuration list for PBXProject "DragonBall" */;
+			buildConfigurationList = 5DF805DE2AE8088B001CA7C9 /* Build configuration list for PBXProject "DragonBall" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -287,40 +391,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 5D9173062AD5C1EB00270564;
+			mainGroup = 5DF805DA2AE8088B001CA7C9;
 			packageReferences = (
-				5D359A352AD713EF002BA943 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				5D713EAB2AE8FCCC00B9E9B8 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				5DB9595B2AEBF2660080A4B5 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
-			productRefGroup = 5D9173102AD5C1EB00270564 /* Products */;
+			productRefGroup = 5DF805E42AE8088B001CA7C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D91730E2AD5C1EB00270564 /* DragonBall */,
-				5D9173272AD5C1EC00270564 /* DragonBallTests */,
-				5D9173312AD5C1EC00270564 /* DragonBallUITests */,
+				5DF805E22AE8088B001CA7C9 /* DragonBall */,
+				5DF805FB2AE8088E001CA7C9 /* DragonBallTests */,
+				5DF806052AE8088E001CA7C9 /* DragonBallUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5D91730D2AD5C1EB00270564 /* Resources */ = {
+		5DF805E12AE8088B001CA7C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D9173222AD5C1EC00270564 /* LaunchScreen.storyboard in Resources */,
-				5D91731F2AD5C1EC00270564 /* Assets.xcassets in Resources */,
-				5D91731A2AD5C1EB00270564 /* Main.storyboard in Resources */,
+				5DF805F62AE8088D001CA7C9 /* LaunchScreen.storyboard in Resources */,
+				5DA9958E2AE9AC94007061BE /* HeroCellView.xib in Resources */,
+				5DF805F32AE8088D001CA7C9 /* Assets.xcassets in Resources */,
+				5DDF9E622AECF2FF008D1F5A /* HeroDetail.storyboard in Resources */,
+				5DA995792AE9A421007061BE /* Heroes.storyboard in Resources */,
+				5DF805EE2AE8088B001CA7C9 /* Login.storyboard in Resources */,
+				5DB959612AEC152E0080A4B5 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D9173262AD5C1EC00270564 /* Resources */ = {
+		5DF805FA2AE8088E001CA7C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D9173302AD5C1EC00270564 /* Resources */ = {
+		5DF806042AE8088E001CA7C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,65 +439,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5D91730B2AD5C1EB00270564 /* Sources */ = {
+		5DF805DF2AE8088B001CA7C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D9173172AD5C1EB00270564 /* LoginViewController.swift in Sources */,
-				5D91731D2AD5C1EB00270564 /* DragonBall.xcdatamodeld in Sources */,
-				5D359A392AD714AB002BA943 /* SecureDataProvider.swift in Sources */,
-				5D9173132AD5C1EB00270564 /* AppDelegate.swift in Sources */,
-				5D91734D2AD5CD4900270564 /* LoginViewModel.swift in Sources */,
-				5D359A3B2AD71778002BA943 /* ApiProvider.swift in Sources */,
-				5D9173152AD5C1EB00270564 /* SceneDelegate.swift in Sources */,
+				5DB959652AEC153F0080A4B5 /* SplashViewModel.swift in Sources */,
+				5DF805EB2AE8088B001CA7C9 /* LoginViewController.swift in Sources */,
+				5DF805F12AE8088B001CA7C9 /* DragonBall.xcdatamodeld in Sources */,
+				5DA9957B2AE9A42A007061BE /* HeroesViewController.swift in Sources */,
+				5DF46B8B2AEA5B7700E3F4A4 /* CoreDataStack.swift in Sources */,
+				5DF805E72AE8088B001CA7C9 /* AppDelegate.swift in Sources */,
+				5DB959632AEC15370080A4B5 /* SplashViewController.swift in Sources */,
+				5DA9957D2AE9A432007061BE /* HeroesViewModel.swift in Sources */,
+				5DF46B862AEA59F400E3F4A4 /* HeroDAO.swift in Sources */,
+				5DDF9E642AECF316008D1F5A /* HeroDetailViewController.swift in Sources */,
+				5DF806282AE8127F001CA7C9 /* LoginViewModel.swift in Sources */,
+				5DA995882AE9AA84007061BE /* HeroCellView.swift in Sources */,
+				5D713EAF2AE8FD2700B9E9B8 /* SecureDataProvider.swift in Sources */,
+				5D713EB32AE8FEB500B9E9B8 /* ApiProvider.swift in Sources */,
+				5DB959532AEBBFB10080A4B5 /* Hero.swift in Sources */,
+				5DF805E92AE8088B001CA7C9 /* SceneDelegate.swift in Sources */,
+				5DDF9E6F2AECF7F5008D1F5A /* HeroLocation.swift in Sources */,
+				5DDF9E6B2AECF383008D1F5A /* HeroDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D9173242AD5C1EC00270564 /* Sources */ = {
+		5DF805F82AE8088E001CA7C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D91732D2AD5C1EC00270564 /* DragonBallTests.swift in Sources */,
+				5DF806012AE8088E001CA7C9 /* DragonBallTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D91732E2AD5C1EC00270564 /* Sources */ = {
+		5DF806022AE8088E001CA7C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D9173392AD5C1EC00270564 /* DragonBallUITestsLaunchTests.swift in Sources */,
-				5D9173372AD5C1EC00270564 /* DragonBallUITests.swift in Sources */,
+				5DF8060D2AE8088E001CA7C9 /* DragonBallUITestsLaunchTests.swift in Sources */,
+				5DF8060B2AE8088E001CA7C9 /* DragonBallUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D91732A2AD5C1EC00270564 /* PBXTargetDependency */ = {
+		5DF805FE2AE8088E001CA7C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D91730E2AD5C1EB00270564 /* DragonBall */;
-			targetProxy = 5D9173292AD5C1EC00270564 /* PBXContainerItemProxy */;
+			target = 5DF805E22AE8088B001CA7C9 /* DragonBall */;
+			targetProxy = 5DF805FD2AE8088E001CA7C9 /* PBXContainerItemProxy */;
 		};
-		5D9173342AD5C1EC00270564 /* PBXTargetDependency */ = {
+		5DF806082AE8088E001CA7C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D91730E2AD5C1EB00270564 /* DragonBall */;
-			targetProxy = 5D9173332AD5C1EC00270564 /* PBXContainerItemProxy */;
+			target = 5DF805E22AE8088B001CA7C9 /* DragonBall */;
+			targetProxy = 5DF806072AE8088E001CA7C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5D9173182AD5C1EB00270564 /* Main.storyboard */ = {
+		5DF805EC2AE8088B001CA7C9 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D9173192AD5C1EB00270564 /* Base */,
+				5DF805ED2AE8088B001CA7C9 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
-		5D9173202AD5C1EC00270564 /* LaunchScreen.storyboard */ = {
+		5DF805F42AE8088D001CA7C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5D9173212AD5C1EC00270564 /* Base */,
+				5DF805F52AE8088D001CA7C9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -396,7 +516,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5D91733A2AD5C1EC00270564 /* Debug */ = {
+		5DF8060E2AE8088E001CA7C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -459,7 +579,7 @@
 			};
 			name = Debug;
 		};
-		5D91733B2AD5C1EC00270564 /* Release */ = {
+		5DF8060F2AE8088E001CA7C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -515,7 +635,7 @@
 			};
 			name = Release;
 		};
-		5D91733D2AD5C1EC00270564 /* Debug */ = {
+		5DF806112AE8088E001CA7C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -527,7 +647,7 @@
 				INFOPLIST_FILE = DragonBall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -543,7 +663,7 @@
 			};
 			name = Debug;
 		};
-		5D91733E2AD5C1EC00270564 /* Release */ = {
+		5DF806122AE8088E001CA7C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -555,7 +675,7 @@
 				INFOPLIST_FILE = DragonBall/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -571,7 +691,7 @@
 			};
 			name = Release;
 		};
-		5D9173402AD5C1EC00270564 /* Debug */ = {
+		5DF806142AE8088E001CA7C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -591,7 +711,7 @@
 			};
 			name = Debug;
 		};
-		5D9173412AD5C1EC00270564 /* Release */ = {
+		5DF806152AE8088E001CA7C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -611,7 +731,7 @@
 			};
 			name = Release;
 		};
-		5D9173432AD5C1EC00270564 /* Debug */ = {
+		5DF806172AE8088E001CA7C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -629,7 +749,7 @@
 			};
 			name = Debug;
 		};
-		5D9173442AD5C1EC00270564 /* Release */ = {
+		5DF806182AE8088E001CA7C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -650,38 +770,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D91730A2AD5C1EB00270564 /* Build configuration list for PBXProject "DragonBall" */ = {
+		5DF805DE2AE8088B001CA7C9 /* Build configuration list for PBXProject "DragonBall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D91733A2AD5C1EC00270564 /* Debug */,
-				5D91733B2AD5C1EC00270564 /* Release */,
+				5DF8060E2AE8088E001CA7C9 /* Debug */,
+				5DF8060F2AE8088E001CA7C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D91733C2AD5C1EC00270564 /* Build configuration list for PBXNativeTarget "DragonBall" */ = {
+		5DF806102AE8088E001CA7C9 /* Build configuration list for PBXNativeTarget "DragonBall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D91733D2AD5C1EC00270564 /* Debug */,
-				5D91733E2AD5C1EC00270564 /* Release */,
+				5DF806112AE8088E001CA7C9 /* Debug */,
+				5DF806122AE8088E001CA7C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D91733F2AD5C1EC00270564 /* Build configuration list for PBXNativeTarget "DragonBallTests" */ = {
+		5DF806132AE8088E001CA7C9 /* Build configuration list for PBXNativeTarget "DragonBallTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D9173402AD5C1EC00270564 /* Debug */,
-				5D9173412AD5C1EC00270564 /* Release */,
+				5DF806142AE8088E001CA7C9 /* Debug */,
+				5DF806152AE8088E001CA7C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D9173422AD5C1EC00270564 /* Build configuration list for PBXNativeTarget "DragonBallUITests" */ = {
+		5DF806162AE8088E001CA7C9 /* Build configuration list for PBXNativeTarget "DragonBallUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D9173432AD5C1EC00270564 /* Debug */,
-				5D9173442AD5C1EC00270564 /* Release */,
+				5DF806172AE8088E001CA7C9 /* Debug */,
+				5DF806182AE8088E001CA7C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -689,7 +809,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5D359A352AD713EF002BA943 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+		5D713EAB2AE8FCCC00B9E9B8 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
 			requirement = {
@@ -697,28 +817,41 @@
 				minimumVersion = 20.0.0;
 			};
 		};
+		5DB9595B2AEBF2660080A4B5 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5D359A362AD713EF002BA943 /* KeychainSwift */ = {
+		5D713EAC2AE8FCCC00B9E9B8 /* KeychainSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5D359A352AD713EF002BA943 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			package = 5D713EAB2AE8FCCC00B9E9B8 /* XCRemoteSwiftPackageReference "keychain-swift" */;
 			productName = KeychainSwift;
+		};
+		5DB9595C2AEBF2660080A4B5 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DB9595B2AEBF2660080A4B5 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		5D91731B2AD5C1EB00270564 /* DragonBall.xcdatamodeld */ = {
+		5DF805EF2AE8088B001CA7C9 /* DragonBall.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5D91731C2AD5C1EB00270564 /* DragonBall.xcdatamodel */,
+				5DF805F02AE8088B001CA7C9 /* DragonBall.xcdatamodel */,
 			);
-			currentVersion = 5D91731C2AD5C1EB00270564 /* DragonBall.xcdatamodel */;
+			currentVersion = 5DF805F02AE8088B001CA7C9 /* DragonBall.xcdatamodel */;
 			path = DragonBall.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 5D9173072AD5C1EB00270564 /* Project object */;
+	rootObject = 5DF805DB2AE8088B001CA7C9 /* Project object */;
 }

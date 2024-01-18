@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  DragonBall
 //
-//  Created by Daniel Cazorro Frías on 10/10/23.
+//  Created by Daniel Cazorro Frías on 24/10/23.
 //
 
 import UIKit
@@ -10,6 +10,7 @@ import UIKit
 // MARK: - View Protocol -
 protocol LoginViewControllerDelegate {
     var viewState: ((LoginViewState) -> Void)? { get set }
+    var heroesViewModel: HeroesViewControllerDelegate { get }
     func onLoginPressed(email: String?, password: String?)
 }
 
@@ -22,7 +23,6 @@ enum LoginViewState {
 }
 
 class LoginViewController: UIViewController {
-    
     // MARK: - IBOutlet -
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
@@ -32,12 +32,12 @@ class LoginViewController: UIViewController {
     
     // MARK: - IBAction -
     @IBAction func onLoginPressed() {
-        // TODO: Obtener el email y password introducidos por el usuario y enviarlos al servicio del API de Login (VIEWMODEL)
-        
+        // Obtener el email y password introducidos por el usuario
+        // y enviarlos al servicio del API de Login
         viewModel?.onLoginPressed(
             email: emailField.text,
-            password: passwordField.text)
-        
+            password: passwordField.text
+        )
     }
     
     // MARK: - Public Properties -
@@ -55,6 +55,16 @@ class LoginViewController: UIViewController {
         setObservers()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "LOGIN_TO_HEROES",
+              let heroesViewController = segue.destination as? HeroesViewController else {
+            return
+        }
+        
+        heroesViewController.viewModel = viewModel?.heroesViewModel
+    }
+    
+    // MARK: - Private functions -
     private func initViews() {
         emailField.delegate = self
         emailField.tag = FieldType.email.rawValue
@@ -70,6 +80,7 @@ class LoginViewController: UIViewController {
     }
     
     @objc func dismissKeyboard() {
+        // Ocultar el teclado al pulsar en cualquier punto de la vista
         view.endEditing(true)
     }
     
@@ -89,8 +100,8 @@ class LoginViewController: UIViewController {
                     self?.passwordFieldError.isHidden = (error == nil || error?.isEmpty == true)
                     
                 case .navigateToNext:
-                    self?.loadingView.isHidden = true
-                    // TODO: Navegar a la siguiente vista
+                    self?.performSegue(withIdentifier: "LOGIN_TO_HEROES",
+                                       sender: nil)
                 }
             }
         }
@@ -107,14 +118,6 @@ extension LoginViewController: UITextFieldDelegate {
             passwordFieldError.isHidden = true
             
         default: break
-            
         }
-        /*
-         if emailField == textField {
-         emailFieldError.isHidden = true
-         } else if passwordField == textField {
-         passwordFieldError.isHidden = true
-         }
-         */
     }
 }
