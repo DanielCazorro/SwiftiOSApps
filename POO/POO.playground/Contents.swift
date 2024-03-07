@@ -120,3 +120,32 @@ var studentsAge: [Int:Student] = [
     1 : .init(name: "Pedro"),
     2 : .init(name: "Natalia")
 ]
+
+for (key, studentAge) in studentsAge.enumerated() {
+    print("\(key) - \(studentAge.value.name)")
+}
+
+extension Student {
+    func printName() {
+        print(name)
+    }
+}
+
+extension String {
+    var isNotEmpty: Bool {
+        !self.isEmpty
+    }
+    
+    func printName() {
+        print(self)
+    }
+    
+    func countA() -> Int {
+        self.filter { $0 == "a" }.count
+    }
+}
+
+let davidName = "David"
+davidName.isNotEmpty
+davidName.printName()
+davidName.countA()
