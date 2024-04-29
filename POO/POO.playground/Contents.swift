@@ -229,8 +229,7 @@ class Bank: CustomStringConvertible {
              return bestClient
              */
         }
-    }
-}
+    }}
 
 let client1 = Client(name: "David",
                      age: 38)
