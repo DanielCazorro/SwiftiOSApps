@@ -55,9 +55,9 @@ if let name = firstStudent?.name {
     print(name) // Imprime el nombre del primer estudiante si existe
 }
 
- if let firstStudent {
-     print(firstStudent.name)
- }
+if let firstStudent {
+    print(firstStudent.name)
+}
 
 // Creamos la clase Student2 con una propiedad 'name' inicializada vacía
 class Student2 {
@@ -149,3 +149,114 @@ let davidName = "David"
 davidName.isNotEmpty
 davidName.printName()
 davidName.countA()
+
+struct Client: CustomStringConvertible {
+    var name: String
+    var age: Int
+    
+    var description: String {
+        "Cliente \(name) de \(age) años"
+    }
+}
+
+struct Account: CustomStringConvertible {
+    var amount: Float
+    var owner: Client
+    
+    var description: String {
+        "Account: (amount: \(amount), owner \(owner.name)"
+    }
+}
+
+class Bank: CustomStringConvertible {
+    private(set) var name: String
+    var clients: [Client]
+    var accounts: [Account]
+    
+    init(
+        name: String,
+        clients: [Client] = [],
+        accounts: [Account] = []
+    ) {
+        self.name = name
+        self.clients = clients
+        self.accounts = accounts
+    }
+    
+    func deposit(_ amount: Float, in accout: Account) {
+        print("Deposit \(amount) in account \(accout.amount)")
+    }
+    
+    var description: String {
+        "Bank \(name), \(clients) clients, \(accounts) accounts"
+    }
+    
+    func getBestClient() -> [Client] {
+        accounts.compactMap { account in
+            if account.amount > 150 {
+                return account.owner
+            } else {
+                return nil
+            }
+            
+            /*
+             - Esto sería lo equivalente utilizando for:
+             
+             var bestClients: [Client] = []
+             for account in accounts {
+                 if account.amount > 150 {
+                     bestClients.append(account.owner)
+                 }
+             }
+             
+             return bestClients
+             
+             
+             - Y de esta forma podemos simplificar este for:
+             
+             for account in accounts where account.amount > 150 {
+                 bestClients.append(account.owner)
+             }
+             
+             return bestClients
+             
+             - Y esto debería ser una variable computada
+             
+             var bestClient = [Client]()
+             for account in accounts where account.amount > 150 {
+                 bestClient.append(account.owner)
+             }
+             return bestClient
+             */
+        }
+    }
+}
+
+let client1 = Client(name: "David",
+                     age: 38)
+let client2 = Client(name: "Natalia",
+                                 age: 30)
+let client3 = Client(name: "Miguel",
+                            age: 25)
+
+let clients = [
+    client1,
+    client2,
+    client3
+]
+
+let accounts = [
+    Account(amount: 100,
+            owner: client1),
+    Account(amount: 200,
+            owner: client2),
+    Account(amount: 300,
+            owner: client3)
+]
+
+let BBVA = Bank(name: "BBVAA",
+                clients: clients,
+                accounts: accounts)
+
+print(BBVA)
+BBVA.getBestClient()
