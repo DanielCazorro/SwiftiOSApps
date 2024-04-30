@@ -183,6 +183,10 @@ class Bank: CustomStringConvertible {
         self.accounts = accounts
     }
     
+    func updateName(_ name: String) {
+        self.name = name
+    }
+    
     func deposit(_ amount: Float, in accout: Account) {
         print("Deposit \(amount) in account \(accout.amount)")
     }
@@ -200,13 +204,13 @@ class Bank: CustomStringConvertible {
             }
             
             /*
-             - Esto sería lo equivalente utilizando for:
+             - Esto sería lo equivalente utilizando for en variable computada:
              
              var bestClients: [Client] = []
              for account in accounts {
-                 if account.amount > 150 {
-                     bestClients.append(account.owner)
-                 }
+             if account.amount > 150 {
+             bestClients.append(account.owner)
+             }
              }
              
              return bestClients
@@ -215,7 +219,7 @@ class Bank: CustomStringConvertible {
              - Y de esta forma podemos simplificar este for:
              
              for account in accounts where account.amount > 150 {
-                 bestClients.append(account.owner)
+             bestClients.append(account.owner)
              }
              
              return bestClients
@@ -224,12 +228,13 @@ class Bank: CustomStringConvertible {
              
              var bestClient = [Client]()
              for account in accounts where account.amount > 150 {
-                 bestClient.append(account.owner)
+             bestClient.append(account.owner)
              }
              return bestClient
              */
         }
-    }}
+    }
+}
 
 let client1 = Client(name: "David",
                      age: 38)
