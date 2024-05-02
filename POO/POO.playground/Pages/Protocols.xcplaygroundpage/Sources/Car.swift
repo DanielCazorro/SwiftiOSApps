@@ -1,6 +1,6 @@
 import Foundation
 
-public protocol CarDelegate {
+public protocol CarDelegate: AnyObject {
     func sell()
 }
 
@@ -10,7 +10,7 @@ public class Car: VehicleProtocol {
     public private(set) var year: Int
     public var numberOfDoors: Int
     
-    public var delegate: CarDelegate?
+    public weak var delegate: CarDelegate?
     
     // MARK: - Initializers
     public init(brand: String, year: Int, numberOfDoors: Int) {

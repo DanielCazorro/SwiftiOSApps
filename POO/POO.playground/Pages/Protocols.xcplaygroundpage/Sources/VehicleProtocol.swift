@@ -9,3 +9,13 @@ public protocol VehicleProtocol {
     func startEngine()
     func stopEngine()
 }
+
+extension VehicleProtocol {
+    func startEngine() {
+        print("Starting engine...\(brand) \(year)")
+    }
+    
+    func stopEngine() {
+        print("Stopping engine...\(brand) \(year)")
+    }
+}
