@@ -13,6 +13,8 @@ public class UserData {
         name = simulatedName
         age = simulatedAge
         
+        print("\n***UserData***")
         print("Name: \(name), Age: \(age)")
     }
 }
+
