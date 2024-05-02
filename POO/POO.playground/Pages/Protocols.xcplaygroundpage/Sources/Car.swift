@@ -1,10 +1,16 @@
 import Foundation
 
+public protocol CarDelegate {
+    func sell()
+}
+
 public class Car: VehicleProtocol {
     // MARK: - Public properties
     public private(set) var brand: String
     public private(set) var year: Int
     public var numberOfDoors: Int
+    
+    public var delegate: CarDelegate?
     
     // MARK: - Initializers
     public init(brand: String, year: Int, numberOfDoors: Int) {
@@ -20,5 +26,9 @@ public class Car: VehicleProtocol {
     
     public func stopEngine() {
         print("Stopping engine...\(brand) \(year)")
+    }
+    
+    public func sellCar() {
+        delegate?.sell()
     }
 }
