@@ -1,4 +1,5 @@
 
 import Foundation
 
-var greeting = "Hello, playground"
+let car = Car(numberOfDoors: 4, brand: "Volkswagen", year: 2018)
+car.startEngine()

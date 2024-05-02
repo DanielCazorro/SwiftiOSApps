@@ -7,7 +7,7 @@ public class Vehicle {
     public var isStarted: Bool = false
     
     // MARK: - Initializers
-    init(brand: String, year: Int) {
+    public init(brand: String, year: Int) {
         self.brand = brand
         self.year = year
     }
