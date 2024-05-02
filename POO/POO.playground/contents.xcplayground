@@ -4,5 +4,6 @@
         <page name='First'/>
         <page name='Second'/>
         <page name='Third'/>
+        <page name='Protocols'/>
     </pages>
 </playground>
