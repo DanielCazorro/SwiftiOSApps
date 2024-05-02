@@ -1,12 +1,18 @@
 import Foundation
 
 public class VehicleData {
+    // MARK: - Public properties
     public var maker: String = ""
     public var model: String = ""
     
+    // MARK: - Private properties
     private let simulatedMaker = "Volkswagen"
     private let simulatedModel = "Golf"
     
+    // MARK: - Initializers
+    public init() {}
+    
+    // MARK: - Methods
     public func updateMake(_ maker: String) {
         if !maker.isEmpty {
             self.maker = maker
@@ -18,8 +24,6 @@ public class VehicleData {
             self.model = model
         }
     }
-    
-    public init() {}
     
     public func collectData () {
         maker = simulatedMaker
