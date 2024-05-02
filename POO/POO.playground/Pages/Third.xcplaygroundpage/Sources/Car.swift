@@ -1,6 +1,6 @@
 import Foundation
 
-public class Car: Vehicle {
+public final class Car: Vehicle {
     // MARK: - Public properties
     public var numberOfDoors: Int
     
