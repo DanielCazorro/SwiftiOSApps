@@ -6,7 +6,9 @@ public enum RockPaperScissors: CaseIterable {
     case scissors
 }
 
-public class RockPaperScissorsGame {
+public class RockPaperScissorsGame: GameProtocol {
+    public private(set) var name = "Rock Paper Scissors"
+    
     public init () {}
     
     public func play(player1: Player, player2: Player) -> String {

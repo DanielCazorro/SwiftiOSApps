@@ -1,6 +1,7 @@
 import Foundation
 
-public class NumberGuessingGame {
+public class NumberGuessingGame: GameProtocol {
+    public private(set) var name = "Number Guessing Game"
     private var targetNumber: Int = -1
     
     public init () {}

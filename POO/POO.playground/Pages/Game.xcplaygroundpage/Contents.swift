@@ -35,6 +35,29 @@ for round in 1...numberGuessingGameRounds {
     print(result)
 }
 
+print("\nFirst Final score:")
+print("\(player1.name) score: \(player1.score)")
+print("\(player2.name) score: \(player2.score)")
+
+
+print("\n*** Games ****")
+let games: [any GameProtocol] = [
+    rockPaperScissors,
+    numberGuessingGame
+]
+let gamesRounds = 5
+
+for round in 1...gamesRounds {
+    print("\nRound \(round)")
+    
+    for game in games {
+        let result = game.play(player1: player1,
+                  player2: player2)
+        
+        print("\(game.name): \(result)\n")
+    }
+}
+
 print("\nFinal score:")
 print("\(player1.name) score: \(player1.score)")
 print("\(player2.name) score: \(player2.score)")
