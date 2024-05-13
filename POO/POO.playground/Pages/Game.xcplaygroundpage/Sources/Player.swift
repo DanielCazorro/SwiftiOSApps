@@ -14,6 +14,5 @@ public class Player {
     // MARK: - Methods
     public func incrementScore() {
         score += 1
-        print("Score: \(score)")
     }
 }
