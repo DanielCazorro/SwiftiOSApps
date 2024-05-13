@@ -6,6 +6,9 @@ let player2 = Player(name: "Natalia")
 
 print("++++ Game ++++")
 let rockPaperScissors = RockPaperScissorsGame()
+let rockPaperScissorsWin = RockPaperScissorsWin()
+rockPaperScissors.delegate = rockPaperScissorsWin
+
 let rockPaperScissorsGameRounds = 5
 
 for round in 1...rockPaperScissorsGameRounds {
