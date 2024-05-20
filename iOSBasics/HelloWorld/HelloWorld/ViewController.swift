@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        helloWorldLabel.text = "Hello Keepcoding! 👏🏻"
+        helloWorldLabel.text = "Hello iOS Developers! 👏🏻"
         helloWorldLabel.backgroundColor = .clear
     }
 
