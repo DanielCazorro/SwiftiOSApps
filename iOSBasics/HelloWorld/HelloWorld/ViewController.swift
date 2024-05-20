@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK: - Properties
-    private var isBlueBackground = false
+    private var isBlueBackground = true
     
     // MARK: - IBOutlets
     @IBOutlet weak var helloWorldLabel: UILabel!
