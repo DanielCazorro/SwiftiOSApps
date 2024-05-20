@@ -18,8 +18,6 @@ class ViewController: UIViewController {
     // MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        helloWorldLabel.text = "Hello iOS Developers! 👏🏻"
-        helloWorldLabel.backgroundColor = .clear
     }
 
     // MARK: - IBActions
@@ -32,12 +30,16 @@ class ViewController: UIViewController {
         isBlueBackground.toggle()
         
         updateBacgroundColor()
+        updateHelloWorldLabel()
         
         print("Button tapped. Background color is now \(isBlueBackground ? "blue" : "clear")")
     }
     
+    private func updateHelloWorldLabel() {
+        helloWorldLabel.text = isBlueBackground ? "Hello World 🖖🏻" : "Hello iOS Developers! 👏🏻"
+    }
+        
     private func updateBacgroundColor() {
         helloWorldLabel.backgroundColor = isBlueBackground ? .blue : .clear
     }
-    
 }
