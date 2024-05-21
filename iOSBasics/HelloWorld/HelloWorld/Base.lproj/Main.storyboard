@@ -24,9 +24,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJE-R3-DUj">
-                                <rect key="frame" x="159" y="448.33333333333331" width="75" height="35"/>
+                                <rect key="frame" x="147.33333333333334" y="448.33333333333331" width="98.666666666666657" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Touch me"/>
                                 <connections>
                                     <action selector="didTapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6TL-bp-kK5"/>
                                     <segue destination="aRt-f2-957" kind="show" id="t8d-VV-wPN"/>
@@ -76,15 +76,15 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowshape.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xbC-Kk-iCV">
-                                <rect key="frame" x="0.0" y="295.66666666666663" width="393" height="20"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowshape.down.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xbC-Kk-iCV">
+                                <rect key="frame" x="0.0" y="335.66666666666663" width="393" height="20"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bM2-eR-y6I"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="xbC-Kk-iCV" firstAttribute="leading" secondItem="bM2-eR-y6I" secondAttribute="leading" id="DmT-3V-nxn"/>
-                            <constraint firstItem="Sdr-jZ-f4E" firstAttribute="top" secondItem="xbC-Kk-iCV" secondAttribute="bottom" constant="80" id="Wsr-0p-Iix"/>
+                            <constraint firstItem="Sdr-jZ-f4E" firstAttribute="top" secondItem="xbC-Kk-iCV" secondAttribute="bottom" constant="40" id="Wsr-0p-Iix"/>
                             <constraint firstItem="bM2-eR-y6I" firstAttribute="trailing" secondItem="xbC-Kk-iCV" secondAttribute="trailing" id="aCa-sF-h8o"/>
                             <constraint firstItem="Sdr-jZ-f4E" firstAttribute="centerY" secondItem="uso-f2-b60" secondAttribute="centerY" id="bR8-E2-QRG"/>
                             <constraint firstItem="Sdr-jZ-f4E" firstAttribute="leading" secondItem="bM2-eR-y6I" secondAttribute="leading" constant="12" id="pAr-Ox-IDn"/>
@@ -99,7 +99,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrowshape.up.fill" catalog="system" width="123" height="128"/>
+        <image name="arrowshape.down.fill" catalog="system" width="123" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
