@@ -20,6 +20,11 @@ class ThirdViewController: UIViewController {
         super.viewWillAppear(animated)
     }
     
+    @IBAction func didTapXiB(_ sender: Any) {
+        let viewController = XiBViewController()
+        navigationController?.show(viewController, sender: nil)
+    }
+
     // MARK: - Segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
