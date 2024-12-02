@@ -39,11 +39,27 @@ class ViewController: UIViewController {
         print("✅ ViewController viewDidAppear")
 
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("✅ ViewController viewWillDisappear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("✅ ViewController viewDidDisappear")
+    }
+    
+    deinit {
+        print("❌ ViewController deinit")
+    }
 
     // MARK: - Actions
     @IBAction func didTapButton(_ sender: Any) {
         let viewController = XiBViewController(text: "Hello 👋🏼")
-        navigationController?.show(viewController, sender: nil)
+        let secondViewControlle = XiBViewController(text: "Second")
+//        navigationController?.show(viewController, sender: nil)
+        navigationController?.setViewControllers([viewController, secondViewControlle], animated: true)
     }
 }
 

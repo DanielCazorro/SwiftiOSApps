@@ -30,4 +30,8 @@ class XiBViewController: UIViewController {
         super.viewDidLoad()
         label.text = text
     }
+    
+    deinit {
+        print("❌ XiBViewController deinit")
+    }
 }
