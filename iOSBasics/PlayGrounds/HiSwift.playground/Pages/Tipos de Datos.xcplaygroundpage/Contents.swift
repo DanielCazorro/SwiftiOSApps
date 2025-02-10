@@ -85,6 +85,27 @@ if let valueOne = Int(numberOne) {
 }
 
 
+// Condicional If
+printSeparator(title: "Condicional If")
+// ==, ===, <=, >=, !=, &&, AND, OR, ||
+
+let ageToEnter: Int = 18
+var age: Int? = 17
+
+if ageToEnter == 18 {
+    // true
+    print("The user can enter")
+} else if ageToEnter > 18 {
+    print("> 18")
+} else {
+    print("The user can not enter")
+}
+
+if let ageValue = age, ageValue >= ageToEnter {
+    print("You can enter")
+} else {
+    print("You can not enter")
+}
 
 
 
