@@ -107,6 +107,46 @@ if let ageValue = age, ageValue >= ageToEnter {
     print("You can not enter")
 }
 
+// Estructura Switch
+printSeparator(title: "Estructura Switch")
+
+let numberThree: Int = 3
+switch numberThree {
+case 1:
+    print("1")
+case 2:
+    print("2")
+case 3:
+    print("3")
+case 4...10:
+    print("4 a 10")
+default:
+    print("I don't know")
+}
+
+let day = "Monday"
+switch day {
+case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday":
+    print("Weekday")
+default:
+    print("Weekend")
+}
+
+
+// Ciclo For
+printSeparator(title: "Ciclo For")
+
+let maximumRange: Int = 5
+for i in 1...maximumRange {
+    print(i)
+}
+
+let names: [String] = ["Aitor", "María", "Javier"]
+for name in names {
+    print(name)
+}
+
+
 
 
 func printSeparator(title: String) {
