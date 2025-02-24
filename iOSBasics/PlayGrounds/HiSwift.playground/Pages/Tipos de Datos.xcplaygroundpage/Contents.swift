@@ -147,6 +147,76 @@ for name in names {
 }
 
 
+// Arrays
+printSeparator(title: "Arrays")
+
+var namesArray: [String] = ["Aitor", "María", "Javier"]
+namesArray.append("Laura")
+print(namesArray)
+print(namesArray[0])
+print(namesArray[0].count)
+namesArray[0] = "Aitor Martínez"
+print(namesArray)
+print(namesArray.count)
+namesArray.remove(at: 1)
+print(namesArray)
+
+
+// Tuples
+printSeparator(title: "Tuples")
+
+var user = ("Juan", 32, true)
+print(user)
+print(user.0)
+print(user.1)
+print(user.2)
+
+let (nameJuan, ageJuan, phoneJuan) = user
+print(nameJuan)
+
+
+// Functions
+printSeparator(title: "Functions")
+
+func sayHello(name: String) {
+    print("Hello World! \(name)")
+}
+sayHello(name: "David")
+
+func sumTwoNumbers(valueA: Int, valueB: Int) -> Int {
+    return valueA + valueB
+}
+let firstNumber: Int = 2
+let secondNumber: Int = 5
+let finalNumber = sumTwoNumbers(valueA: firstNumber, valueB: secondNumber)
+print(finalNumber)
+
+
+// Class
+printSeparator(title: "Class")
+
+class Persons {
+    // Properties
+    var name: String = ""
+    var age: Int = 0
+
+    // Constructor
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+
+    // Methods -> Functions
+    func sayHello() -> String {
+        "Hello World! \(name)"
+    }
+}
+
+let person1 = Persons(name: "Aitor", age: 32)
+print(person1.name)
+print(person1.age)
+print(person1)
+print(person1.sayHello())
 
 
 func printSeparator(title: String) {
