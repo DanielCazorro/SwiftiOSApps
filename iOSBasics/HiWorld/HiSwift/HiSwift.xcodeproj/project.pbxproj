@@ -32,8 +32,8 @@
 		5D27FCD32D6D14FF00068D1F = {
 			isa = PBXGroup;
 			children = (
-				5D27FCDE2D6D14FF00068D1F /* HiSwift */,
 				5D27FCDD2D6D14FF00068D1F /* Products */,
+				5D27FCDE2D6D14FF00068D1F /* HiSwift */,
 			);
 			sourceTree = "<group>";
 		};
