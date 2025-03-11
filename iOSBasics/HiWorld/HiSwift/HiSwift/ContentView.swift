@@ -9,7 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var isShowingAlert = false
-    @State private var isNavigating = false // Estado para la navegación manual
+    @State private var selectedDestination: Destination? = nil // Estado para la navegación
+
+    enum Destination {
+        case home
+        case navigationView
+    }
 
     var body: some View {
         NavigationStack {
@@ -46,11 +51,27 @@ struct ContentView: View {
                 }
                 Spacer()
 
-                // Botón normal que activa la navegación
+                // Botón que navega a HomeView
                 Button(action: {
-                    isNavigating = true
+                    selectedDestination = .home
                 }) {
                     Text("Get Started")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                        .shadow(radius: 5)
+                }
+                .padding(.horizontal, 20)
+                .padding(.bottom, 20)
+
+                // Botón que navega a NavigationView
+                Button(action: {
+                    selectedDestination = .navigationView
+                }) {
+                    Text("Navigation View")
                         .font(.headline)
                         .foregroundColor(.white)
                         .padding()
@@ -64,6 +85,14 @@ struct ContentView: View {
 
             }
             .padding(.bottom, 20)
+            .navigationDestination(item: $selectedDestination) { destination in
+                switch destination {
+                case .home:
+                    HomeView()
+                case .navigationView:
+                    CustomNavigationView()
+                }
+            }
             .overlay(
                 // Botón flotante que muestra una alerta
                 FloatingButton {
@@ -76,9 +105,6 @@ struct ContentView: View {
                 },
                 alignment: .bottomTrailing
             )
-            .navigationDestination(isPresented: $isNavigating) {
-                HomeView()
-            }
         }
     }
 }
