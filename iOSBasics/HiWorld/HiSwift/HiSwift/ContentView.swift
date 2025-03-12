@@ -14,6 +14,7 @@ struct ContentView: View {
     enum Destination {
         case home
         case navigationView
+        case anotherView
     }
 
     var body: some View {
@@ -65,13 +66,27 @@ struct ContentView: View {
                         .shadow(radius: 5)
                 }
                 .padding(.horizontal, 20)
-                .padding(.bottom, 20)
 
                 // Botón que navega a NavigationView
                 Button(action: {
                     selectedDestination = .navigationView
                 }) {
                     Text("Navigation View")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                        .shadow(radius: 5)
+                }
+                .padding(.horizontal, 20)
+                
+                // Botón que navega a AnotherView
+                Button(action: {
+                    selectedDestination = .anotherView
+                }) {
+                    Text("Another View")
                         .font(.headline)
                         .foregroundColor(.white)
                         .padding()
@@ -91,6 +106,8 @@ struct ContentView: View {
                     HomeView()
                 case .navigationView:
                     CustomNavigationView()
+                case .anotherView:
+                    AnotherView()
                 }
             }
             .overlay(
