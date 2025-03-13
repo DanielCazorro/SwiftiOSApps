@@ -11,95 +11,76 @@ struct ContentView: View {
     @State private var isShowingAlert = false
     @State private var selectedDestination: Destination? = nil // Estado para la navegación
 
-    enum Destination {
-        case home
-        case navigationView
-        case anotherView
+    enum Destination: Identifiable {
+        case home, navigationView, anotherView
+        
+        var id: Int {
+            hashValue
+        }
     }
 
     var body: some View {
         NavigationStack {
-            VStack(spacing: 20) {
-                // Icono principal
-                Image(systemName: "globe")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(.blue)
-                    .padding(.top, 20)
+            ZStack {
+                // Fondo con degradado
+                LinearGradient(gradient: Gradient(colors: [.blue.opacity(0.2), .purple.opacity(0.3)]),
+                               startPoint: .topLeading,
+                               endPoint: .bottomTrailing)
+                    .ignoresSafeArea()
 
-                // Título
-                Text("Welcome to SwiftUI")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(.primary)
+                VStack(spacing: 20) {
+                    // Icono con animación
+                    Image(systemName: "globe")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 100, height: 100)
+                        .foregroundColor(.white)
+                        .shadow(radius: 10)
+                        .scaleEffect(1.1)
+                        .animation(.easeInOut(duration: 1.2).repeatForever(autoreverses: true), value: selectedDestination)
 
-                // Descripción
-                Text("Explore the world of SwiftUI with this simple but elegant interface.")
-                    .font(.body)
-                    .foregroundColor(.secondary)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 20)
+                    // Título principal
+                    Text("Welcome to SwiftUI")
+                        .font(.largeTitle)
+                        .fontWeight(.heavy)
+                        .foregroundColor(.white)
+                        .shadow(radius: 5)
 
-                // Scroll horizontal con listas
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 16) {
-                        InfoCard(icon: "star.fill", title: "Favorites")
-                        InfoCard(icon: "person.fill", title: "Profile")
-                        InfoCard(icon: "gearshape.fill", title: "Settings")
+                    // Descripción
+                    Text("Explore SwiftUI with a simple, elegant, and interactive interface.")
+                        .font(.body)
+                        .foregroundColor(.white.opacity(0.9))
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 20)
+
+                    // Scroll horizontal con tarjetas informativas
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 16) {
+                            InfoCard(icon: "star.fill", title: "Favorites")
+                            InfoCard(icon: "person.fill", title: "Profile")
+                            InfoCard(icon: "gearshape.fill", title: "Settings")
+                        }
+                        .padding(.horizontal)
                     }
-                    .padding(.horizontal)
-                }
-                Spacer()
+                    
+                    Spacer()
 
-                // Botón que navega a HomeView
-                Button(action: {
-                    selectedDestination = .home
-                }) {
-                    Text("Get Started")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue)
-                        .cornerRadius(10)
-                        .shadow(radius: 5)
+                    // Botones de navegación con animaciones
+                    VStack(spacing: 15) {
+                        navigationButton(title: "Get Started", color: .blue) {
+                            selectedDestination = .home
+                        }
+                        navigationButton(title: "Navigation View", color: .purple) {
+                            selectedDestination = .navigationView
+                        }
+                        navigationButton(title: "Another View", color: .orange) {
+                            selectedDestination = .anotherView
+                        }
+                    }
+                    .padding(.horizontal, 20)
+                    .padding(.bottom, 50)
                 }
-                .padding(.horizontal, 20)
-
-                // Botón que navega a NavigationView
-                Button(action: {
-                    selectedDestination = .navigationView
-                }) {
-                    Text("Navigation View")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue)
-                        .cornerRadius(10)
-                        .shadow(radius: 5)
-                }
-                .padding(.horizontal, 20)
-                
-                // Botón que navega a AnotherView
-                Button(action: {
-                    selectedDestination = .anotherView
-                }) {
-                    Text("Another View")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue)
-                        .cornerRadius(10)
-                        .shadow(radius: 5)
-                }
-                .padding(.horizontal, 20)
-                .padding(.bottom, 80)
-
             }
-            .padding(.bottom, 20)
             .navigationDestination(item: $selectedDestination) { destination in
                 switch destination {
                 case .home:
@@ -111,7 +92,6 @@ struct ContentView: View {
                 }
             }
             .overlay(
-                // Botón flotante que muestra una alerta
                 FloatingButton {
                     isShowingAlert = true
                 }
@@ -123,6 +103,30 @@ struct ContentView: View {
                 alignment: .bottomTrailing
             )
         }
+    }
+
+    // Componente para los botones de navegación
+    @ViewBuilder
+    private func navigationButton(title: String, color: Color, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Text(title)
+                .font(.headline)
+                .foregroundColor(.white)
+                .padding()
+                .frame(maxWidth: .infinity)
+                .background(LinearGradient(gradient: Gradient(colors: [color, color.opacity(0.7)]),
+                                           startPoint: .leading,
+                                           endPoint: .trailing))
+                .cornerRadius(12)
+                .shadow(radius: 5)
+                .scaleEffect(1.0)
+                .onTapGesture {
+                    withAnimation(.easeInOut(duration: 0.2)) {
+                        action()
+                    }
+                }
+        }
+        .padding(.horizontal)
     }
 }
 
