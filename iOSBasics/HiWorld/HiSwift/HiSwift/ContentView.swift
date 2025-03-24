@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var selectedDestination: Destination? = nil // Estado para la navegación
 
     enum Destination: Identifiable {
-        case home, navigationView, anotherView
+        case home, navigationView, anotherView, itemListView, gridListView
         
         var id: Int {
             hashValue
@@ -76,6 +76,12 @@ struct ContentView: View {
                         navigationButton(title: "Another View", color: .orange) {
                             selectedDestination = .anotherView
                         }
+                        navigationButton(title: "List View", color: .green) {
+                            selectedDestination = .itemListView
+                        }
+                        navigationButton(title: "Grid List", color: .cyan) {
+                            selectedDestination = .gridListView
+                        }
                     }
                     .padding(.horizontal, 20)
                     .padding(.bottom, 50)
@@ -89,6 +95,10 @@ struct ContentView: View {
                     CustomNavigationView()
                 case .anotherView:
                     AnotherView()
+                case .itemListView:
+                    ItemListView()
+                case .gridListView:
+                    GridList()
                 }
             }
             .overlay(

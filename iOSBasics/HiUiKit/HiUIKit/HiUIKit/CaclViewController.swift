@@ -7,52 +7,95 @@
 
 import UIKit
 
-class CaclViewController: UIViewController {
+class DiscountCalculatorViewController: UIViewController {
+
+    // MARK: - IBOutlets
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var discountLabel: UILabel!
     
-    @IBOutlet weak var amountTF: UITextField!
-    @IBOutlet weak var percentageTF: UITextField!
+    @IBOutlet weak var amountTextField: UITextField!
+    @IBOutlet weak var percentageTextField: UITextField!
     
+    @IBOutlet weak var calculateButton: UIButton!
+    @IBOutlet weak var clearButton: UIButton!
+
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupUI()
     }
     
+    // MARK: - UI Setup
+    private func setupUI() {
+        view.backgroundColor = UIColor.systemGroupedBackground
+
+        configureLabel(resultLabel)
+        configureLabel(discountLabel)
+        
+        configureTextField(amountTextField, placeholder: "Enter amount")
+        configureTextField(percentageTextField, placeholder: "Enter discount %")
+
+        configureButton(calculateButton, title: "Calculate", color: .systemBlue)
+        configureButton(clearButton, title: "Clear", color: .systemRed)
+    }
+
+    private func configureLabel(_ label: UILabel) {
+        label.textColor = .label
+        label.font = UIFont.boldSystemFont(ofSize: 20)
+        label.textAlignment = .center
+    }
+
+    private func configureTextField(_ textField: UITextField, placeholder: String) {
+        textField.borderStyle = .roundedRect
+        textField.backgroundColor = .secondarySystemBackground
+        textField.textColor = .label
+        textField.placeholder = placeholder
+        textField.keyboardType = .decimalPad
+    }
+
+    private func configureButton(_ button: UIButton, title: String, color: UIColor) {
+        button.setTitle(title, for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        button.backgroundColor = color
+        button.layer.cornerRadius = 10
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
+    }
+
+    // MARK: - Touch Events
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
     }
     
-    @IBAction func calcButton(_ sender: UIButton) {
-        guard let amount = amountTF.text else { return }
-        guard let discount = percentageTF.text else { return }
-        
-        let amnt = (amount as NSString).floatValue
-        let discnt = (discount as NSString).floatValue
-        
-        let disc = amnt * discnt / 100
-        let reslt = amnt - disc
-        
-        resultLabel.text = "\(reslt) €"
-        discountLabel.text = "\(disc) €"
-        self.view.endEditing(true)
+    // MARK: - IBActions
+    @IBAction func didTapCalculateButton(_ sender: UIButton) {
+        guard let amountText = amountTextField.text, let discountText = percentageTextField.text,
+              let amount = Float(amountText), let discount = Float(discountText) else {
+            showErrorAlert()
+            return
+        }
+
+        let discountValue = amount * discount / 100
+        let finalPrice = amount - discountValue
+
+        resultLabel.text = String(format: "%.2f €", finalPrice)
+        discountLabel.text = String(format: "%.2f €", discountValue)
+        view.endEditing(true)
     }
     
-    @IBAction func cleanButton(_ sender: UIButton) {
-        amountTF.text = ""
-        percentageTF.text = ""
+    @IBAction func didTapClearButton(_ sender: UIButton) {
+        amountTextField.text = ""
+        percentageTextField.text = ""
         resultLabel.text = "0.00 €"
         discountLabel.text = "0.00 €"
     }
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: - Helper Methods
+    private func showErrorAlert() {
+        let alertController = UIAlertController(title: "Input Error",
+                                                message: "Please enter valid numbers.",
+                                                preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default)
+        alertController.addAction(okAction)
+        present(alertController, animated: true)
     }
-    */
-
 }

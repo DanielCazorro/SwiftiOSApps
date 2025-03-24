@@ -9,31 +9,61 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    // IBOutlet
-    @IBOutlet weak var homeLabel: UILabel!
+    // MARK: - IBOutlets
+    @IBOutlet weak var titleLabel: UILabel!
+
+    // MARK: - Properties
+    private let greetingMessage = "Hello, World!"
     
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupUI()
     }
     
-    func changeHomeLabelText(_ text: String) {
-        homeLabel.text = text
+    // MARK: - UI Setup
+    private func setupUI() {
+        view.backgroundColor = UIColor.systemBackground
+        titleLabel.text = greetingMessage
+        titleLabel.textColor = UIColor.label
+        titleLabel.font = UIFont.boldSystemFont(ofSize: 24)
+        titleLabel.textAlignment = .center
+    }
+    
+    // MARK: - Methods
+    private func updateTitleLabel(with text: String) {
+        titleLabel.text = text
+    }
+    
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "sendSegue",
+           let destinationVC = segue.destination as? GreetingViewController {
+            destinationVC.greetingMessage = greetingMessage
+        }
     }
 
-    // IBActions
-    @IBAction func pressAlert(_ sender: UIButton) {
-        changeHomeLabelText("Touched Alert")
+    // MARK: - IBActions
+    @IBAction func showAlert(_ sender: UIButton) {
+        updateTitleLabel(with: "Touched Alert")
         
-        let alert = UIAlertController(title: "Alert Title", message: "Congratulations!", preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "Aceptar", style: .default) { [weak self] _ in
+        let alertController = UIAlertController(title: "Notice",
+                                                message: "Congratulations!",
+                                                preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "Accept", style: .default) { [weak self] _ in
             print("OK pressed")
-            self?.changeHomeLabelText("Alert dismissed")
+            self?.updateTitleLabel(with: "Alert dismissed")
         }
-        alert.addAction(okAction)
-        present(alert, animated: true) {
+        
+        alertController.addAction(okAction)
+        present(alertController, animated: true) {
             print("Alert presented")
         }
+    }
+    
+    @IBAction func backtoHome(_ sender: UIStoryboardSegue) {
+        print("Back to Home")
     }
 }
 
