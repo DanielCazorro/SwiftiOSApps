@@ -113,6 +113,12 @@ struct ContentView: View {
                 alignment: .bottomTrailing
             )
         }
+        .onAppear {
+            print("The view has appeared.")
+        }
+        .onDisappear {
+            print("The view has disappeared.")
+        }
     }
 
     // Componente para los botones de navegación

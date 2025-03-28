@@ -68,4 +68,18 @@ extension TableViewController: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "enviar", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "enviar" {
+            if let id = tableView.indexPathForSelectedRow {
+                let fila = users[id.row]
+                let destiny = segue.destination as? DetailViewController
+                destiny?.listData = fila
+            }
+        }
+    }
 }

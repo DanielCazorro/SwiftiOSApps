@@ -1,5 +1,5 @@
 //
-//  CaclViewController.swift
+//  DiscountCalculatorViewController.swift
 //  HiUIKit
 //
 //  Created by Daniel Cazorro Frías on 6/3/25.
