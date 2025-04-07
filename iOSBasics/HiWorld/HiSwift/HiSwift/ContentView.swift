@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var isShowingAlert = false
     @State private var selectedDestination: Destination? = nil // Estado para la navegación
+    @ObservedObject var counter = CombineModel()
 
     enum Destination: Identifiable {
         case home, navigationView, anotherView, itemListView, gridListView
@@ -59,6 +60,35 @@ struct ContentView: View {
                             InfoCard(icon: "star.fill", title: "Favorites")
                             InfoCard(icon: "person.fill", title: "Profile")
                             InfoCard(icon: "gearshape.fill", title: "Settings")
+                            
+                            VStack(spacing: 8) {
+                                Text("Counter")
+                                    .font(.headline)
+                                    .foregroundColor(.white)
+                                Text("\(counter.count)")
+                                    .font(.title)
+                                    .bold()
+                                    .foregroundColor(.yellow)
+                                Button(action: {
+                                    counter.increment()
+                                }) {
+                                    Image(systemName: "plus.circle.fill")
+                                        .font(.title)
+                                        .foregroundColor(.white)
+                                        .shadow(radius: 2)
+                                }
+                            }
+                            .frame(width: 120, height: 140)
+                            .background(Color.orange.opacity(0.3))
+                            .cornerRadius(16)
+                            .shadow(radius: 5)
+
+                            // Nueva tarjeta para @EnvironmentObject
+                            EnvironmentCard()
+                                .environmentObject(counter)
+
+                            // Nueva tarjeta para @StateObject
+                            StateObjectCard()
                         }
                         .padding(.horizontal)
                     }
@@ -143,6 +173,64 @@ struct ContentView: View {
                 }
         }
         .padding(.horizontal)
+    }
+}
+
+// Tarjeta que usa EnvironmentObject
+struct EnvironmentCard: View {
+    @EnvironmentObject var counter: CombineModel
+    
+    var body: some View {
+        VStack(spacing: 8) {
+            Text("Env Counter")
+                .font(.headline)
+                .foregroundColor(.white)
+            Text("\(counter.count)")
+                .font(.title)
+                .bold()
+                .foregroundColor(.green)
+            Button(action: {
+                counter.increment()
+            }) {
+                Image(systemName: "arrow.up.circle.fill")
+                    .font(.title)
+                    .foregroundColor(.white)
+                    .shadow(radius: 2)
+            }
+        }
+        .frame(width: 120, height: 140)
+        .background(Color.green.opacity(0.3))
+        .cornerRadius(16)
+        .shadow(radius: 5)
+    }
+}
+
+// Tarjeta que usa StateObject
+struct StateObjectCard: View {
+    @StateObject private var localCounter = CombineModel()
+    
+    var body: some View {
+        VStack(spacing: 8) {
+            Text("Local Counter")
+                .font(.headline)
+                .foregroundColor(.white)
+            Text("\(localCounter.count)")
+                .font(.title)
+                .bold()
+                .foregroundColor(.pink)
+            Button(action: {
+                localCounter.increment()
+            }) {
+                Image(systemName: "plus.app.fill")
+                    .font(.title)
+                    .foregroundColor(.white)
+                    .shadow(radius: 2)
+            }
+        }
+        .frame(width: 120, height: 140)
+        .background(Color.pink.opacity(0.3))
+        .cornerRadius(16)
+        .shadow(radius: 5)
     }
 }
 
