@@ -1,0 +1,310 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@  %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@  %2$@"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "About (optional)" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobre qué (opcional)"
+          }
+        }
+      }
+    },
+    "Apple Intelligence isn't available right now." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Intelligence no está disponible ahora mismo."
+          }
+        }
+      }
+    },
+    "Apple Intelligence unavailable" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Intelligence no disponible"
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limpiar"
+          }
+        }
+      }
+    },
+    "Clear text" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar texto"
+          }
+        }
+      }
+    },
+    "Copied" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiado"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar"
+          }
+        }
+      }
+    },
+    "Creativity" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creatividad"
+          }
+        }
+      }
+    },
+    "Formal" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formal"
+          }
+        }
+      }
+    },
+    "Fun" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Divertido"
+          }
+        }
+      }
+    },
+    "Hiya" : {
+      "shouldTranslate" : false
+    },
+    "Joke" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiste"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idioma"
+          }
+        }
+      }
+    },
+    "Monday, coffee, the beach…" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "el lunes, el café, la playa…"
+          }
+        }
+      }
+    },
+    "Motivational" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motivador"
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir Ajustes"
+          }
+        }
+      }
+    },
+    "Pirate" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pirata"
+          }
+        }
+      }
+    },
+    "Poetic" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poético"
+          }
+        }
+      }
+    },
+    "Say hi" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saludar"
+          }
+        }
+      }
+    },
+    "Say hi again" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saludar otra vez"
+          }
+        }
+      }
+    },
+    "Share" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir"
+          }
+        }
+      }
+    },
+    "Something went wrong" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Algo ha ido mal"
+          }
+        }
+      }
+    },
+    "Stop" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parar"
+          }
+        }
+      }
+    },
+    "Style" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tono"
+          }
+        }
+      }
+    },
+    "The model is still downloading. Try again in a moment." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El modelo aún se está descargando. Inténtalo dentro de un momento."
+          }
+        }
+      }
+    },
+    "Thinking…" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensando…"
+          }
+        }
+      }
+    },
+    "This device isn't eligible for Apple Intelligence." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este dispositivo no es compatible con Apple Intelligence."
+          }
+        }
+      }
+    },
+    "Turn on Apple Intelligence in Settings to use Hiya." : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Activa Apple Intelligence en Ajustes para usar Hiya."
+          }
+        }
+      }
+    },
+    "Writing…" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribiendo…"
+          }
+        }
+      }
+    },
+    "Your greeting will show up here" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquí aparecerá tu saludo"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

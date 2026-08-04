@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		C1A000000000000000000011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115831E03021F6A5002408E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115831E73021F6A5002408E7;
+			remoteInfo = Hiya;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		115831E83021F6A5002408E7 /* Hiya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A000000000000000000001 /* HiyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -29,10 +40,22 @@
 			path = Hiya;
 			sourceTree = "<group>";
 		};
+		C1A000000000000000000002 /* HiyaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HiyaTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		115831E53021F6A5002408E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A000000000000000000005 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				115831EA3021F6A5002408E7 /* Hiya */,
+				C1A000000000000000000002 /* HiyaTests */,
 				115831E93021F6A5002408E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				115831E83021F6A5002408E7 /* Hiya.app */,
+				C1A000000000000000000001 /* HiyaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +108,29 @@
 			productReference = 115831E83021F6A5002408E7 /* Hiya.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C1A000000000000000000003 /* HiyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A000000000000000000007 /* Build configuration list for PBXNativeTarget "HiyaTests" */;
+			buildPhases = (
+				C1A000000000000000000004 /* Sources */,
+				C1A000000000000000000005 /* Frameworks */,
+				C1A000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1A000000000000000000010 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C1A000000000000000000002 /* HiyaTests */,
+			);
+			name = HiyaTests;
+			packageProductDependencies = (
+			);
+			productName = HiyaTests;
+			productReference = C1A000000000000000000001 /* HiyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +144,10 @@
 					115831E73021F6A5002408E7 = {
 						CreatedOnToolsVersion = 26.6;
 					};
+					C1A000000000000000000003 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 115831E73021F6A5002408E7;
+					};
 				};
 			};
 			buildConfigurationList = 115831E33021F6A5002408E7 /* Build configuration list for PBXProject "Hiya" */;
@@ -103,6 +155,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 				Base,
 			);
 			mainGroup = 115831DF3021F6A5002408E7;
@@ -113,12 +166,20 @@
 			projectRoot = "";
 			targets = (
 				115831E73021F6A5002408E7 /* Hiya */,
+				C1A000000000000000000003 /* HiyaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		115831E63021F6A5002408E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A000000000000000000006 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,7 +196,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1A000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1A000000000000000000010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115831E73021F6A5002408E7 /* Hiya */;
+			targetProxy = C1A000000000000000000011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		115831F13021F6A6002408E7 /* Debug */ = {
@@ -323,6 +399,46 @@
 			};
 			name = Release;
 		};
+		C1A000000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GK3478S4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielCazorro.HiyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hiya";
+			};
+			name = Debug;
+		};
+		C1A000000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GK3478S4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielCazorro.HiyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hiya";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +456,15 @@
 			buildConfigurations = (
 				115831F43021F6A6002408E7 /* Debug */,
 				115831F53021F6A6002408E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A000000000000000000007 /* Build configuration list for PBXNativeTarget "HiyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A000000000000000000008 /* Debug */,
+				C1A000000000000000000009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
