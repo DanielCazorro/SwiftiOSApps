@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		11A0000030377FE3000E2B0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 119CE72D30377FE3000E2B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119CE73430377FE3000E2B9C;
+			remoteInfo = Hike;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		119CE73530377FE3000E2B9C /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A0000030377FE3000E2B01 /* HikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = Hike;
 			sourceTree = "<group>";
 		};
+		11A0000030377FE3000E2B02 /* HikeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HikeTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		119CE73230377FE3000E2B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A0000030377FE3000E2B05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				119CE73730377FE3000E2B9C /* Hike */,
+				11A0000030377FE3000E2B02 /* HikeTests */,
 				119CE73630377FE3000E2B9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				119CE73530377FE3000E2B9C /* Hike.app */,
+				11A0000030377FE3000E2B01 /* HikeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 119CE73530377FE3000E2B9C /* Hike.app */;
 			productType = "com.apple.product-type.application";
 		};
+		11A0000030377FE3000E2B03 /* HikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A0000030377FE3000E2B07 /* Build configuration list for PBXNativeTarget "HikeTests" */;
+			buildPhases = (
+				11A0000030377FE3000E2B04 /* Sources */,
+				11A0000030377FE3000E2B05 /* Frameworks */,
+				11A0000030377FE3000E2B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A0000030377FE3000E2B0A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11A0000030377FE3000E2B02 /* HikeTests */,
+			);
+			name = HikeTests;
+			packageProductDependencies = (
+			);
+			productName = HikeTests;
+			productReference = 11A0000030377FE3000E2B01 /* HikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -90,6 +138,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 				Base,
 			);
 			mainGroup = 119CE72C30377FE3000E2B9C;
@@ -100,12 +149,20 @@
 			projectRoot = "";
 			targets = (
 				119CE73430377FE3000E2B9C /* Hike */,
+				11A0000030377FE3000E2B03 /* HikeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		119CE73330377FE3000E2B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A0000030377FE3000E2B06 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +179,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		11A0000030377FE3000E2B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A0000030377FE3000E2B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119CE73430377FE3000E2B9C /* Hike */;
+			targetProxy = 11A0000030377FE3000E2B0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		119CE73E30377FE5000E2B9C /* Debug */ = {
@@ -272,10 +344,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,11 +377,50 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11A0000030377FE3000E2B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GK3478S4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielCazorro.HikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hike";
+			};
+			name = Debug;
+		};
+		11A0000030377FE3000E2B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GK3478S4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielCazorro.HikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hike";
 			};
 			name = Release;
 		};
@@ -331,6 +441,15 @@
 			buildConfigurations = (
 				119CE74130377FE5000E2B9C /* Debug */,
 				119CE74230377FE5000E2B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A0000030377FE3000E2B07 /* Build configuration list for PBXNativeTarget "HikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A0000030377FE3000E2B08 /* Debug */,
+				11A0000030377FE3000E2B09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
