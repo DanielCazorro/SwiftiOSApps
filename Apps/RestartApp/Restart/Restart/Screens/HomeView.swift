@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     // MARK: - Property
     @AppStorage("onboarding") var isOnboardingViewActive = false
+    @State private var isAnimating = false
 
     // MARK: - Body
     var body: some View {
@@ -24,6 +25,12 @@ struct HomeView: View {
                     .resizable()
                     .scaledToFit()
                     .padding()
+                    .offset(y: isAnimating ? 35 : -35)
+                    .animation(
+                        Animation
+                            .easeInOut(duration: 4)
+                            .repeatForever(),
+                        value: isAnimating)
             }
 
             // MARK: - Center
@@ -40,7 +47,9 @@ struct HomeView: View {
 
 
             Button(action: {
-                isOnboardingViewActive = true
+                withAnimation {
+                    isOnboardingViewActive = true
+                }
             }) {
                 Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
                     .imageScale(.large)
@@ -53,6 +62,10 @@ struct HomeView: View {
             .buttonBorderShape(.capsule)
             .controlSize(.large)
         } // Vstack
+        .onAppear(perform: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { isAnimating = true
+            })
+        })
     }
 }
 
