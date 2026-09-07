@@ -6,8 +6,6 @@
 	<dict>
 		<key>UIColorName</key>
 		<string>ColorBlue</string>
-		<key>UILaunchScreen</key>
-		<dict/>
 	</dict>
 </dict>
 </plist>

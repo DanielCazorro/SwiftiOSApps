@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct RestartApp: App {
+    private let dependencies = AppDependencies()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView(dependencies: dependencies)
         }
     }
 }
