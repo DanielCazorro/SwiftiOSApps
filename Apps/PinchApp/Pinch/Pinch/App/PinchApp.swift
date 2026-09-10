@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct PinchApp: App {
+    private let dependencies = AppDependencies()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ViewerView(dependencies: dependencies)
+                .task { dependencies.haptics.prepare() }
         }
     }
 }

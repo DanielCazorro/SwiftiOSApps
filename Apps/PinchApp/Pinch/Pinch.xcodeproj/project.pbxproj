@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		11C0305020C711FFFFFFFFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110F4DAF305020C7005ACC3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110F4DB6305020C7005ACC3D;
+			remoteInfo = Pinch;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		110F4DB7305020C7005ACC3D /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C0305020C701FFFFFFFFFF /* PinchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = Pinch;
 			sourceTree = "<group>";
 		};
+		11C0305020C702FFFFFFFFFF /* PinchTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PinchTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		110F4DB4305020C7005ACC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C0305020C705FFFFFFFFFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				110F4DB9305020C7005ACC3D /* Pinch */,
+				11C0305020C702FFFFFFFFFF /* PinchTests */,
 				110F4DB8305020C7005ACC3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				110F4DB7305020C7005ACC3D /* Pinch.app */,
+				11C0305020C701FFFFFFFFFF /* PinchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 110F4DB7305020C7005ACC3D /* Pinch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		11C0305020C703FFFFFFFFFF /* PinchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C0305020C707FFFFFFFFFF /* Build configuration list for PBXNativeTarget "PinchTests" */;
+			buildPhases = (
+				11C0305020C704FFFFFFFFFF /* Sources */,
+				11C0305020C705FFFFFFFFFF /* Frameworks */,
+				11C0305020C706FFFFFFFFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11C0305020C710FFFFFFFFFF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11C0305020C702FFFFFFFFFF /* PinchTests */,
+			);
+			name = PinchTests;
+			packageProductDependencies = (
+			);
+			productName = PinchTests;
+			productReference = 11C0305020C701FFFFFFFFFF /* PinchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -90,6 +138,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 				Base,
 			);
 			mainGroup = 110F4DAE305020C7005ACC3D;
@@ -100,12 +149,20 @@
 			projectRoot = "";
 			targets = (
 				110F4DB6305020C7005ACC3D /* Pinch */,
+				11C0305020C703FFFFFFFFFF /* PinchTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		110F4DB5305020C7005ACC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C0305020C706FFFFFFFFFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +179,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		11C0305020C704FFFFFFFFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11C0305020C710FFFFFFFFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110F4DB6305020C7005ACC3D /* Pinch */;
+			targetProxy = 11C0305020C711FFFFFFFFFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		110F4DC0305020C8005ACC3D /* Debug */ = {
@@ -270,10 +342,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,11 +373,50 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11C0305020C708FFFFFFFFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GK3478S4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielCazorro.PinchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pinch";
+			};
+			name = Debug;
+		};
+		11C0305020C709FFFFFFFFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GK3478S4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielCazorro.PinchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pinch";
 			};
 			name = Release;
 		};
@@ -327,6 +437,15 @@
 			buildConfigurations = (
 				110F4DC3305020C8005ACC3D /* Debug */,
 				110F4DC4305020C8005ACC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C0305020C707FFFFFFFFFF /* Build configuration list for PBXNativeTarget "PinchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C0305020C708FFFFFFFFFF /* Debug */,
+				11C0305020C709FFFFFFFFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
