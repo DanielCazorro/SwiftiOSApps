@@ -1,0 +1,1995 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "apple.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian tradition.\n\nDESCRIPTION\n\nThe apple is a deciduous tree, generally standing 2 to 4.5 m (6 to 15 ft) tall in cultivation and up to 9 m (30 ft) in the wild. When cultivated, the size, shape and branch density are determined by rootstock selection and trimming method. The leaves are alternately arranged dark green-colored simple ovals with serrated margins and slightly downy undersides.\n\nBlossoms are produced in spring simultaneously with the budding of the leaves and are produced on spurs and some long shoots. The 3 to 4 cm (1 to 1 1⁄2 in) flowers are white with a pink tinge that gradually fades, five petaled, with an inflorescence consisting of a cyme with 4–6 flowers. The central flower of the inflorescence is called the \"king bloom\"; it opens first and can develop a larger fruit.\n\nCULTIVATION\n\nThere are more than 7,500 known cultivars of apples. Cultivars vary in their yield and the ultimate size of the tree, even when grown on the same rootstock. Different cultivars are available for temperate and subtropical climates. The UK's National Fruit Collection, which is the responsibility of the Department of Environment, Food, and Rural Affairs, includes a collection of over 2,000 cultivars of apple tree in Kent.\n\nThe UK's national fruit collection database contains much information on the characteristics and origin of many apples, including alternative names for what is essentially the same \"genetic\" apple cultivar. Most of these cultivars are bred for eating fresh (dessert apples), though some are cultivated specifically for cooking (cooking apples) or producing cider. Cider apples are typically too tart and astringent to eat fresh, but they give the beverage a rich flavor that dessert apples cannot.\n\nCommercially popular apple cultivars are soft but crisp. Other desirable qualities in modern commercial apple breeding are a colorful skin, absence of russeting, ease of shipping, lengthy storage ability, high yields, disease resistance, common apple shape, and developed flavor. Modern apples are generally sweeter than older cultivars, as popular tastes in apples have varied over time. Most North Americans and Europeans favor sweet, subacid apples, but tart apples have a strong minority following. Extremely sweet apples with barely any acid flavor are popular in Asia, especially the Indian Subcontinent."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La manzana es el fruto comestible del manzano (Malus domestica). Los manzanos se cultivan en todo el mundo y son la especie más cultivada del género Malus. El árbol es originario de Asia Central, donde todavía se encuentra su antepasado silvestre, Malus sieversii. Las manzanas se cultivan desde hace miles de años en Asia y Europa y los colonos europeos las llevaron a Norteamérica. La manzana tiene un significado religioso y mitológico en muchas culturas, como la nórdica, la griega y la tradición cristiana europea.\n\nDESCRIPCIÓN\n\nEl manzano es un árbol caducifolio que en cultivo suele medir entre 2 y 4,5 m de altura y en estado silvestre hasta 9 m. En cultivo, el tamaño, la forma y la densidad de ramas dependen del portainjerto elegido y del tipo de poda. Las hojas son alternas, simples, ovaladas y de color verde oscuro, con el borde aserrado y el envés ligeramente velloso.\n\nLas flores brotan en primavera a la vez que las hojas, en dardos y en algunos brotes largos. Miden de 3 a 4 cm, son blancas con un tono rosado que se va perdiendo y tienen cinco pétalos, en una inflorescencia en cima de 4 a 6 flores. La flor central de la inflorescencia se llama «flor rey»: es la primera en abrirse y puede dar un fruto más grande.\n\nCULTIVO\n\nSe conocen más de 7500 variedades de manzana. Las variedades difieren en su rendimiento y en el tamaño final del árbol, incluso sobre el mismo portainjerto. Hay variedades para climas templados y subtropicales. La Colección Nacional de Frutas del Reino Unido, que depende del Departamento de Medio Ambiente, Alimentación y Asuntos Rurales, reúne más de 2000 variedades de manzano en Kent.\n\nLa base de datos de la colección nacional de frutas del Reino Unido contiene mucha información sobre las características y el origen de muchas manzanas, incluidos los nombres alternativos de lo que en esencia es la misma variedad «genética». La mayoría de estas variedades se crían para comerse frescas (manzanas de mesa), aunque algunas se cultivan específicamente para cocinar o para hacer sidra. Las manzanas de sidra suelen ser demasiado ácidas y astringentes para comerlas frescas, pero dan a la bebida un sabor intenso que las manzanas de mesa no pueden aportar.\n\nLas variedades comerciales más populares son tiernas pero crujientes. Otras cualidades deseables en la mejora comercial moderna son una piel de color vistoso, la ausencia de russeting, la facilidad de transporte, una larga conservación, un alto rendimiento, la resistencia a enfermedades, una forma típica de manzana y un sabor desarrollado. Las manzanas modernas suelen ser más dulces que las variedades antiguas, porque los gustos han cambiado con el tiempo. La mayoría de los norteamericanos y europeos prefieren las manzanas dulces y poco ácidas, aunque las ácidas tienen una fuerte minoría de seguidores. Las manzanas extremadamente dulces, casi sin acidez, son populares en Asia, sobre todo en el subcontinente indio."
+          }
+        }
+      }
+    },
+    "apple.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apples are one of the most popular, and exceptionally healthy fruit for good reason."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La manzana es una de las frutas más populares y, con razón, una de las más saludables."
+          }
+        }
+      }
+    },
+    "apple.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "218 kJ (52 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "218 kJ (52 kcal)"
+          }
+        }
+      }
+    },
+    "apple.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.17 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,17 g"
+          }
+        }
+      }
+    },
+    "apple.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "apple.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.26 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,26 g"
+          }
+        }
+      }
+    },
+    "apple.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10.39 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10,39 g"
+          }
+        }
+      }
+    },
+    "apple.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        }
+      }
+    },
+    "apple.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manzana"
+          }
+        }
+      }
+    },
+    "blueberry.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries.\n\nCommercial blueberries—both wild (lowbush) and cultivated (highbush)—are all native to North America. The highbush varieties were introduced into Europe during the 1930s.\n\nBlueberries are usually prostrate shrubs that can vary in size from 10 centimeters (3.9 in) to 4 meters (13 ft) in height. In commercial production of blueberries, the species with small, pea-size berries growing on low-level bushes are known as \"lowbush blueberries\" (synonymous with \"wild\"), while the species with larger berries growing on taller cultivated bushes are known as \"highbush blueberries\".\n\nCanada is the leading producer of lowbush blueberries, while the United States produces some 40% of the world supply of highbush blueberries.\n\nUSES\n\nBlueberries are sold fresh or are processed as individually quick frozen (IQF) fruit, purée, juice, or dried or infused berries. These may then be used in a variety of consumer goods, such as jellies, jams, blueberry pies, muffins, snack foods, or as an additive to breakfast cereals.\n\nBlueberry jam is made from blueberries, sugar, water, and fruit pectin. Blueberry sauce is a sweet sauce prepared using blueberries as a primary ingredient.\n\nBlueberry wine is made from the flesh and skin of the berry, which is fermented and then matured; usually the lowbush variety is used.\n\nNUTRIENTS\n\nBlueberries consist of 14% carbohydrates, 0.7% protein, 0.3% fat and 84% water (table). They contain only negligible amounts of micronutrients, with moderate levels (relative to respective Daily Values) (DV) of the essential dietary mineral manganese, vitamin C, vitamin K and dietary fiber (table).\n\nGenerally, nutrient contents of blueberries are a low percentage of the DV (table). One serving provides a relatively low caloric value of 57 kcal with a glycemic load of 6."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los arándanos son plantas perennes con flores que dan bayas azules o moradas. Se clasifican en la sección Cyanococcus dentro del género Vaccinium, que también incluye los arándanos rojos, los mirtilos, los huckleberries y los arándanos de Madeira.\n\nLos arándanos comerciales, tanto silvestres (de arbusto bajo) como cultivados (de arbusto alto), son todos originarios de Norteamérica. Las variedades de arbusto alto se introdujeron en Europa durante la década de 1930.\n\nLos arándanos suelen ser arbustos rastreros que pueden medir desde 10 centímetros hasta 4 metros de altura. En la producción comercial, las especies de bayas pequeñas, del tamaño de un guisante, que crecen en arbustos bajos se conocen como «arándanos de arbusto bajo» (sinónimo de «silvestres»), mientras que las especies de bayas más grandes que crecen en arbustos cultivados más altos se conocen como «arándanos de arbusto alto».\n\nCanadá es el principal productor de arándanos de arbusto bajo, mientras que Estados Unidos produce alrededor del 40 % del suministro mundial de arándanos de arbusto alto.\n\nUSOS\n\nLos arándanos se venden frescos o procesados como fruta congelada individualmente (IQF), puré, zumo o bayas secas o infusionadas. Después pueden usarse en una gran variedad de productos, como gelatinas, mermeladas, tartas de arándanos, magdalenas, aperitivos o como complemento de los cereales del desayuno.\n\nLa mermelada de arándanos se elabora con arándanos, azúcar, agua y pectina de fruta. La salsa de arándanos es una salsa dulce cuyo ingrediente principal son los arándanos.\n\nEl vino de arándanos se elabora con la pulpa y la piel de la baya, que se fermenta y después se madura; normalmente se usa la variedad de arbusto bajo.\n\nNUTRIENTES\n\nLos arándanos contienen un 14 % de hidratos de carbono, un 0,7 % de proteínas, un 0,3 % de grasas y un 84 % de agua. Solo contienen cantidades insignificantes de micronutrientes, con niveles moderados (en relación con sus valores diarios recomendados, VD) del mineral esencial manganeso, vitamina C, vitamina K y fibra alimentaria.\n\nEn general, el contenido de nutrientes de los arándanos supone un porcentaje bajo del VD. Una ración aporta un valor calórico relativamente bajo, de 57 kcal, con una carga glucémica de 6."
+          }
+        }
+      }
+    },
+    "blueberry.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blueberries are sweet, nutritious and wildly popular fruit all over the world."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los arándanos son una fruta dulce, nutritiva y muy popular en todo el mundo."
+          }
+        }
+      }
+    },
+    "blueberry.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "240 kJ (57 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "240 kJ (57 kcal)"
+          }
+        }
+      }
+    },
+    "blueberry.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.33 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,33 g"
+          }
+        }
+      }
+    },
+    "blueberry.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "blueberry.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.74 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,74 g"
+          }
+        }
+      }
+    },
+    "blueberry.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "9.96 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "9,96 g"
+          }
+        }
+      }
+    },
+    "blueberry.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        }
+      }
+    },
+    "blueberry.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blueberry"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arándano"
+          }
+        }
+      }
+    },
+    "cherry.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe (stone fruit). Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus.\n\nThe name 'cherry' also refers to the cherry tree and its wood, and is sometimes applied to almonds and visually similar flowering trees in the genus Prunus, as in \"ornamental cherry\" or \"cherry blossom\". Wild cherry may refer to any of the cherry species growing outside cultivation, although Prunus avium is often referred to specifically by the name \"wild cherry\" in the British Isles.\n\nCULINARY\n\nThe cultivated forms are of the species sweet cherry (P. avium) to which most cherry cultivars belong, and the sour cherry (P. cerasus), which is used mainly for cooking. Both species originate in Europe and western Asia; they usually do not cross-pollinate. Some other species, although having edible fruit, are not grown extensively for consumption, except in northern regions where the two main species will not grow.\n\nIrrigation, spraying, labor, and their propensity to damage from rain and hail make cherries relatively expensive. Nonetheless, demand is high for the fruit. In commercial production, sour cherries, as well as sweet cherries sometimes, are harvested by using a mechanized \"shaker\". Hand picking is also widely used for sweet as well as sour cherries to harvest the fruit to avoid damage to both fruit and trees.\n\nCommon rootstocks include Mazzard, Mahaleb, Colt, and Gisela Series, a dwarfing rootstock that produces trees significantly smaller than others, only 8 to 10 feet (2.5 to 3 meters) tall. Sour cherries require no pollenizer, while few sweet varieties are self-fertile.\n\nA cherry tree will take three to four years once it is planted in the orchard to produce its first crop of fruit, and seven years to attain full maturity."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La cereza es el fruto de muchas plantas del género Prunus y es una drupa carnosa (fruta de hueso). Las cerezas comerciales proceden de variedades de varias especies, como el cerezo dulce, Prunus avium, y el guindo, Prunus cerasus.\n\nEl nombre «cerezo» se refiere también al árbol y a su madera, y a veces se aplica a los almendros y a árboles de flor parecidos del género Prunus, como en «cerezo ornamental» o «flor de cerezo». El cerezo silvestre puede referirse a cualquier especie de cerezo que crece fuera de cultivo, aunque en las islas británicas el nombre «cerezo silvestre» se aplica específicamente a Prunus avium.\n\nGASTRONOMÍA\n\nLas formas cultivadas pertenecen a la especie del cerezo dulce (P. avium), a la que pertenecen la mayoría de las variedades, y al guindo (P. cerasus), que se usa sobre todo para cocinar. Ambas especies son originarias de Europa y Asia occidental y normalmente no se polinizan entre sí. Otras especies, aunque tienen frutos comestibles, no se cultivan mucho para consumo, salvo en regiones del norte donde las dos especies principales no crecen.\n\nEl riego, la fumigación, la mano de obra y su facilidad para dañarse con la lluvia y el granizo hacen que las cerezas sean relativamente caras. Aun así, la demanda es alta. En la producción comercial, las guindas y a veces también las cerezas dulces se recogen con un «vibrador» mecánico. La recogida a mano también es muy habitual para ambos tipos, para no dañar ni la fruta ni los árboles.\n\nEntre los portainjertos más comunes están Mazzard, Mahaleb, Colt y la serie Gisela, un portainjerto enanizante que produce árboles mucho más pequeños que los demás, de solo 2,5 a 3 metros de altura. Los guindos no necesitan polinizador, mientras que pocas variedades dulces son autofértiles.\n\nUn cerezo tarda de tres a cuatro años desde que se planta en el huerto en dar su primera cosecha, y siete años en alcanzar la madurez completa."
+          }
+        }
+      }
+    },
+    "cherry.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Small sweet or sour stone fruits, loved fresh and in desserts all over the world."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pequeñas frutas de hueso, dulces o ácidas, que se disfrutan frescas y en postres de todo el mundo."
+          }
+        }
+      }
+    },
+    "cherry.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "209 kJ (50 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "209 kJ (50 kcal)"
+          }
+        }
+      }
+    },
+    "cherry.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.3 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,3 g"
+          }
+        }
+      }
+    },
+    "cherry.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "cherry.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 g"
+          }
+        }
+      }
+    },
+    "cherry.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "8.5 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "8,5 g"
+          }
+        }
+      }
+    },
+    "cherry.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, K"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, K"
+          }
+        }
+      }
+    },
+    "cherry.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cherry"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cereza"
+          }
+        }
+      }
+    },
+    "gooseberry.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The gooseberry, with scientific names Ribes uva-crispa (and syn. Ribes grossularia), is a species of Ribes (which also includes the currants).\n\nIt is native to Europe, the Caucasus and northern Africa. The species is also sparingly naturalized in scattered locations in North America. Gooseberry bushes produce an edible fruit and are grown on both a commercial and domestic basis. Its native distribution is unclear, since it may have escaped from cultivation and become naturalized. For example, in Britain, some sources consider it to be a native, others to be an introduction.\n\nAlthough usually placed as a subgenus within Ribes, a few taxonomists treat Grossularia as a separate genus, although hybrids between gooseberry and blackcurrant (e.g., the jostaberry) are possible. The subgenus Grossularia differs somewhat from currants, chiefly in their spiny stems, and in that their flowers grow one to three together on short stems, not in racemes. It is one of several similar species in the subgenus Grossularia; for the other related species (e.g., North American gooseberry Ribes hirtellum), see the genus page Ribes.\n\nCULTIVATION\n\nOne method of propagating gooseberries is by cuttings rather than raising from seed; cuttings planted in the autumn will take root quickly and can begin to bear fruit within a few years. Those growing from seeds will rapidly produce healthy heavily yielding bushes. Pruning should be carried out to allow light in and give the new growth for next year's branches an opportunity to grow. Fruit is produced on lateral spurs and on the previous year's shoots. The main aim is to let the light in and a subsidiary purpose is to allow picking without excessive scratching from the spines.\n\nHeavy nitrogen composting must be avoided as too much nitrogen will produce extensive growth and weaken the bush. This will make the bush susceptible to mildew. The fruit should best be picked off when large to reach maximum sweetness. Supermarkets tend to have theirs picked early and before they are ripe and sweet to give a long shelf life. Heavily laden branches should be cut off complete with berries, this really benefits future crops as it lets the light reach the new growth.\n\nCULINARY\n\nGooseberries are edible and can be eaten as-is, or used as an ingredient in desserts, such as pies, fools and crumbles. Early pickings are generally sour and more appropriate for culinary use. They are also used to flavour beverages such as sodas, flavoured waters, or milk, and can be made into fruit wines and teas. Gooseberries can be preserved in the form of jams, dried fruit, or as the primary or a secondary ingredient in pickling, or stored in sugar syrup."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La grosella espinosa, cuyo nombre científico es Ribes uva-crispa (sinónimo Ribes grossularia), es una especie del género Ribes, que también incluye las grosellas comunes.\n\nEs originaria de Europa, el Cáucaso y el norte de África, y también se ha naturalizado de forma dispersa en algunos puntos de Norteamérica. Los arbustos de grosella espinosa dan un fruto comestible y se cultivan tanto a escala comercial como doméstica. Su distribución natural no está clara, ya que puede haber escapado del cultivo y haberse naturalizado. Por ejemplo, en Gran Bretaña algunas fuentes la consideran autóctona y otras, introducida.\n\nAunque suele clasificarse como un subgénero de Ribes, algunos taxónomos tratan Grossularia como un género aparte, aunque son posibles los híbridos entre la grosella espinosa y la grosella negra (como el jostaberry). El subgénero Grossularia se diferencia de las grosellas comunes sobre todo por sus tallos espinosos y porque sus flores crecen de una a tres juntas sobre tallos cortos, no en racimos. Es una de varias especies parecidas del subgénero Grossularia; para las demás especies relacionadas (como la grosella espinosa norteamericana, Ribes hirtellum), consulta el género Ribes.\n\nCULTIVO\n\nUna forma de propagar las grosellas espinosas es por esquejes en lugar de por semilla; los esquejes plantados en otoño enraízan rápidamente y pueden empezar a dar fruto en pocos años. Las plantas que crecen de semilla también dan rápidamente arbustos sanos y muy productivos. Hay que podar para que entre la luz y para dar a los brotes nuevos la oportunidad de crecer y formar las ramas del año siguiente. El fruto crece en los dardos laterales y en los brotes del año anterior. El objetivo principal es dejar pasar la luz y, de forma secundaria, poder recoger los frutos sin arañarse demasiado con las espinas.\n\nHay que evitar abonar con mucho nitrógeno, ya que el exceso provoca un crecimiento excesivo y debilita el arbusto, lo que lo hace propenso al mildiu. Lo ideal es recoger el fruto cuando es grande para que alcance su máximo dulzor. Los supermercados suelen recogerlo pronto, antes de que esté maduro y dulce, para que dure más en los estantes. Conviene cortar enteras, con sus bayas, las ramas muy cargadas: beneficia mucho a las cosechas futuras porque deja que la luz llegue a los brotes nuevos.\n\nGASTRONOMÍA\n\nLas grosellas espinosas son comestibles y pueden comerse tal cual o usarse como ingrediente en postres como tartas, fools y crumbles. Las primeras recogidas suelen ser ácidas y más adecuadas para cocinar. También se usan para dar sabor a bebidas como refrescos, aguas aromatizadas o leche, y pueden convertirse en vinos de fruta e infusiones. Las grosellas espinosas pueden conservarse en forma de mermelada, fruta seca, como ingrediente principal o secundario de encurtidos o en almíbar."
+          }
+        }
+      }
+    },
+    "gooseberry.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Small, tart berries with translucent skin, perfect for pies, jams and crumbles."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bayas pequeñas y ácidas de piel translúcida, perfectas para tartas, mermeladas y crumbles."
+          }
+        }
+      }
+    },
+    "gooseberry.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "184 kJ (44 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "184 kJ (44 kcal)"
+          }
+        }
+      }
+    },
+    "gooseberry.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.58 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,58 g"
+          }
+        }
+      }
+    },
+    "gooseberry.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "gooseberry.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.88 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,88 g"
+          }
+        }
+      }
+    },
+    "gooseberry.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6.15 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6,15 g"
+          }
+        }
+      }
+    },
+    "gooseberry.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E"
+          }
+        }
+      }
+    },
+    "gooseberry.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gooseberry"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grosella espinosa"
+          }
+        }
+      }
+    },
+    "grapefruit.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The grapefruit (Citrus × paradisi) is a subtropical citrus tree known for its relatively large sour to semisweet, somewhat bitter fruit. Grapefruit is a citrus hybrid originating in Barbados as an accidental cross between the sweet orange (C. sinensis) and pomelo (or shaddock; C. maxima), both of which were introduced from Asia in the 17th century. When found, it was nicknamed the \"forbidden fruit\". Frequently, it is misidentified as the very similar parent species, pomelo.\n\nThe \"grape\" part of the name alludes to clusters of fruit on the tree that often appear similar to grape clusters. The interior flesh is segmented and varies in color from white to yellow to pink to red.\n\nDESCRIPTION\n\nThe evergreen grapefruit trees usually grow to around 5–6 m (16–20 ft) tall, although they may reach 13–15 m (43–49 ft). The leaves are glossy, dark green, long (up to 15 cm (5.9 in)), and thin. It produces 5 cm (2 in) white four-petaled flowers. The fruit is yellow-orange skinned and generally, an oblate spheroid in shape; it ranges in diameter from 10 to 15 cm (3.9 to 5.9 in). The flesh is segmented and acidic, varying in color depending on the cultivars, which include white, pink, and red pulps of varying sweetness (generally, the redder varieties are the sweetest). The 1929 U.S. Ruby Red (of the 'Redblush' variety) has the first grapefruit patent.\n\nCULINARY\n\nGrapefruit varieties are differentiated by the flesh color of fruit they produce. Common varieties are red, white, and pink pulp colors. Flavors range from highly acidic and somewhat sour to sweet and tart, resulting from composition of sugars (mainly sucrose), organic acids (mainly citric acid), and monoterpenes and sesquiterpenes providing aromas.\n\nGrapefruit mercaptan, a sulfur-containing terpene, is one of the aroma compounds influencing taste and odor of grapefruit, compared with other citrus fruits.\n\nRaw grapefruit is 90% water, 8% carbohydrates, 1% protein, and negligible fat (table). In a 100-g reference amount, raw grapefruit provides 33 Calories and is a rich source of vitamin C (40% of the Daily Value), with no other micronutrients in significant content.\n\nIn Costa Rica, especially in Atenas, grapefruit are often cooked to remove their sourness, rendering them as sweets; they are also stuffed with dulce de leche, resulting in a dessert called toronja rellena (stuffed grapefruit). In Haiti, grapefruit is used primarily for its juice (jus de Chadèque), but also is used to make jam (confiture de Chadèque)."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El pomelo (Citrus × paradisi) es un árbol cítrico subtropical conocido por su fruto relativamente grande, de ácido a semidulce y algo amargo. El pomelo es un híbrido de cítricos originario de Barbados, fruto de un cruce accidental entre la naranja dulce (C. sinensis) y la pampelmusa (o shaddock; C. maxima), ambas introducidas desde Asia en el siglo XVII. Cuando se descubrió, lo apodaron la «fruta prohibida». A menudo se confunde con una de sus especies progenitoras, muy parecida, la pampelmusa.\n\nEn inglés se llama grapefruit porque sus frutos crecen en el árbol en racimos que a menudo recuerdan a los de la uva (grape). La pulpa interior está dividida en gajos y su color va del blanco al amarillo, al rosa y al rojo.\n\nDESCRIPCIÓN\n\nLos pomelos son árboles de hoja perenne que suelen alcanzar unos 5 o 6 m de altura, aunque pueden llegar a 13 o 15 m. Las hojas son brillantes, de color verde oscuro, largas (hasta 15 cm) y finas. Da flores blancas de cuatro pétalos de unos 5 cm. El fruto tiene la piel de color amarillo anaranjado y suele tener forma de esferoide achatado, con un diámetro de 10 a 15 cm. La pulpa está dividida en gajos y es ácida, con un color que depende de la variedad: blanca, rosa o roja, con distintos grados de dulzor (en general, las variedades más rojas son las más dulces). El Ruby Red estadounidense de 1929 (de la variedad 'Redblush') fue la primera patente de pomelo.\n\nGASTRONOMÍA\n\nLas variedades de pomelo se distinguen por el color de la pulpa: las más comunes son la roja, la blanca y la rosa. Su sabor va de muy ácido y algo agrio a dulce y ácido, según su composición de azúcares (sobre todo sacarosa), ácidos orgánicos (sobre todo ácido cítrico) y los monoterpenos y sesquiterpenos que le dan su aroma.\n\nEl mercaptano de pomelo, un terpeno que contiene azufre, es uno de los compuestos aromáticos que influyen en el sabor y el olor del pomelo frente a otros cítricos.\n\nEl pomelo crudo tiene un 90 % de agua, un 8 % de hidratos de carbono, un 1 % de proteínas y una cantidad insignificante de grasa. En una cantidad de referencia de 100 g, el pomelo crudo aporta 33 calorías y es una fuente rica en vitamina C (el 40 % del valor diario), sin otros micronutrientes en cantidades significativas.\n\nEn Costa Rica, sobre todo en Atenas, los pomelos suelen cocinarse para quitarles la acidez y convertirlos en dulces; también se rellenan de dulce de leche para preparar un postre llamado toronja rellena. En Haití, el pomelo se usa sobre todo por su zumo (jus de chadèque), pero también para hacer mermelada (confiture de chadèque)."
+          }
+        }
+      }
+    },
+    "grapefruit.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A large and juicy citrus fruit with a tangy, slightly bitter taste and plenty of vitamin C."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un cítrico grande y jugoso, de sabor intenso y ligeramente amargo, con mucha vitamina C."
+          }
+        }
+      }
+    },
+    "grapefruit.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "138 kJ (33 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "138 kJ (33 kcal)"
+          }
+        }
+      }
+    },
+    "grapefruit.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.10 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,10 g"
+          }
+        }
+      }
+    },
+    "grapefruit.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Zinc"
+          }
+        }
+      }
+    },
+    "grapefruit.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.8 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,8 g"
+          }
+        }
+      }
+    },
+    "grapefruit.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7.31 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7,31 g"
+          }
+        }
+      }
+    },
+    "grapefruit.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C, E"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C, E"
+          }
+        }
+      }
+    },
+    "grapefruit.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grapefruit"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomelo"
+          }
+        }
+      }
+    },
+    "lemon.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The lemon, Citrus limon, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India. Its fruits are round in shape.\n\nThe tree's ellipsoidal yellow fruit is used for culinary and non-culinary purposes throughout the world, primarily for its juice, which has both culinary and cleaning uses. The pulp and rind are also used in cooking and baking. The juice of the lemon is about 5% to 6% citric acid, with a pH of around 2.2, giving it a sour taste. The distinctive sour taste of lemon juice makes it a key ingredient in drinks and foods such as lemonade and lemon meringue pie.\n\nNUTRITION\n\nLemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential nutrients are low in content.\n\nLemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins. Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit juice, and about five times the amount of citric acid found in orange juice.\n\nCULINARY\n\nLemon juice, rind, and peel are used in a wide variety of foods and drinks. The whole lemon is used to make marmalade, lemon curd and lemon liqueur. Lemon slices and lemon rind are used as a garnish for food and drinks. Lemon zest, the grated outer rind of the fruit, is used to add flavor to baked goods, puddings, rice, and other dishes.\n\nJUICE\n\nLemon juice is used to make lemonade, soft drinks, and cocktails. It is used in marinades for fish, where its acid neutralizes amines in fish by converting them into nonvolatile ammonium salts. In meat, the acid partially hydrolyzes tough collagen fibers, tenderizing it. In the United Kingdom, lemon juice is frequently added to pancakes, especially on Shrove Tuesday.\n\nLemon juice is also used as a short-term preservative on certain foods that tend to oxidize and turn brown after being sliced (enzymatic browning), such as apples, bananas, and avocados, where its acid denatures the enzymes.\n\nPEEL\n\nIn Morocco, lemons are preserved in jars or barrels of salt. The salt penetrates the peel and rind, softening them, and curing them so that they last almost indefinitely. The preserved lemon is used in a wide variety of dishes. Preserved lemons can also be found in Sicilian, Italian, Greek, and French dishes.\n\nThe peel can be used in the manufacture of pectin, a polysaccharide used as a gelling agent and stabilizer in food and other products.\n\nOIL\n\nLemon oil is extracted from oil-containing cells in the skin. A machine breaks up the cells, and uses a water spray to flush off the oil. The oil/water mixture is then filtered and separated by centrifugation.\n\nLEAVES\n\nThe leaves of the lemon tree are used to make a tea and for preparing cooked meats and seafoods."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El limón, Citrus limon, es una especie de pequeño árbol de hoja perenne de la familia de las rutáceas, originario del sur de Asia, principalmente del noreste de la India. Sus frutos son de forma redondeada.\n\nEl fruto amarillo y elipsoidal del árbol se usa en todo el mundo con fines culinarios y no culinarios, sobre todo por su zumo, que sirve tanto para cocinar como para limpiar. La pulpa y la cáscara también se usan en cocina y repostería. El zumo de limón contiene entre un 5 % y un 6 % de ácido cítrico, con un pH de alrededor de 2,2, lo que le da su sabor ácido. Ese sabor ácido tan característico lo convierte en un ingrediente clave de bebidas y platos como la limonada o la tarta de merengue y limón.\n\nNUTRICIÓN\n\nEl limón es una fuente rica en vitamina C: aporta el 64 % del valor diario recomendado en una cantidad de referencia de 100 g. El contenido de otros nutrientes esenciales es bajo.\n\nLos limones contienen numerosos fitoquímicos, como polifenoles, terpenos y taninos. El zumo de limón contiene algo más de ácido cítrico que el de lima (unos 47 g/l), casi el doble que el zumo de pomelo y unas cinco veces más que el zumo de naranja.\n\nGASTRONOMÍA\n\nEl zumo, la cáscara y la piel del limón se usan en una gran variedad de comidas y bebidas. El limón entero se usa para hacer mermelada, crema de limón y licor de limón. Las rodajas y la cáscara de limón se usan como decoración de platos y bebidas. La ralladura de limón, la capa exterior rallada de la cáscara, se usa para dar sabor a la repostería, los pudines, el arroz y otros platos.\n\nZUMO\n\nEl zumo de limón se usa para preparar limonada, refrescos y cócteles. También se usa en marinados de pescado, donde su ácido neutraliza las aminas del pescado convirtiéndolas en sales de amonio no volátiles. En la carne, el ácido hidroliza parcialmente las fibras de colágeno duras y la ablanda. En el Reino Unido, se suele añadir zumo de limón a las tortitas, sobre todo el Martes de Carnaval.\n\nEl zumo de limón también se usa como conservante a corto plazo en alimentos que tienden a oxidarse y oscurecerse al cortarlos (pardeamiento enzimático), como las manzanas, los plátanos y los aguacates, ya que su ácido desnaturaliza las enzimas.\n\nPIEL\n\nEn Marruecos, los limones se conservan en tarros o barriles con sal. La sal penetra en la piel y la cáscara, las ablanda y las cura para que duren casi indefinidamente. El limón en conserva se usa en una gran variedad de platos, y también aparece en la cocina siciliana, italiana, griega y francesa.\n\nLa piel puede usarse para fabricar pectina, un polisacárido que se emplea como gelificante y estabilizante en alimentos y otros productos.\n\nACEITE\n\nEl aceite de limón se extrae de las células de la piel que lo contienen. Una máquina rompe las células y usa un chorro de agua para arrastrar el aceite. La mezcla de aceite y agua se filtra y se separa por centrifugación.\n\nHOJAS\n\nLas hojas del limonero se usan para preparar infusiones y para cocinar carnes y mariscos."
+          }
+        }
+      }
+    },
+    "lemon.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There's no doubt lemons are delicious, but does adding them to water make you healthier?"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay duda de que los limones son deliciosos, pero ¿añadirlos al agua te hace más sano?"
+          }
+        }
+      }
+    },
+    "lemon.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "121 kJ (29 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "121 kJ (29 kcal)"
+          }
+        }
+      }
+    },
+    "lemon.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.3 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,3 g"
+          }
+        }
+      }
+    },
+    "lemon.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Zinc"
+          }
+        }
+      }
+    },
+    "lemon.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.1 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1,1 g"
+          }
+        }
+      }
+    },
+    "lemon.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2.5 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2,5 g"
+          }
+        }
+      }
+    },
+    "lemon.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C, Choline"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C, Colina"
+          }
+        }
+      }
+    },
+    "lemon.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lemon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limón"
+          }
+        }
+      }
+    },
+    "lime.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A lime (from French lime, from Arabic līma, from Persian līmū, \"lemon\") is a citrus fruit, which is typically round, green in color, 3–6 centimetres (1.2–2.4 in) in diameter, and contains acidic juice vesicles.\n\nThere are several species of citrus trees whose fruits are called limes, including the Key lime (Citrus aurantiifolia), Persian lime, kaffir lime, and desert lime. Limes are a rich source of vitamin C, are sour, and are often used to accent the flavours of foods and beverages. They are grown year-round. Plants with fruit called \"limes\" have diverse genetic origins; limes do not form a monophyletic group.\n\nCULTIVATION\n\nLimes have higher contents of sugars and acids than lemons do. Lime juice may be squeezed from fresh limes, or purchased in bottles in both unsweetened and sweetened varieties. Lime juice is used to make limeade, and as an ingredient (typically as sour mix) in many cocktails.\n\nLime pickles are an integral part of Indian cuisine. South Indian cuisine is heavily based on lime; having either lemon pickle or lime pickle is considered an essential of Onam Sadhya.\n\nIn cooking, lime is valued both for the acidity of its juice and the floral aroma of its zest. It is a common ingredient in authentic Mexican, Vietnamese and Thai dishes. Lime soup is a traditional dish from the Mexican state of Yucatan. It is also used for its pickling properties in ceviche. Some guacamole recipes call for lime juice.\n\nThe use of dried limes (called black lime or loomi) as a flavouring is typical of Persian cuisine and Iraqi cuisine, as well as in Persian Gulf-style baharat (a spice mixture that is also called kabsa or kebsa).\n\nLime is an ingredient of many cuisines from India, and many varieties of pickles are made, e.g. sweetened lime pickle, salted pickle, and lime chutney.\n\nKey lime gives the character flavoring to the American dessert known as Key lime pie. In Australia, desert lime is used for making marmalade.\n\nLime is an ingredient in several highball cocktails, often based on gin, such as gin and tonic, the gimlet and the Rickey. Freshly squeezed lime juice is also considered a key ingredient in margaritas, although sometimes lemon juice is substituted. It is also intimately associated with many rum cocktails such as the Daiquiri, and tropical drinks - especially within the Tiki culture.\n\nLime extracts and lime essential oils are frequently used in perfumes, cleaning products, and aromatherapy."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La lima (del francés lime, del árabe līma y del persa līmū, «limón») es un cítrico, normalmente redondo, de color verde, de 3 a 6 centímetros de diámetro y con vesículas de zumo ácido.\n\nHay varias especies de cítricos cuyos frutos se llaman limas, como la lima Key (Citrus aurantiifolia), la lima persa, la lima kaffir y la lima del desierto. Las limas son una fuente rica en vitamina C, tienen un sabor ácido y se usan a menudo para realzar el sabor de comidas y bebidas. Se cultivan durante todo el año. Las plantas cuyos frutos se llaman «limas» tienen orígenes genéticos diversos; las limas no forman un grupo monofilético.\n\nCULTIVO\n\nLas limas tienen más azúcares y ácidos que los limones. El zumo de lima puede exprimirse de limas frescas o comprarse embotellado, con o sin azúcar. Se usa para preparar limonada de lima y como ingrediente (normalmente en forma de sour mix) de muchos cócteles.\n\nLos encurtidos de lima son parte esencial de la cocina india. La cocina del sur de la India se basa mucho en la lima; el encurtido de limón o de lima se considera imprescindible en el Onam Sadhya.\n\nEn la cocina, la lima se valora tanto por la acidez de su zumo como por el aroma floral de su ralladura. Es un ingrediente habitual de la auténtica cocina mexicana, vietnamita y tailandesa. La sopa de lima es un plato tradicional del estado mexicano de Yucatán. También se usa por su capacidad de marinar en el ceviche, y algunas recetas de guacamole llevan zumo de lima.\n\nEl uso de limas secas (llamadas lima negra o loomi) como condimento es típico de la cocina persa e iraquí, así como del baharat al estilo del golfo Pérsico (una mezcla de especias que también se llama kabsa o kebsa).\n\nLa lima es ingrediente de muchas cocinas de la India, donde se elaboran muchas variedades de encurtidos, como el encurtido dulce de lima, el encurtido salado y el chutney de lima.\n\nLa lima Key da su sabor característico al postre estadounidense conocido como Key lime pie. En Australia, la lima del desierto se usa para hacer mermelada.\n\nLa lima es ingrediente de varios cócteles de tipo highball, a menudo con ginebra, como el gin-tonic, el gimlet y el Rickey. El zumo de lima recién exprimido también se considera un ingrediente clave del margarita, aunque a veces se sustituye por zumo de limón. También está muy ligada a muchos cócteles de ron, como el daiquiri, y a las bebidas tropicales, sobre todo de la cultura tiki.\n\nLos extractos y aceites esenciales de lima se usan con frecuencia en perfumes, productos de limpieza y aromaterapia."
+          }
+        }
+      }
+    },
+    "lime.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sour, round, and bright green citrus fruits. Limes are high in vitamin C, antioxidants, and other nutrients."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cítricos ácidos, redondos y de color verde intenso. Las limas son ricas en vitamina C, antioxidantes y otros nutrientes."
+          }
+        }
+      }
+    },
+    "lime.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "126 kJ (30 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "126 kJ (30 kcal)"
+          }
+        }
+      }
+    },
+    "lime.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.2 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,2 g"
+          }
+        }
+      }
+    },
+    "lime.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Phosphorus, Potassium, Sodium"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Fósforo, Potasio, Sodio"
+          }
+        }
+      }
+    },
+    "lime.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.7 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,7 g"
+          }
+        }
+      }
+    },
+    "lime.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.7 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1,7 g"
+          }
+        }
+      }
+    },
+    "lime.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C"
+          }
+        }
+      }
+    },
+    "lime.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lime"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lima"
+          }
+        }
+      }
+    },
+    "mango.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae. Mangoes are native to South Asia, from where the \"common mango\" or \"Indian mango\", Mangifera indica, has been distributed worldwide to become one of the most widely cultivated fruits in the tropics. Other Mangifera species (e.g. horse mango, Mangifera foetida) are grown on a more localized basis.\n\nWorldwide, there are several hundred cultivars of mango. Depending on the cultivar, mango fruit varies in size, shape, sweetness, skin color, and flesh color which may be pale yellow, gold, or orange. Mango is the national fruit of India and Pakistan, and the national tree of Bangladesh. It is the unofficial national fruit of the Philippines.\n\nDESCRIPTION\n\nMango trees grow to 35–40 m (115–131 ft) tall, with a crown radius of 10 m (33 ft). The trees are long-lived, as some specimens still fruit after 300 years. In deep soil, the taproot descends to a depth of 6 m (20 ft), with profuse, wide-spreading feeder roots and anchor roots penetrating deeply into the soil. The leaves are evergreen, alternate, simple, 15–35 cm (5.9–13.8 in) long, and 6–16 cm (2.4–6.3 in) broad; when the leaves are young they are orange-pink, rapidly changing to a dark, glossy red, then dark green as they mature. The flowers are produced in terminal panicles 10–40 cm (3.9–15.7 in) long; each flower is small and white with five petals 5–10 mm (0.20–0.39 in) long, with a mild, sweet fragrance. Over 500 varieties of mangoes are known, many of which ripen in summer, while some give a double crop. The fruit takes four to five months from flowering to ripen.\n\nCULTIVATION\n\nMangoes have been cultivated in South Asia for thousands of years and reached Southeast Asia between the fifth and fourth centuries BCE. By the 10th century CE, cultivation had begun in East Africa. The 14th-century Moroccan traveler Ibn Battuta reported it at Mogadishu. Cultivation came later to Brazil, Bermuda, the West Indies, and Mexico, where an appropriate climate allows its growth.\n\nThe mango is now cultivated in most frost-free tropical and warmer subtropical climates; almost half of the world's mangoes are cultivated in India alone, with the second-largest source being China. Mangoes are also grown in Andalusia, Spain (mainly in Málaga province), as its coastal subtropical climate is one of the few places in mainland Europe that permits the growth of tropical plants and fruit trees. The Canary Islands are another notable Spanish producer of the fruit. Other cultivators include North America (in South Florida and California's Coachella Valley), South and Central America, the Caribbean, Hawai'i, south, west, and central Africa, Australia, China, South Korea, Pakistan, Bangladesh, and Southeast Asia. Though India is the largest producer of mangoes, it accounts for less than 1% of the international mango trade; India consumes most of its own production.\n\nCULINARY\n\nThere are many hundreds of named mango cultivars. In mango orchards, several cultivars are often grown in order to improve pollination. Many desired cultivars are monoembryonic and must be propagated by grafting or they do not breed true. A common monoembryonic cultivar is 'Alphonso', an important export product, considered as \"the king of mangoes\".\n\nCultivars that excel in one climate may fail elsewhere. For example, Indian cultivars such as 'Julie', a prolific cultivar in Jamaica, require annual fungicide treatments to escape the lethal fungal disease anthracnose in Florida. Asian mangoes are resistant to anthracnose.\n\nThe current world market is dominated by the cultivar 'Tommy Atkins', a seedling of 'Haden' that first fruited in 1940 in southern Florida and was initially rejected commercially by Florida researchers. Growers and importers worldwide have embraced the cultivar for its excellent productivity and disease resistance, shelf life, transportability, size, and appealing color. Although the Tommy Atkins cultivar is commercially successful, other cultivars may be preferred by consumers for eating pleasure, such as Alphonso.\n\nGenerally, ripe mangoes have an orange-yellow or reddish peel and are juicy for eating, while exported fruit are often picked while underripe with green peels. Although producing ethylene while ripening, unripened exported mangoes do not have the same juiciness or flavor as fresh fruit."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El mango es una fruta de hueso (drupa) jugosa que producen numerosas especies de árboles tropicales del género Mangifera, cultivados sobre todo por su fruto comestible. La mayoría de estas especies se encuentran en la naturaleza como mangos silvestres. El género pertenece a la familia de las anacardiáceas, la misma que el anacardo. Los mangos son originarios del sur de Asia, desde donde el «mango común» o «mango indio», Mangifera indica, se ha distribuido por todo el mundo hasta convertirse en una de las frutas más cultivadas de los trópicos. Otras especies de Mangifera (como el mango caballo, Mangifera foetida) se cultivan de forma más local.\n\nEn todo el mundo hay varios cientos de variedades de mango. Según la variedad, el fruto varía de tamaño, forma, dulzor, color de piel y color de pulpa, que puede ser amarillo pálido, dorado o naranja. El mango es la fruta nacional de la India y Pakistán, y el árbol nacional de Bangladés. También es la fruta nacional no oficial de Filipinas.\n\nDESCRIPCIÓN\n\nLos mangos alcanzan entre 35 y 40 m de altura, con una copa de 10 m de radio. Son árboles longevos: algunos ejemplares siguen dando fruto después de 300 años. En suelos profundos, la raíz principal baja hasta 6 m, con abundantes raíces alimentadoras muy extendidas y raíces de anclaje que penetran profundamente en el suelo. Las hojas son perennes, alternas y simples, de 15 a 35 cm de largo y de 6 a 16 cm de ancho; cuando son jóvenes tienen un color rosa anaranjado que cambia rápidamente a rojo oscuro brillante y después a verde oscuro al madurar. Las flores crecen en panículas terminales de 10 a 40 cm de largo; cada flor es pequeña y blanca, con cinco pétalos de 5 a 10 mm y un aroma suave y dulce. Se conocen más de 500 variedades de mango, muchas de las cuales maduran en verano, mientras que algunas dan dos cosechas. El fruto tarda de cuatro a cinco meses en madurar desde la floración.\n\nCULTIVO\n\nEl mango se cultiva en el sur de Asia desde hace miles de años y llegó al sudeste asiático entre los siglos V y IV a. C. Hacia el siglo X d. C. ya se cultivaba en África oriental. El viajero marroquí del siglo XIV Ibn Battuta lo describió en Mogadiscio. Más tarde llegó a Brasil, Bermudas, las Antillas y México, donde el clima permite su cultivo.\n\nHoy el mango se cultiva en la mayoría de los climas tropicales sin heladas y en los subtropicales más cálidos; casi la mitad de los mangos del mundo se cultivan solo en la India, y el segundo productor es China. También se cultivan en Andalucía (sobre todo en la provincia de Málaga), ya que su clima subtropical costero es uno de los pocos de la Europa continental que permite cultivar plantas y frutales tropicales. Las islas Canarias son otro productor español destacado. Otros productores son Norteamérica (el sur de Florida y el valle de Coachella, en California), Sudamérica y Centroamérica, el Caribe, Hawái, el sur, el oeste y el centro de África, Australia, China, Corea del Sur, Pakistán, Bangladés y el sudeste asiático. Aunque la India es el mayor productor de mangos, representa menos del 1 % del comercio internacional, porque consume casi toda su producción.\n\nGASTRONOMÍA\n\nExisten cientos de variedades de mango con nombre propio. En las plantaciones se suelen cultivar varias variedades a la vez para mejorar la polinización. Muchas de las variedades más buscadas son monoembriónicas y deben propagarse por injerto, porque de semilla no conservan sus características. Una variedad monoembriónica habitual es 'Alphonso', un importante producto de exportación considerado «el rey de los mangos».\n\nLas variedades que destacan en un clima pueden fracasar en otro. Por ejemplo, variedades indias como 'Julie', muy productiva en Jamaica, necesitan tratamientos anuales con fungicida en Florida para librarse de la antracnosis, una enfermedad fúngica letal. Los mangos asiáticos son resistentes a la antracnosis.\n\nEl mercado mundial actual está dominado por la variedad 'Tommy Atkins', una plántula de 'Haden' que dio fruto por primera vez en 1940 en el sur de Florida y que al principio los investigadores de Florida rechazaron para uso comercial. Productores e importadores de todo el mundo la han adoptado por su gran productividad, su resistencia a las enfermedades, su duración, su facilidad de transporte, su tamaño y su atractivo color. Aunque 'Tommy Atkins' tiene éxito comercial, los consumidores pueden preferir otras variedades para disfrutarlas, como 'Alphonso'.\n\nEn general, los mangos maduros tienen la piel de color amarillo anaranjado o rojizo y son jugosos, mientras que la fruta de exportación suele recogerse antes de madurar, con la piel verde. Aunque producen etileno al madurar, los mangos exportados sin madurar no tienen la misma jugosidad ni el mismo sabor que la fruta fresca."
+          }
+        }
+      }
+    },
+    "mango.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juicy and sweet tropical stone fruit, known as the king of fruits in South Asia."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fruta tropical de hueso, jugosa y dulce, conocida como la reina de las frutas en el sur de Asia."
+          }
+        }
+      }
+    },
+    "mango.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "250 kJ (60 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "250 kJ (60 kcal)"
+          }
+        }
+      }
+    },
+    "mango.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.38 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,38 g"
+          }
+        }
+      }
+    },
+    "mango.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "mango.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.82 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,82 g"
+          }
+        }
+      }
+    },
+    "mango.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "13.7 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "13,7 g"
+          }
+        }
+      }
+    },
+    "mango.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        }
+      }
+    },
+    "mango.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mango"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mango"
+          }
+        }
+      }
+    },
+    "pear.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The pear tree and shrub are a species of genus Pyrus, in the family Rosaceae, bearing the pomaceous fruit of the same name. Several species of pear are valued for their edible fruit and juices while others are cultivated as trees.\n\nThe tree is medium-sized and native to coastal as well as mildly temperate regions of Europe, north Africa and Asia. Pear wood is one of the preferred materials in the manufacture of high-quality woodwind instruments and furniture.\n\nAbout 3000 known varieties of pears are grown worldwide. The fruit is consumed fresh, canned, as juice, and dried.\n\nDESCRIPTION\n\nThe pear is native to coastal and mildly temperate regions of the Old World, from western Europe and north Africa east right across Asia. It is a medium-sized tree, reaching 10–17 metres (33–56 ft) tall, often with a tall, narrow crown; a few species are shrubby.\n\nThe leaves are alternately arranged, simple, 2–12 centimetres (1–4 1⁄2 in) long, glossy green on some species, densely silvery-hairy in some others; leaf shape varies from broad oval to narrow lanceolate. Most pears are deciduous, but one or two species in southeast Asia are evergreen.\n\nMost are cold-hardy, withstanding temperatures as low as −25 to −40 °C (−13 to −40 °F) in winter, except for the evergreen species, which only tolerate temperatures down to about −15 °C (5 °F).\n\nCULTIVATION\n\nAccording to Pear Bureau Northwest, about 3000 known varieties of pears are grown worldwide. The pear is normally propagated by grafting a selected variety onto a rootstock, which may be of a pear variety or quince. Quince rootstocks produce smaller trees, which is often desirable in commercial orchards or domestic gardens.\n\nFor new varieties the flowers can be cross-bred to preserve or combine desirable traits. The fruit of the pear is produced on spurs, which appear on shoots more than one year old.\n\nThree species account for the vast majority of edible fruit production, the European pear Pyrus communis subsp. communis cultivated mainly in Europe and North America, the Chinese white pear (bai li) Pyrus ×bretschneideri, and the Nashi pear Pyrus pyrifolia (also known as Asian pear or apple pear), both grown mainly in eastern Asia. There are thousands of cultivars of these three species.\n\nA species grown in western China, P. sinkiangensis, and P. pashia, grown in southern China and south Asia, are also produced to a lesser degree.\n\nOther species are used as rootstocks for European and Asian pears and as ornamental trees. Pear wood is close-grained and at least in the past was used as a specialized timber for fine furniture and making the blocks for woodcuts. The Manchurian or Ussurian Pear, Pyrus ussuriensis (which produces unpalatable fruit) has been crossed with Pyrus communis to breed hardier pear cultivars.\n\nThe Bradford pear (Pyrus calleryana 'Bradford') in particular has become widespread in North America, and is used only as an ornamental tree, as well as a blight-resistant rootstock for Pyrus communis fruit orchards. The Willow-leaved pear (Pyrus salicifolia) is grown for its attractive, slender, densely silvery-hairy leaves."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El peral, árbol o arbusto, es una especie del género Pyrus, de la familia de las rosáceas, que da el fruto de pomo del mismo nombre. Varias especies de peral se valoran por sus frutos comestibles y sus zumos, mientras que otras se cultivan como árboles ornamentales.\n\nEs un árbol de tamaño medio originario de las regiones costeras y templadas de Europa, el norte de África y Asia. La madera de peral es uno de los materiales preferidos para fabricar instrumentos de viento de madera de alta calidad y muebles.\n\nEn todo el mundo se cultivan unas 3000 variedades conocidas de pera. El fruto se consume fresco, en conserva, en zumo y seco.\n\nDESCRIPCIÓN\n\nEl peral es originario de las regiones costeras y templadas del Viejo Mundo, desde Europa occidental y el norte de África hasta el este de Asia. Es un árbol de tamaño medio que alcanza entre 10 y 17 metros de altura, a menudo con una copa alta y estrecha; algunas especies son arbustivas.\n\nLas hojas son alternas y simples, de 2 a 12 centímetros de largo, de un verde brillante en algunas especies y densamente cubiertas de pelos plateados en otras; su forma va de ovalada y ancha a lanceolada y estrecha. La mayoría de los perales son caducifolios, pero una o dos especies del sudeste asiático son de hoja perenne.\n\nLa mayoría resiste bien el frío y soporta temperaturas de entre −25 y −40 °C en invierno, salvo las especies de hoja perenne, que solo toleran hasta unos −15 °C.\n\nCULTIVO\n\nSegún la Pear Bureau Northwest, en todo el mundo se cultivan unas 3000 variedades conocidas de pera. El peral se propaga normalmente injertando una variedad seleccionada sobre un portainjerto, que puede ser de peral o de membrillero. Los portainjertos de membrillero producen árboles más pequeños, algo que suele interesar en los huertos comerciales o en los jardines.\n\nPara obtener nuevas variedades, las flores pueden cruzarse para conservar o combinar rasgos deseables. Las peras crecen en dardos, que aparecen en brotes de más de un año.\n\nTres especies concentran la gran mayoría de la producción de fruta comestible: el peral europeo, Pyrus communis subsp. communis, cultivado sobre todo en Europa y Norteamérica; el peral blanco chino (bai li), Pyrus ×bretschneideri; y el peral nashi, Pyrus pyrifolia (también llamado pera asiática o pera manzana), estos dos últimos cultivados principalmente en el este de Asia. Existen miles de variedades de estas tres especies.\n\nEn menor medida también se cultivan una especie del oeste de China, P. sinkiangensis, y P. pashia, del sur de China y el sur de Asia.\n\nOtras especies se usan como portainjertos de perales europeos y asiáticos y como árboles ornamentales. La madera de peral es de grano fino y, al menos en el pasado, se usaba como madera especializada para muebles finos y para hacer los tacos de los grabados en madera. El peral de Manchuria o del Ussuri, Pyrus ussuriensis (de fruto poco sabroso), se ha cruzado con Pyrus communis para obtener variedades más resistentes.\n\nEl peral de Bradford (Pyrus calleryana 'Bradford') se ha extendido mucho en Norteamérica y se usa solo como árbol ornamental y como portainjerto resistente al fuego bacteriano en huertos de Pyrus communis. El peral de hoja de sauce (Pyrus salicifolia) se cultiva por sus hojas finas, atractivas y cubiertas de pelos plateados."
+          }
+        }
+      }
+    },
+    "pear.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frutas dulces con forma de campana que se disfrutan desde la Antigüedad. Pueden comerse crujientes o blandas."
+          }
+        }
+      }
+    },
+    "pear.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "239 kJ (57 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "239 kJ (57 kcal)"
+          }
+        }
+      }
+    },
+    "pear.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.14 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,14 g"
+          }
+        }
+      }
+    },
+    "pear.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "pear.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.36 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,36 g"
+          }
+        }
+      }
+    },
+    "pear.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "9.75 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "9,75 g"
+          }
+        }
+      }
+    },
+    "pear.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        }
+      }
+    },
+    "pear.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pear"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pera"
+          }
+        }
+      }
+    },
+    "plum.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A plum is a fruit of the subgenus Prunus of the genus Prunus. The subgenus is distinguished from other subgenera (peaches, cherries, bird cherries, etc.) in the shoots having terminal bud and solitary side buds (not clustered), the flowers in groups of one to five together on short stems, and the fruit having a groove running down one side and a smooth stone (or pit).\n\nMature plum fruit may have a dusty-white waxy coating that gives them a glaucous appearance. This is an epicuticular wax coating and is known as \"wax bloom\". Dried plum fruits are called \"dried plums\" or prunes, although, in many countries, prunes are a distinct type of dried plum having a wrinkled appearance (Li hing mui for instance).\n\nDESCRIPTION\n\nPlums are a diverse group of species. The commercially important plum trees are medium-sized, usually pruned to 5–6 metres height. The tree is of medium hardiness. Without pruning, the trees can reach 12 metres in height and spread across 10 metres. They blossom in different months in different parts of the world; for example, in about January in Taiwan and early April in the United Kingdom.\n\nFruits are usually of medium size, between 2 and 7 centimetres in diameter, globose to oval. The flesh is firm and juicy. The fruit's peel is smooth, with a natural waxy surface that adheres to the flesh. The plum is a drupe, meaning its fleshy fruit surrounds a single hard seed.\n\nCULTIVATION\n\nWhen it flowers in the early spring, a plum tree will be covered in blossoms, and in a good year approximately 50% of the flowers will be pollinated and become plums. Flowering starts after 80 growing degree days.\n\nIf the weather is too dry, the plums will not develop past a certain stage, but will fall from the tree while still tiny, green buds, and if it is unseasonably wet or if the plums are not harvested as soon as they are ripe, the fruit may develop a fungal condition called brown rot. Brown rot is not toxic, and some affected areas can be cut out of the fruit, but unless the rot is caught immediately, the fruit will no longer be edible. Plum is used as a food plant by the larvae of some Lepidoptera, including November moth, willow beauty and short-cloaked moth.\n\nThe taste of the plum fruit ranges from sweet to tart; the skin itself may be particularly tart. It is juicy and can be eaten fresh or used in jam-making or other recipes. Plum juice can be fermented into plum wine. In central England, a cider-like alcoholic beverage known as plum jerkum is made from plums. Dried, salted plums are used as a snack, sometimes known as saladito or salao.\n\nVarious flavors of dried plum are available at Chinese grocers and specialty stores worldwide. They tend to be much drier than the standard prune. Cream, ginseng, spicy, and salty are among the common varieties. Licorice is generally used to intensify the flavor of these plums and is used to make salty plum drinks and toppings for shaved ice or baobing. Pickled plums are another type of preserve available in Asia and international specialty stores.\n\nThe Japanese variety, called umeboshi, is often used for rice balls, called onigiri or omusubi. The ume, from which umeboshi are made, is more closely related, however, to the apricot than to the plum. In the Balkans, plum is converted into an alcoholic drink named slivovitz (plum brandy) (Serbian: šljivovica).\n\nA large number of plums, of the Damson variety, are also grown in Hungary, where they are called szilva and are used to make lekvar (a plum paste jam), palinka (traditional fruit brandy), plum dumplings, and other foods. In Romania, 80% of the plum production is used to create a similar brandy, called țuică."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ciruela es el fruto del subgénero Prunus del género Prunus. El subgénero se distingue de otros (melocotones, cerezas, cerezos aliso, etc.) porque sus brotes tienen una yema terminal y yemas laterales solitarias (no agrupadas), sus flores crecen en grupos de una a cinco sobre tallos cortos y su fruto tiene un surco a lo largo de un lado y un hueso liso.\n\nLa ciruela madura puede tener una capa cerosa de color blanco polvoriento que le da un aspecto glauco. Es una capa de cera epicuticular conocida como «pruina». Las ciruelas secas se llaman «ciruelas pasas», aunque en muchos países las ciruelas pasas son un tipo concreto de ciruela seca de aspecto arrugado (como el li hing mui).\n\nDESCRIPCIÓN\n\nLas ciruelas forman un grupo de especies muy diverso. Los ciruelos de importancia comercial son de tamaño medio y suelen podarse para que alcancen entre 5 y 6 metros de altura. El árbol tiene una resistencia media al frío. Sin poda, puede llegar a 12 metros de altura y extenderse 10 metros a lo ancho. Florecen en distintos meses según la parte del mundo; por ejemplo, hacia enero en Taiwán y a principios de abril en el Reino Unido.\n\nLos frutos suelen ser de tamaño medio, de entre 2 y 7 centímetros de diámetro, y de forma entre esférica y ovalada. La pulpa es firme y jugosa. La piel es lisa, con una superficie cerosa natural que se adhiere a la pulpa. La ciruela es una drupa: su pulpa carnosa rodea una única semilla dura.\n\nCULTIVO\n\nCuando florece a principios de la primavera, el ciruelo se cubre de flores y, en un buen año, aproximadamente el 50 % de ellas se polinizan y se convierten en ciruelas. La floración comienza tras acumular 80 grados-día de crecimiento.\n\nSi el tiempo es demasiado seco, las ciruelas no se desarrollan más allá de cierta fase y caen del árbol cuando aún son pequeños brotes verdes; y si hace un tiempo inusualmente húmedo o no se recogen en cuanto maduran, el fruto puede desarrollar un hongo llamado podredumbre parda. La podredumbre parda no es tóxica y algunas zonas afectadas pueden cortarse, pero si no se detecta enseguida, el fruto deja de ser comestible. El ciruelo sirve de alimento a las larvas de algunos lepidópteros, como la polilla de noviembre, la willow beauty y la short-cloaked moth.\n\nEl sabor de la ciruela va de dulce a ácido; la piel puede ser especialmente ácida. Es jugosa y puede comerse fresca o usarse para hacer mermelada u otras recetas. El zumo de ciruela puede fermentarse para obtener vino de ciruela. En el centro de Inglaterra se elabora con ciruelas una bebida alcohólica parecida a la sidra llamada plum jerkum. Las ciruelas secas y saladas se toman como aperitivo y a veces se conocen como saladito o salao.\n\nEn tiendas de alimentación chinas y establecimientos especializados de todo el mundo hay ciruelas secas de varios sabores. Suelen ser mucho más secas que la ciruela pasa habitual. Entre las variedades comunes están las de nata, ginseng, picantes y saladas. El regaliz se usa a menudo para intensificar su sabor y para preparar bebidas de ciruela salada y coberturas para el hielo raspado o baobing. Las ciruelas encurtidas son otro tipo de conserva que se encuentra en Asia y en tiendas especializadas internacionales.\n\nLa variedad japonesa, llamada umeboshi, se usa a menudo en las bolas de arroz llamadas onigiri u omusubi. Sin embargo, el ume, con el que se hacen los umeboshi, está más emparentado con el albaricoque que con la ciruela. En los Balcanes, la ciruela se convierte en una bebida alcohólica llamada slivovitz (aguardiente de ciruela; en serbio, šljivovica).\n\nEn Hungría también se cultivan muchas ciruelas de la variedad damascena, que allí se llaman szilva y se usan para hacer lekvar (una mermelada espesa de ciruela), pálinka (aguardiente de fruta tradicional), bolas de masa rellenas de ciruela y otros platos. En Rumanía, el 80 % de la producción de ciruelas se destina a un aguardiente parecido llamado țuică."
+          }
+        }
+      }
+    },
+    "plum.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plums are a very nutritious fruit. An excellent source of vitamins, minerals, fiber and antioxidants."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las ciruelas son una fruta muy nutritiva y una fuente excelente de vitaminas, minerales, fibra y antioxidantes."
+          }
+        }
+      }
+    },
+    "plum.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "192 kJ (46 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "192 kJ (46 kcal)"
+          }
+        }
+      }
+    },
+    "plum.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.28 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,28 g"
+          }
+        }
+      }
+    },
+    "plum.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "plum.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.7 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,7 g"
+          }
+        }
+      }
+    },
+    "plum.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "9.92 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "9,92 g"
+          }
+        }
+      }
+    },
+    "plum.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        }
+      }
+    },
+    "plum.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plum"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciruela"
+          }
+        }
+      }
+    },
+    "pomegranate.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The pomegranate (Punica granatum) is a fruit-bearing deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows between 5 and 10 m (16 and 33 ft) tall.\n\nThe pomegranate originated in the region extending from Iran to northern India, and has been cultivated since ancient times throughout the Mediterranean region. It was introduced into Spanish America in the late 16th century and into California by Spanish settlers in 1769.\n\nThe fruit is typically in season in the Northern Hemisphere from September to February, and in the Southern Hemisphere from March to May. As intact sarcotestas or juice, pomegranates are used in baking, cooking, juice blends, meal garnishes, smoothies, and alcoholic beverages, such as cocktails and wine.\n\nDESCRIPTION\n\nRed-purple in color, the pomegranate fruit husk has two parts: an outer, hard pericarp, and an inner, spongy mesocarp (white \"albedo\"), which comprises the fruit inner wall where seeds attach. Membranes of the mesocarp are organized as nonsymmetrical chambers that contain seeds inside sarcotestas, which are embedded without attachment to the mesocarp. Containing juice, the sarcotesta is formed as a thin membrane derived from the epidermal cells of the seeds. The number of seeds in a pomegranate can vary from 200 to about 1,400.\n\nBotanically, the edible fruit is a berry with seeds and pulp produced from the ovary of a single flower. The fruit is intermediate in size between a lemon and a grapefruit, 5–12 cm (2–5 in) in diameter with a rounded shape and thick, reddish husk.\n\nCULTIVATION\n\nPunica granatum is grown for its fruit crop, and as ornamental trees and shrubs in parks and gardens. Mature specimens can develop sculptural twisted-bark multiple trunks and a distinctive overall form. Pomegranates are drought-tolerant, and can be grown in dry areas with either a Mediterranean winter rainfall climate or in summer rainfall climates. In wetter areas, they can be prone to root decay from fungal diseases. They can be tolerant of moderate frost, down to about −12 °C (10 °F).\n\nInsect pests of the pomegranate can include the pomegranate butterfly Virachola isocrates and the leaf-footed bug Leptoglossus zonatus, and fruit flies and ants are attracted to unharvested ripe fruit. Pomegranate grows easily from seed, but is commonly propagated from 25 to 50 cm (10 to 20 in) hardwood cuttings to avoid the genetic variation of seedlings. Air layering is also an option for propagation, but grafting fails."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El granado (Punica granatum) es un arbusto caducifolio frutal de la familia de las litráceas, subfamilia Punicoideae, que alcanza entre 5 y 10 m de altura.\n\nEl granado es originario de la región que se extiende desde Irán hasta el norte de la India y se cultiva desde la Antigüedad en toda la región mediterránea. Se introdujo en la América española a finales del siglo XVI y en California de la mano de colonos españoles en 1769.\n\nEn el hemisferio norte, la temporada de la granada suele ir de septiembre a febrero, y en el hemisferio sur, de marzo a mayo. En forma de granos enteros o de zumo, las granadas se usan en repostería, cocina, mezclas de zumos, decoración de platos, batidos y bebidas alcohólicas, como cócteles y vino.\n\nDESCRIPCIÓN\n\nDe color rojo violáceo, la corteza de la granada tiene dos partes: un pericarpio exterior duro y un mesocarpio interior esponjoso (el «albedo» blanco), que forma la pared interna del fruto donde se unen las semillas. Las membranas del mesocarpio se organizan en cámaras asimétricas que contienen las semillas dentro de sarcotestas, incrustadas sin estar unidas al mesocarpio. La sarcotesta, que contiene el zumo, es una fina membrana que procede de las células epidérmicas de las semillas. Una granada puede tener desde 200 hasta unas 1400 semillas.\n\nDesde el punto de vista botánico, el fruto comestible es una baya con semillas y pulpa que procede del ovario de una sola flor. Su tamaño es intermedio entre el de un limón y el de un pomelo, de 5 a 12 cm de diámetro, con forma redondeada y una corteza gruesa y rojiza.\n\nCULTIVO\n\nEl granado se cultiva por su fruto y como árbol o arbusto ornamental en parques y jardines. Los ejemplares maduros pueden desarrollar varios troncos de corteza retorcida y escultural, con una forma muy característica. Las granadas toleran la sequía y pueden cultivarse en zonas secas con clima mediterráneo de lluvias invernales o con lluvias de verano. En zonas más húmedas pueden sufrir pudrición de raíces por hongos. Toleran heladas moderadas, hasta unos −12 °C.\n\nEntre las plagas de insectos del granado están la mariposa de la granada (Virachola isocrates) y la chinche Leptoglossus zonatus, y las moscas de la fruta y las hormigas se sienten atraídas por la fruta madura sin recoger. El granado crece fácilmente a partir de semilla, pero suele propagarse mediante esquejes de madera dura de 25 a 50 cm para evitar la variación genética de las plantas de semilla. El acodo aéreo también es una opción, pero el injerto no funciona."
+          }
+        }
+      }
+    },
+    "pomegranate.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jewel-like seeds full of sweet-tart juice, cultivated since ancient times around the Mediterranean."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semillas como joyas llenas de un zumo agridulce, cultivadas desde la Antigüedad en todo el Mediterráneo."
+          }
+        }
+      }
+    },
+    "pomegranate.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "346 kJ (83 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "346 kJ (83 kcal)"
+          }
+        }
+      }
+    },
+    "pomegranate.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.17 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1,17 g"
+          }
+        }
+      }
+    },
+    "pomegranate.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "pomegranate.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.67 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1,67 g"
+          }
+        }
+      }
+    },
+    "pomegranate.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "13.67 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "13,67 g"
+          }
+        }
+      }
+    },
+    "pomegranate.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, C, E, K"
+          }
+        }
+      }
+    },
+    "pomegranate.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomegranate"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Granada"
+          }
+        }
+      }
+    },
+    "strawberry.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in products such as candy, soap, lip gloss, perfume, and many others.\n\nThe strawberry is not, from a botanical point of view, a berry. Technically, it is an aggregate accessory fruit, meaning that the fleshy part is derived not from the plant's ovaries but from the receptacle that holds the ovaries. Each apparent \"seed\" (achene) on the outside of the fruit is actually one of the ovaries of the flower, with a seed inside it.\n\nCULINARY\n\nIn addition to being consumed fresh, strawberries can be frozen or made into jam or preserves, as well as dried and used in prepared foods, such as cereal bars. Strawberries and strawberry flavorings are a popular addition to dairy products, such as strawberry milk, strawberry ice cream, strawberry milkshakes/smoothies and strawberry yogurts.\n\nIn the United Kingdom, \"strawberries and cream\" is a popular dessert consumed at the Wimbledon tennis tournament. Strawberries and cream is also a staple snack in Mexico, usually available at ice cream parlors. In Sweden, strawberries are a traditional dessert served on St John's Day, also known as Midsummer's Eve. Depending on area, strawberry pie, strawberry rhubarb pie, or strawberry shortcake are also common. In Greece, strawberries may be sprinkled with sugar and then dipped in Metaxa, a brandy, and served as a dessert. In Italy, strawberries are used for various desserts and as a common flavoring for gelato (gelato alla fragola).\n\nSuonenjoki in North Savonia, Finland is famous small town for its strawberries, that's why is also known as \"the Strawberry Town\" or \"the Strawberry Capital\". Lots of foreign people, mainly from Ukraine and Russia, come to Suonenjoki in summer to work on strawberry farms. That makes Suonenjoki the most international town of Finland at summer. There is a party in Suonenjoki in July called Mansikkakarnevaalit, \"Strawberry Carnival\".\n\nNUTRITION\n\nOne serving (100 g; see Table) of strawberries contains approximately 33 kilocalories, is an excellent source of vitamin C, a good source of manganese, and provides several other vitamins and dietary minerals in lesser amounts.\n\nStrawberries contain a modest amount of essential unsaturated fatty acids in the achene (seed) oil."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La fresa de jardín (o simplemente fresa; Fragaria × ananassa) es una especie híbrida del género Fragaria, conocidas en conjunto como fresas, que se cultiva en todo el mundo por su fruto. El fruto es muy apreciado por su aroma característico, su color rojo intenso, su textura jugosa y su dulzor. Se consume en grandes cantidades, tanto fresco como en alimentos preparados como mermeladas, zumos, tartas, helados, batidos y bombones. Los aromas y saborizantes artificiales de fresa también se usan mucho en productos como caramelos, jabones, brillos de labios, perfumes y muchos otros.\n\nDesde el punto de vista botánico, la fresa no es una baya. Técnicamente es un fruto accesorio agregado, lo que significa que la parte carnosa no procede de los ovarios de la planta, sino del receptáculo que los sostiene. Cada aparente «semilla» (aquenio) del exterior del fruto es en realidad uno de los ovarios de la flor, con una semilla en su interior.\n\nGASTRONOMÍA\n\nAdemás de consumirse frescas, las fresas pueden congelarse o convertirse en mermelada o confitura, así como secarse y usarse en alimentos preparados, como barritas de cereales. Las fresas y su sabor son un añadido popular en productos lácteos, como la leche de fresa, el helado de fresa, los batidos y smoothies de fresa y los yogures de fresa.\n\nEn el Reino Unido, las «fresas con nata» son un postre popular que se consume durante el torneo de tenis de Wimbledon. Las fresas con nata también son un tentempié habitual en México, normalmente disponible en heladerías. En Suecia, las fresas son un postre tradicional que se sirve el día de San Juan, también conocido como la víspera del solsticio de verano. Según la zona, también son habituales la tarta de fresa, la tarta de fresa y ruibarbo o el shortcake de fresa. En Grecia, las fresas se espolvorean con azúcar y se mojan en Metaxa, un brandy, y se sirven como postre. En Italia, las fresas se usan en diversos postres y como sabor habitual del helado (gelato alla fragola).\n\nSuonenjoki, en Savonia del Norte (Finlandia), es un pequeño pueblo famoso por sus fresas, por lo que también se le conoce como «el pueblo de la fresa» o «la capital de la fresa». Mucha gente extranjera, principalmente de Ucrania y Rusia, viaja a Suonenjoki en verano para trabajar en los campos de fresas, lo que lo convierte en el pueblo más internacional de Finlandia en esa época. En julio se celebra en Suonenjoki una fiesta llamada Mansikkakarnevaalit, el «Carnaval de la fresa».\n\nNUTRICIÓN\n\nUna ración de fresas (100 g) contiene aproximadamente 33 kilocalorías, es una fuente excelente de vitamina C, una buena fuente de manganeso y aporta en menor cantidad otras vitaminas y minerales.\n\nLas fresas contienen una cantidad moderada de ácidos grasos insaturados esenciales en el aceite de los aquenios (semillas)."
+          }
+        }
+      }
+    },
+    "strawberry.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widely appreciated for its characteristic aroma, red color, juicy texture, and sweetness."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muy apreciada por su aroma característico, su color rojo, su textura jugosa y su dulzor."
+          }
+        }
+      }
+    },
+    "strawberry.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "136 kJ (33 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "136 kJ (33 kcal)"
+          }
+        }
+      }
+    },
+    "strawberry.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.3 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,3 g"
+          }
+        }
+      }
+    },
+    "strawberry.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "strawberry.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.67 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,67 g"
+          }
+        }
+      }
+    },
+    "strawberry.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4.89 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4,89 g"
+          }
+        }
+      }
+    },
+    "strawberry.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, Choline, C, E, K"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "B1, B2, B3, B5, B6, B9, Colina, C, E, K"
+          }
+        }
+      }
+    },
+    "strawberry.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strawberry"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fresa"
+          }
+        }
+      }
+    },
+    "watermelon.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watermelon (Citrullus lanatus) is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in West Africa. It is a highly cultivated fruit worldwide, having more than 1000 varieties.\n\nWatermelon is a scrambling and trailing vine in the flowering plant family Cucurbitaceae. There is evidence from seeds in Pharaoh tombs of watermelon cultivation in Ancient Egypt. Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo.\n\nThe sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist. The fruit can be eaten raw or pickled, and the rind is edible after cooking. It is commonly consumed as a juice or as an ingredient in mixed beverages.\n\nDESCRIPTION\n\nThe watermelon is an annual that has a prostrate or climbing habit. Stems are up to 3 metres (10 feet) long and new growth has yellow or brown hairs. Leaves are 60 to 200 millimetres (2 1⁄4 to 7 3⁄4 inches) long and 40 to 150 mm (1 1⁄2 to 6 in) wide. These usually have three lobes which are themselves lobed or doubly lobed. Plants have both male and female flowers on 40-millimetre-long (1 1⁄2 in) hairy stalks. These are yellow, and greenish on the back.\n\nThe watermelon is a large annual plant with long, weak, trailing or climbing stems which are five-angled (five-sided) and up to 3 m (10 ft) long. Young growth is densely woolly with yellowish-brown hairs which disappear as the plant ages. The leaves are large, coarse, hairy pinnately-lobed and alternate; they get stiff and rough when old. The plant has branching tendrils.\n\nThe white to yellow flowers grow singly in the leaf axils and the corolla is white or yellow inside and greenish-yellow on the outside. The flowers are unisexual, with male and female flowers occurring on the same plant (monoecious). The male flowers predominate at the beginning of the season; the female flowers, which develop later, have inferior ovaries. The styles are united into a single column. The large fruit is a kind of modified berry called a pepo with a thick rind (exocarp) and fleshy center (mesocarp and endocarp).\n\nWild plants have fruits up to 20 cm (8 in) in diameter, while cultivated varieties may exceed 60 cm (24 in). The rind of the fruit is mid- to dark green and usually mottled or striped, and the flesh, containing numerous pips spread throughout the inside, can be red or pink (most commonly), orange, yellow, green or white.\n\nCULINARY\n\nWatermelons are plants grown in climates from tropical to temperate, needing temperatures higher than about 25 °C (77 °F) to thrive. On a garden scale, seeds are usually sown in pots under cover and transplanted into well-drained sandy loam with a pH between 5.5 and 7, and medium levels of nitrogen.\n\nMajor pests of the watermelon include aphids, fruit flies and root-knot nematodes. In conditions of high humidity, the plants are prone to plant diseases such as powdery mildew and mosaic virus. Some varieties often grown in Japan and other parts of the Far East are susceptible to fusarium wilt. Grafting such varieties onto disease-resistant rootstocks offers protection.\n\nThe US Department of Agriculture recommends using at least one beehive per acre (4,000 m2 per hive) for pollination of conventional, seeded varieties for commercial plantings. Seedless hybrids have sterile pollen. This requires planting pollinizer rows of varieties with viable pollen. Since the supply of viable pollen is reduced and pollination is much more critical in producing the seedless variety, the recommended number of hives per acre (pollinator density) increases to three hives per acre (1,300 m2 per hive). Watermelons have a longer growing period than other melons, and can often take 85 days or more from the time of transplanting for the fruit to mature.\n\nLack of pollen is thought to contribute to \"hollow heart\" which causes the flesh of the watermelon to develop a large hole, sometimes in an intricate, symmetric shape. Watermelons suffering from hollow heart are safe to consume."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La sandía (Citrullus lanatus) es una especie de la familia de las cucurbitáceas, una planta trepadora con flores domesticada originalmente en África occidental. Es una fruta muy cultivada en todo el mundo, con más de 1000 variedades.\n\nLa sandía es una planta rastrera y trepadora de la familia de las cucurbitáceas. Las semillas halladas en tumbas de faraones demuestran que ya se cultivaba en el antiguo Egipto. Se cultiva en climas favorables, de tropicales a templados, en todo el mundo por su gran fruto comestible, que es una baya de corteza dura sin divisiones internas, llamada en botánica pepónide.\n\nSu pulpa dulce y jugosa suele ser de color rojo intenso a rosa, con muchas semillas negras, aunque existen variedades sin semillas. El fruto puede comerse crudo o encurtido, y la corteza es comestible una vez cocinada. Es habitual consumirla en zumo o como ingrediente de bebidas combinadas.\n\nDESCRIPCIÓN\n\nLa sandía es una planta anual de porte rastrero o trepador. Sus tallos miden hasta 3 metros de largo y los brotes nuevos tienen pelos amarillos o marrones. Las hojas miden de 60 a 200 milímetros de largo y de 40 a 150 mm de ancho. Normalmente tienen tres lóbulos, que a su vez están lobulados o doblemente lobulados. Las plantas tienen flores masculinas y femeninas sobre pedúnculos peludos de 40 milímetros. Son amarillas y verdosas por detrás.\n\nLa sandía es una planta anual grande con tallos largos y débiles, rastreros o trepadores, de cinco ángulos (cinco caras) y hasta 3 m de largo. Los brotes jóvenes están cubiertos de una densa pelusa de pelos marrón amarillento que desaparece a medida que la planta envejece. Las hojas son grandes, ásperas, peludas, pinnadolobuladas y alternas, y se vuelven rígidas y rugosas con la edad. La planta tiene zarcillos ramificados.\n\nLas flores, de blancas a amarillas, crecen solitarias en las axilas de las hojas, y la corola es blanca o amarilla por dentro y amarillo verdosa por fuera. Las flores son unisexuales, con flores masculinas y femeninas en la misma planta (monoica). Al principio de la temporada predominan las flores masculinas; las femeninas, que aparecen más tarde, tienen el ovario ínfero. Los estilos están unidos en una sola columna. El gran fruto es un tipo de baya modificada llamada pepónide, con una corteza gruesa (exocarpio) y un centro carnoso (mesocarpio y endocarpio).\n\nLas plantas silvestres dan frutos de hasta 20 cm de diámetro, mientras que las variedades cultivadas pueden superar los 60 cm. La corteza es de color verde medio a oscuro, normalmente moteada o rayada, y la pulpa, con numerosas pepitas repartidas por todo el interior, puede ser roja o rosa (lo más habitual), naranja, amarilla, verde o blanca.\n\nGASTRONOMÍA\n\nLas sandías se cultivan en climas de tropicales a templados y necesitan temperaturas superiores a unos 25 °C para crecer bien. En un huerto, las semillas suelen sembrarse en macetas bajo cubierta y trasplantarse a un suelo franco arenoso bien drenado, con un pH de entre 5,5 y 7 y un nivel medio de nitrógeno.\n\nEntre las principales plagas de la sandía están los pulgones, las moscas de la fruta y los nematodos agalladores. Con mucha humedad, las plantas son propensas a enfermedades como el oídio y el virus del mosaico. Algunas variedades muy cultivadas en Japón y otras zonas del Extremo Oriente son sensibles a la fusariosis. Injertarlas sobre portainjertos resistentes las protege.\n\nEl Departamento de Agricultura de Estados Unidos recomienda al menos una colmena por acre (una colmena cada 4000 m²) para polinizar las variedades convencionales con semillas en plantaciones comerciales. Los híbridos sin semillas tienen polen estéril, por lo que hay que plantar hileras de variedades polinizadoras con polen viable. Como hay menos polen viable y la polinización es mucho más crítica para producir la variedad sin semillas, el número recomendado de colmenas sube a tres por acre (una colmena cada 1300 m²). Las sandías tienen un periodo de crecimiento más largo que otros melones y a menudo tardan 85 días o más desde el trasplante hasta que el fruto madura.\n\nSe cree que la falta de polen contribuye al «corazón hueco», que hace que en la pulpa de la sandía se forme un gran agujero, a veces con una forma intrincada y simétrica. Las sandías con corazón hueco pueden comerse sin problema."
+          }
+        }
+      }
+    },
+    "watermelon.headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A refreshing summer favorite made of over 90% water, with sweet and juicy red flesh."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un clásico refrescante del verano con más de un 90 % de agua y una pulpa roja, dulce y jugosa."
+          }
+        }
+      }
+    },
+    "watermelon.nutrition.energy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "127 kJ (30 kcal)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "127 kJ (30 kcal)"
+          }
+        }
+      }
+    },
+    "watermelon.nutrition.fat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.15 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,15 g"
+          }
+        }
+      }
+    },
+    "watermelon.nutrition.minerals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calcio, Hierro, Magnesio, Manganeso, Fósforo, Potasio, Sodio, Zinc"
+          }
+        }
+      }
+    },
+    "watermelon.nutrition.protein" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0.61 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0,61 g"
+          }
+        }
+      }
+    },
+    "watermelon.nutrition.sugar" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6.2 g"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6,2 g"
+          }
+        }
+      }
+    },
+    "watermelon.nutrition.vitamins" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, C"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A, B1, B2, B3, B5, B6, C"
+          }
+        }
+      }
+    },
+    "watermelon.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watermelon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sandía"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

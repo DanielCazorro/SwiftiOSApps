@@ -6,8 +6,19 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		116EA966305B08560087EA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116EA946305B08560087EA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116EA94D305B08560087EA91;
+			remoteInfo = Fruits;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		116EA94E305B08560087EA91 /* Fruits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruits.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116EA960305B08560087EA91 /* FruitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,20 @@
 			path = Fruits;
 			sourceTree = "<group>";
 		};
+		116EA961305B08560087EA91 /* FruitsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FruitsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		116EA94B305B08560087EA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		116EA964305B08560087EA91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -31,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				116EA950305B08560087EA91 /* Fruits */,
+				116EA961305B08560087EA91 /* FruitsTests */,
 				116EA94F305B08560087EA91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				116EA94E305B08560087EA91 /* Fruits.app */,
+				116EA960305B08560087EA91 /* FruitsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +87,27 @@
 			productReference = 116EA94E305B08560087EA91 /* Fruits.app */;
 			productType = "com.apple.product-type.application";
 		};
+		116EA962305B08560087EA91 /* FruitsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116EA96A305B08560087EA91 /* Build configuration list for PBXNativeTarget "FruitsTests" */;
+			buildPhases = (
+				116EA963305B08560087EA91 /* Sources */,
+				116EA964305B08560087EA91 /* Frameworks */,
+				116EA965305B08560087EA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116EA967305B08560087EA91 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				116EA961305B08560087EA91 /* FruitsTests */,
+			);
+			name = FruitsTests;
+			productName = FruitsTests;
+			productReference = 116EA960305B08560087EA91 /* FruitsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -77,6 +121,10 @@
 					116EA94D305B08560087EA91 = {
 						CreatedOnToolsVersion = 27.0;
 					};
+					116EA962305B08560087EA91 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 116EA94D305B08560087EA91;
+					};
 				};
 			};
 			buildConfigurationList = 116EA949305B08560087EA91 /* Build configuration list for PBXProject "Fruits" */;
@@ -85,6 +133,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 116EA945305B08560087EA91;
 			minimizedProjectReferenceProxies = 1;
@@ -94,12 +143,18 @@
 			projectRoot = "";
 			targets = (
 				116EA94D305B08560087EA91 /* Fruits */,
+				116EA962305B08560087EA91 /* FruitsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		116EA94C305B08560087EA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		116EA965305B08560087EA91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -112,7 +167,20 @@
 			files = (
 			);
 		};
+		116EA963305B08560087EA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		116EA967305B08560087EA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116EA94D305B08560087EA91 /* Fruits */;
+			targetProxy = 116EA966305B08560087EA91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		116EA957305B08560087EA91 /* Debug configuration for PBXProject "Fruits" */ = {
@@ -263,7 +331,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -295,8 +363,52 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		116EA968305B08560087EA91 /* Debug configuration for PBXNativeTarget "FruitsTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GK3478S4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielCazorro.FruitsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruits.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fruits";
+			};
+			name = Debug;
+		};
+		116EA969305B08560087EA91 /* Release configuration for PBXNativeTarget "FruitsTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9GK3478S4Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielCazorro.FruitsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruits.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fruits";
 			};
 			name = Release;
 		};
@@ -316,6 +428,14 @@
 			buildConfigurations = (
 				116EA95A305B08560087EA91 /* Debug configuration for PBXNativeTarget "Fruits" */,
 				116EA95B305B08560087EA91 /* Release configuration for PBXNativeTarget "Fruits" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		116EA96A305B08560087EA91 /* Build configuration list for PBXNativeTarget "FruitsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116EA968305B08560087EA91 /* Debug configuration for PBXNativeTarget "FruitsTests" */,
+				116EA969305B08560087EA91 /* Release configuration for PBXNativeTarget "FruitsTests" */,
 			);
 			defaultConfigurationName = Release;
 		};

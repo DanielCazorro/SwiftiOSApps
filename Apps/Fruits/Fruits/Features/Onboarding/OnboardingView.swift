@@ -8,21 +8,20 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    // MARK: - Properties
-    var fruits: [Fruit] = fruitsData
+    var fruits: [Fruit] = LocalFruitRepository().fetchFeaturedFruits()
 
-    // MARK: - Body
     var body: some View {
         TabView {
-            ForEach(fruits[0...5]) { item in
-                FruitCardView(fruit: item)
-            } // Loop
-        } // Tab
-        .tabViewStyle(PageTabViewStyle())
+            ForEach(fruits) { fruit in
+                FruitCardView(fruit: fruit)
+            }
+        }
+        .tabViewStyle(.page)
         .padding(.vertical, 20)
     }
 }
 
 #Preview {
     OnboardingView()
+        .environment(OnboardingStore())
 }

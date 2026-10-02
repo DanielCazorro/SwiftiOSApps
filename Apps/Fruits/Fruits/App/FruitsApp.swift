@@ -9,18 +9,18 @@ import SwiftUI
 
 @main
 struct FruitsApp: App {
-    // MARK: - Properties
-    @AppStorage("isOnboarding") private var isOnboarding = true
+    @State private var onboardingStore = OnboardingStore()
 
-    // MARK: - Body
     var body: some Scene {
         WindowGroup {
-            if isOnboarding {
-                OnboardingView()
+            Group {
+                if onboardingStore.isOnboarding {
+                    OnboardingView()
+                } else {
+                    FruitListView()
+                }
             }
-            else {
-                ContentView()
-            }
+            .environment(onboardingStore)
         }
     }
 }

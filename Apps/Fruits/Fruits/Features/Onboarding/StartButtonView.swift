@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct StartButtonView: View {
-    // MARK: - Properties
-    @AppStorage("isOnboarding") private var isOnboarding = true
+    @Environment(OnboardingStore.self) private var onboardingStore
 
-    // MARK: - Body
     var body: some View {
         Button {
-            isOnboarding = false
+            onboardingStore.complete()
         } label: {
             HStack(spacing: 8) {
                 Text("Start")
@@ -24,13 +22,15 @@ struct StartButtonView: View {
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 10)
-            .background(Capsule().strokeBorder(Color.white, lineWidth: 1.25))
-        } // Button
-        .accentColor(.white)
+            .background(Capsule().strokeBorder(.white, lineWidth: 1.25))
+        }
+        .tint(.white)
     }
 }
 
 #Preview {
     StartButtonView()
-        .preferredColorScheme(.dark)
+        .padding()
+        .background(.black)
+        .environment(OnboardingStore())
 }
